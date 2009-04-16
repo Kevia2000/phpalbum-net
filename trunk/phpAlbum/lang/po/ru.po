@@ -1,0 +1,1068 @@
+msgid "ID_NEXT"
+msgstr "следующий"
+
+msgid "ID_PREV"
+msgstr "предыдущий"
+
+msgid "ID_NEXT_PAGE"
+msgstr "след. страница"
+
+msgid "ID_PREV_PAGE"
+msgstr "пред. страница"
+
+msgid "ID_ALBUM_NAME"
+msgstr "Фотоальбом"
+
+msgid "ID_PHOTO_DIR"
+msgstr "Фотографии"
+
+msgid "ID_SETUP"
+msgstr "Настройки"
+
+msgid "ID_HOME"
+msgstr "Домой"
+
+msgid "ID_NAME"
+msgstr "Имя"
+
+msgid "ID_EMAIL"
+msgstr "E-Mail"
+
+msgid "ID_NAME_EMAIL"
+msgstr "Также вы можете ввести свое имя и e-mail"
+
+msgid "ID_COMMENT_INSTR"
+msgstr "Чтобы напечатать ваше сообщение нажмите Добавить Новый Коментарий"
+
+msgid "ID_ADD_COMMENT"
+msgstr "Добавить новый коментарий"
+
+msgid "ID_ENTER_PASSWD"
+msgstr "Введите пароль:"
+
+msgid "ID_DELETE_COMMENT"
+msgstr "Удалить коментрарий"
+
+msgid "ID_ALBUMS"
+msgstr "Альбомы"
+
+msgid "ID_SEARCH"
+msgstr "Поиск"
+
+msgid "ID_ENABLE"
+msgstr "Разрешить"
+
+msgid "ID_SETUP_MENU"
+msgstr "Меню:"
+
+msgid "ID_SETUP_MENU_MAIN"
+msgstr "Главные настройки"
+
+msgid "ID_SETUP_MENU_LOGS"
+msgstr "Журнал доступа"
+
+msgid "ID_SETUP_MENU_DIRS"
+msgstr "Галереи"
+
+msgid "ID_SETUP_MENU_CACHE"
+msgstr "Настройки кэша"
+
+msgid "ID_SETUP_MENU_ADMIN"
+msgstr "Менеджер загрузок"
+
+msgid "ID_SETUP_MENU_COMMENTS"
+msgstr "Коментарии и голосования"
+
+msgid "ID_SETUP_MENU_ECARD"
+msgstr "Электрнные Открытки"
+
+msgid "ID_SETUP_MENU_TEXTS"
+msgstr "Переводы"
+
+msgid "ID_SETUP_MENU_ERRORLOG"
+msgstr "Журнал ошибок"
+
+msgid "ID_SETUP_MENU_SYSCHECK"
+msgstr "Тест системы"
+
+msgid "ID_SETUP_MENU_THUMBNAILS"
+msgstr "Пиктограммы"
+
+msgid "ID_SETUP_MENU_THEMES"
+msgstr "Темы"
+
+msgid "ID_SETUP_MENU_USERS"
+msgstr "Пользователи"
+
+msgid "ID_SETUP_MENU_GROUPS"
+msgstr "Группы"
+
+msgid "ID_SETUP_SAVE_CONFIG"
+msgstr "Сохранить конфигурацию"
+
+msgid "ID_SETUP_MY_ACCOUNT"
+msgstr "Моя учетная запись"
+
+msgid "ID_SETUP_MENU_PARAMS"
+msgstr "Параметры фотографий"
+
+msgid "ID_SETUP_MENU_PICS"
+msgstr "Картинки"
+
+msgid "ID_SETUP_THUMBNAILS"
+msgstr "Настройки пиктограмм"
+
+msgid "ID_SETUP_DESC_MAIN"
+msgstr "Это страница главных настроек. Здесь вы можете из установить настроить основные элементы, пиктограммы и некоторые элементы тем. Эта страница вызывается автоматически после инсталляции чтобы сделать настройку перед использованием галереи"
+
+msgid "ID_SETUP_DESC_THUMBNAILS"
+msgstr "На этой странице вы можете настроить размер и качество пиктограмм и уменьшенных фото. Каждая группа настроек пиктограмм представлена одной настройкой качества. В дальнейшем пользователь может изменить настройку качества. При первом посещении берется настройка по умолчяанию. Вы можете добавлять новые настройки качества или удлаять их. Нельзя удалить последнюю оставшууся настройку, так что она всегда доступна как и настройка по умолчанию."
+
+msgid "ID_SETUP_DESC_THEMES"
+msgstr "На этой странице вы можете менять настройки всего что касается внешнего вида вашего альбома. Вы можете выбрать стиль пиктограмм (плавающий или растровый). Также вы можете выбрать тему и отредактировать вашу палитру цветов."
+
+msgid "ID_SETUP_DESC_LOGS"
+msgstr "На этой странице включается журналирование посещений вашей галереи, а также изменить имя файла журнала чтобы никто не мог прочесть его. Еще здесь можно вести черный список имен компьютеров, которые будут игнорироваться."
+
+msgid "ID_SETUP_DESC_CACHE"
+msgstr "В этой секции вы можете установить для каких типов файлов будет производится кештрование. Также можно просмотреть сколько места занимает кеш и удалить его при необходимости."
+
+msgid "ID_SETUP_RESET_CONFIG"
+msgstr "Сбросить в значения по умолчанию"
+
+msgid "ID_SETUP_DESC_ADMIN"
+msgstr "Здесь вы можете загружать новые фотографии и управлять фотодиректориями, для этого нужно в главных настройках указать имя ftp-сервера и дериктории с фотографиями на ftp-сервере. Если вы установили phpAlbum.net с помощью мастера установки, эти настройки уже должны быть выполнены и проверены. Если вы переместите главную директорию галереи, вы должны отразить это в настройках."
+
+msgid "ID_SETUP_DESC_COMMENTS"
+msgstr "На этой странице вы можете сделать настройки коментраив и голосования для ваших изображений. На этой странице также производится санкционирование новых сообщений, либо просто их просмотр."
+
+msgid "ID_SETUP_DESC_ECARD"
+msgstr "На этой странице вы можете изменить настройки электронных открыток (e-card), которые пользователи вашего альбома могут посылать вместе с вашими фотографиями (только присоединяя к e-mail) другим людям."
+
+msgid "ID_SETUP_ALBUM_DIR"
+msgstr "Директория альбома:"
+
+msgid "ID_SETUP_ALBUM_DIR_DESC"
+msgstr "Пожалуйста укажите здесь директорию с вашими фотографиями относительно директории содержащей главный скрипт (main.php)."
+
+msgid "ID_SETUP_ERRORLOG_DESC"
+msgstr "Здесь вы найдете журнал сообщений об ошибках. Это удобно если вы не знаете, на пример, почему что-то не работает. Вы можете использовать его для рапорта о багах или получения техподдержки."
+
+msgid "ID_SETUP_TEXTS_DESC"
+msgstr "На этой странице вы можете создать собственный вариант языкового перевода. Пожалуйста загляните в главные настройки, там вы найдете уже готовые языки интерфейса. Там вы можете установить предпочитаемый язык, а здесь вы можете сделать свои уточнения или просто сделать более полный перевод. Если вы сделали хороший полный перевод на ваш язык, вы можете отправить нам файл с переводом и мы включим его в стандартную пакет галереи (файл находится в вашей директории с данными и называется translation.dat)."
+
+msgid "ID_SETUP_TEXTS_GUIDE"
+msgstr "Руководство по переводу: Вы можете перевести только интересующие вас фразы. Тогда они будут использоваться вместо исходных.</br>Вы увидите 3 поля для каждого языкового элемента. Это его ID серого цвета, его исходный текст зеленого цвета и поле ввода для вашего варианта перевода (желтого цвета если перевод отсутствует и белого если перевод уже есть). <b> Если вы хотите посотрудничать, сделайте полный перевод, включая поля содержащие текст как в оригинале</b>. Пожалуйста будьте внимательны при использовании %s где это было в оригинале а также некоторых html тэгов, таких как &lt;b&gt; ..."
+
+msgid "ID_SETUP_CACHE_DIR"
+msgstr "Директория кэша:"
+
+msgid "ID_SETUP_CACHE_DIR_DESC"
+msgstr "Пожалуйста укажите директорию для кэша относительно директории содержащей главный скрипт (main.php). На директорию должны бить выданы права на запись (т.е. wwwrun)"
+
+msgid "ID_SETUP_MY_ACCOUNT_DESC"
+msgstr "Здесь вы можете отредактировать данные о пользователе - имя, e-mail, домашнюю страницу, сменить пароль."
+
+msgid "ID_SETUP_DESC_USERS"
+msgstr "На этой странице вы можете управлять учетными записями пользователей. Вы можете редактировать и удалять их. Для создания нового просто используйте оычную регистрацию."
+
+msgid "ID_SETUP_DESC_GROUPS"
+msgstr "На этой странице вы можете управлять группами. После вы можете назначать пользователей группам. Также вы можете ограничить доступ этим группам к выбранным галереям / директориям. К примеру каждый член вашей семьи (Family группа) может просматривать также и семейные фото, тогда как остальные пользователи - нет, и т.д."
+
+msgid "ID_SETUP_DESC_DIRS"
+msgstr "На этой странице находятся настройки галерей. Вы модете изменять описание, группы доступа,сортировку, а также некоторые базовые манипуляции с изображениями."
+
+msgid "ID_SETUP_DESC_PICS"
+msgstr "На этой странице вы можете задать параметры и описание фотографий."
+
+msgid "ID_SETUP_DESC_PARAMS"
+msgstr "Здесь вы можете добавлять, удалять и изменять переменные, которые вы хотели бы вводить для каждой фотографии. Они будут отображаться под каждой фотографией. Также можно переключать видимость каждого параметра для каждой директории отдельно, это вы можете сделать в секции Галереи."
+
+msgid "ID_SETUP_PASSWORD"
+msgstr "Пароль:"
+
+msgid "ID_SETUP_PASSWORD_DESC"
+msgstr "Пожалуйста укажите пароль и наберите его повторно во втором поле. Пароль хранится в зашифрованном виде и не может быть показан, поэтому никто не может его узнать."
+
+msgid "ID_SETUP_LANGUAGE"
+msgstr "Язык:"
+
+msgid "ID_SETUP_LANGUAGE_DESC"
+msgstr "Выберите язык и кодировку в которой будет отображаться страница. Обратите внимание на настройку системы, установлен ли у вас mbstring модуль, если нет, будьте внимательны при выборе UTF-8 с именами файлов и директорий, не используйте спецсимволы."
+
+msgid "ID_SETUP_HOME_URL"
+msgstr "URL Домашней страницы:"
+
+msgid "ID_SETUP_HOME_URL_DESC"
+msgstr "Пожалуйста укажите URL который указывает на Домашнюю страницу."
+
+msgid "ID_SETUP_SITE_NAME"
+msgstr "Название сайта:"
+
+msgid "ID_SETUP_SITE_NAME_DESC"
+msgstr "Пожалуйста укажите имя сайта, оно используется как заголовок страницы."
+
+msgid "ID_SETUP_NEW_DIR_INDIC"
+msgstr "Индикатор появления новых файлов в галерее:"
+
+msgid "ID_SETUP_NEW_DIR_INDIC_DESC"
+msgstr "Как долго (укажтите число в часах) должен отображаться индикатор появления новых файлов в галерее на иконке директории."
+
+msgid "ID_SETUP_FTP_SERVER"
+msgstr "FTP Сервер:"
+
+msgid "ID_SETUP_FTP_SERVER_DESC"
+msgstr "Пожалуйста укажите URL вашего ftp сервера, например ftp.myserver.com"
+
+msgid "ID_SETUP_FTP_PHOTO_DIR"
+msgstr "Фото директория FTP:"
+
+msgid "ID_SETUP_FTP_PHOTO_DIR_DESC"
+msgstr "Это фото директория на вашем ftp сервере т.е. /phpAlbum/photos_xyz/ , обратные слеши в начале и конце - обязятельны."
+
+msgid "ID_SETUP_QUALITY_NAME"
+msgstr "Пояснение:"
+
+msgid "ID_SETUP_QUALITY_NAME_DESC"
+msgstr "Пояснение этих настроек качества. Этот текст используется ссылки-переключателя качества на странице альбома"
+
+msgid "ID_SETUP_QUALITY_THMB"
+msgstr "Размер / качество пиктограммы"
+
+msgid "ID_SETUP_QUALITY_THMB_DESC"
+msgstr "Пожалуйста укажите здесь наибольший размер пиктограмм (т.е. 100 или 150). Вторым параметром укажите качество jpeg сжатия (нормальные значения лежат в диапазоне от 40 до 90). Параметр Качество используется только для JPG фойлов, но не для PNG или GIF. Вы также можете указать <b>Квадратные Пиктограммы</b> делая их все одинакового размера."
+
+msgid "ID_SETUP_QUALITY_PHOTO"
+msgstr "Размер / качество фотографии"
+
+msgid "ID_SETUP_QUALITY_PHOTO_DESC"
+msgstr "Пожалуйста укажите здесь наибольший размер уменьшенных фото (т.е. 100 или 150). Вторым параметром укажите качество jpeg сжатия (нормальные значения лежат в диапазоне от 40 до 90). Параметр Качество используется только для JPG фойлов, но не для PNG или GIF. <b> Укажите размер = 0 (ноль) если уменьшение вообще не должно производиться</b>"
+
+msgid "ID_SETUP_DEFAULT_SORT"
+msgstr "Сортировка по умолчанию:"
+
+msgid "ID_SETUP_DEFAULT_SORT_DESC"
+msgstr "Выберите сортировку по умолчанию, использующуюся для сортировки пиктограмми директорий. Это используется для директорий, где сортировка установлена в значение по умолчанию."
+
+msgid "ID_SETUP_SQUARE_THMB"
+msgstr "Квадратные пиктограммы"
+
+msgid "ID_SETUP_ADD_QUALITY"
+msgstr "Добавить новые настройки качества"
+
+msgid "ID_SETUP_DELETE_QUALITY"
+msgstr "Удалить эти настройки качества"
+
+msgid "ID_SETUP_RESIZE_IF_BIGGER"
+msgstr "Уменьшать размер только для больших"
+
+msgid "ID_SETUP_RESIZE_TO_FIT"
+msgstr "При изменении размера подгонять изобраджение по:"
+
+msgid "ID_SETUP_RESIZE_TO_FIT_DESC"
+msgstr "Выберите способ подгонки размера изображения, касаемо его ширины и высоты, подгонять по ширине, по высоте, или по ширине и высоте. Вы так же можете сделать так, чтобы все изображения имели одинаковую ширину или высоту или были квадратными размер x размер."
+
+msgid "ID_BOTH_WIDTH_AND_HEIGHT"
+msgstr "По ширине и высоте"
+
+msgid "ID_WIDTH"
+msgstr "По ширине"
+
+msgid "ID_HEIGHT"
+msgstr "По высоте"
+
+msgid "ID_SETUP_THEME_SETTINGS"
+msgstr "Настройки Темы"
+
+msgid "ID_SETUP_THEME_COLOR_SETTINGS"
+msgstr "Цвета Темы"
+
+msgid "ID_SETUP_THEME_THUMBNAILS_STYLE"
+msgstr "Стиль пиктограмм:"
+
+msgid "ID_SETUP_THEME"
+msgstr "Тема:"
+
+msgid "ID_SETUP_THEME_DESC"
+msgstr "Пожалуйста выберите одну из предлагаемых тем. Для создания своей собственной темы просто скопируйте, к примеру, Borders директорию в другую и она автоматически станет доступной здесь для выбора."
+
+msgid "ID_SETUP_LOGO_PATH"
+msgstr "Путь к файлу логотипа:"
+
+msgid "ID_SETUP_LOGO_PATH_DESC"
+msgstr "Введите относительный путь к логотипу, который вы хотите использовать.(используется для логотипов в стиле file)"
+
+msgid "ID_SETUP_LOGO_STYLE"
+msgstr "Стиль логотипа:"
+
+msgid "ID_SETUP_LOGO_STYLE_DESC"
+msgstr "Пожалуйста выберите как будет сгенерирован лоотип. NONE для отсутствия логотипа,GRAPHICAL для генерации графического логотипа, TEXT для простого текстового логотипа и FILE для логотипа взятого из графического файла по указанному для логотипа пути."
+
+msgid "ID_SETUP_LOGO_TEXT"
+msgstr "Текст логотипа:"
+
+msgid "ID_SETUP_LOGO_TEXT_DESC"
+msgstr "Введите тект для логотипа графического или текстового стиля."
+
+msgid "ID_SETUP_THEME_FLOWING_STYLE"
+msgstr "Плавающий"
+
+msgid "ID_SETUP_THEME_RASTER_STYLE"
+msgstr "Растр"
+
+msgid "ID_SETUP_MAX_PHOTO_PER_PAGE"
+msgstr "Макс. кол-во пиктограмм на странице:"
+
+msgid "ID_SETUP_MAX_PHOTO_PER_PAGE_DESC"
+msgstr "Введите макс. количество отображаемых пиктограмм. Если в галерее больше фотографий чем это число, будет произведена разбивка на страницы и выведены кнопки-ссылки переключения страниц."
+
+msgid "ID_SETUP_RASTER_SIZE"
+msgstr "Колонок / рядов :"
+
+msgid "ID_SETUP_RASTER_SIZE_DESC"
+msgstr "Введите количество колонок и рядов для отображения пиктограмм в стиле Растр"
+
+msgid "ID_SETUP_SHOW_FILENAMES"
+msgstr "Показывать имена файлов"
+
+msgid "ID_SETUP_SHOW_FILENAMES_DESC"
+msgstr "Разрешить отображение имен файлов под пиктограммами. Они будут отображатся при отсутствии короткого описания для изображения."
+
+msgid "ID_SETUP_DISABLE_BOTTOM_NEXTPREV"
+msgstr "Запретить панель навигациил следующий/предыдущий"
+
+msgid "ID_SETUP_DISABLE_BOTTOM_NEXTPREV_DESC"
+msgstr "Поставьте галочку чтобы запретить ссылки предыдйщий или следующий внизу страницы."
+
+msgid "ID_SETUP_COLOR_SETTINGS"
+msgstr "Настройки цвета:"
+
+msgid "ID_SETUP_ADD_COLOR_MAP"
+msgstr "Добавить новую карту цветов"
+
+msgid "ID_SETUP_COLOR_DELETE"
+msgstr "Удалить эту карту цветов"
+
+msgid "ID_SETUP_COLOR_NAME"
+msgstr "Нзвание цветовой карты:"
+
+msgid "ID_SETUP_COLOR_NAME_DESC"
+msgstr "Это название этой карты цветов. Если она не ежинственная, вы можете удалить ее."
+
+msgid "ID_SETUP_COLOR_BG"
+msgstr "Фон:"
+
+msgid "ID_SETUP_COLOR_LINK"
+msgstr "Ссылка:"
+
+msgid "ID_SETUP_COLOR_DIR_DESC"
+msgstr "Опис. директории:"
+
+msgid "ID_SETUP_COLOR_BORDER"
+msgstr "Фото-рамка:"
+
+msgid "ID_SETUP_COLOR_PHOTO_DESC"
+msgstr "Опис. фото:"
+
+msgid "ID_SETUP_COLOR_LOGO"
+msgstr "Логотип:"
+
+msgid "ID_SETUP_ENABLE_LOGGING"
+msgstr "Разрешить протоколирование"
+
+msgid "ID_SETUP_ENABLE_LOGGING_DESC"
+msgstr "Поставьте галочку чтобы включить протоколирование доступа к вашему альбому"
+
+msgid "ID_SETUP_LOGS_FILENAME"
+msgstr "Имя файла протокола:"
+
+msgid "ID_SETUP_LOGS_FILENAME_DESC"
+msgstr "Имя файла в который записывается протокол работы."
+
+msgid "ID_SETUP_LOGS_EXCLUDE"
+msgstr "Исключаемые строки:"
+
+msgid "ID_SETUP_LOGS_EXCLUDE_DESC"
+msgstr "Введите строки, разделенные символом ; (точка с запятой). Так вы можете исключить из протокола некоторые компьютеры. Например, если вы знаете что весь доступ производится с хоста провайдера your_internet_provider.com,  просто наберите здесь your_internet_provider"
+
+msgid "ID_SETUP_CACHE_THUMBNAILS"
+msgstr "Кэшировать пиктограммы"
+
+msgid "ID_SETUP_CACHE_RESIZED_PHOTOS"
+msgstr "Кэшировать уменьшенные фото"
+
+msgid "ID_SETUP_CACHE_THUMBNAILS_DESC"
+msgstr "Поставьте здесь галочку чтобы включить кэширование пиктограмм. Это очень рекомендуется сделать, поскольку сохраненные пиктограммы загружаются гораздо быстрее, чем их генерация по каждому запросу.."
+
+msgid "ID_SETUP_CACHE_RESIZED_PHOTOS_DESC"
+msgstr "Поставьте здесь галочку чтобы включить кэширование уменьшенных фото. Это также очень полезно для боле быстрой работы вашего альбома, однако требует несколько большего объема вышего вэбпространства, так что будьте внимательны, включая это."
+
+msgid "ID_SETUP_LOGIN"
+msgstr "Вход"
+
+msgid "ID_USERNAME"
+msgstr "Имя"
+
+msgid "ID_PASSWORD"
+msgstr "Пароль"
+
+msgid "ID_SETUP_ACT_DIR"
+msgstr "Фактическая директория:"
+
+msgid "ID_SETUP_ACT_DIR_DESC"
+msgstr "Вы можете вручную изменить фактическую директорию на ftp сервере. Проще всего использовать ссылки на директории в списке файлов."
+
+msgid "ID_SETUP_UPLOAD_FILE"
+msgstr "Загрузить файл:"
+
+msgid "ID_SETUP_UPLOAD_FILE_DESC"
+msgstr "Здесь вы можете загрузить один файл в фактическую директорию на ftp сервере."
+
+msgid "ID_UPLOAD"
+msgstr "Загрузка"
+
+msgid "ID_SETUP_MAX_SIZE"
+msgstr "Макс.размер:"
+
+msgid "ID_SETUP_UPLOAD_ZIP_FILE"
+msgstr "Загрузить zip-файл:"
+
+msgid "ID_SETUP_UPLOAD_ZIP_FILE_DESC"
+msgstr "Здесь вы можете загрузить zip-файл (архив) в фактическую директорию на ftp сервере. Этот zip-файл будет распакован и полученная структура директориев будет воссоздана на сервере. Если вы хотите загрузить zip-файл без последующей распаковки, используйте простую загрузику файла."
+
+msgid "ID_UPLOAD_ZIP"
+msgstr "Загрузить Zip"
+
+msgid "ID_SETUP_CREATE_DIR"
+msgstr "Создать директорию:"
+
+msgid "ID_SETUP_CREATE_DIR_DESC"
+msgstr "Здесь вы можете создать директорию в фактической директории на ftp-сервере"
+
+msgid "ID_CREATE"
+msgstr "Создать"
+
+msgid "ID_FILENAME"
+msgstr "Имя файла"
+
+msgid "ID_SIZE"
+msgstr "Размер"
+
+msgid "ID_IMAGE_SIZE"
+msgstr "Размер изображения"
+
+msgid "ID_OWNER"
+msgstr "Владелец"
+
+msgid "ID_GROUP"
+msgstr "Группа"
+
+msgid "ID_FUNCTIONS"
+msgstr "Функции"
+
+msgid "ID_TIME"
+msgstr "Время"
+
+msgid "ID_COMMAND"
+msgstr "Команда"
+
+msgid "ID_FILE_DIR"
+msgstr "Файл / Директория"
+
+msgid "ID_HOST"
+msgstr "Хост"
+
+msgid "ID_PATH"
+msgstr "Путь"
+
+msgid "ID_ALIAS"
+msgstr "Псевдоним"
+
+msgid "ID_PASSWORDS"
+msgstr "Пароли"
+
+msgid "ID_SETUP_ENABLE_COMMENTS"
+msgstr "Разрешить коментарии"
+
+msgid "ID_SETUP_ENABLE_COMMENTS_DESC"
+msgstr "Поставьте галочку чтобы разрешить коментирование ваших фото"
+
+msgid "ID_SETUP_COMMENT_QUEUE"
+msgstr "Размер очереди одобрения"
+
+msgid "ID_SETUP_COMMENT_QUEUE_DESC"
+msgstr "Здесь вы можете установить количество коментариев в очереди на одобрение. Коменарии, поступившие позже, будут одобрены автоматически, но вы сможете удалять их каждый раз прямо под изображениями. Фактически это также количество самых свежих коментариев которые вы здесь можете видеть."
+
+msgid "ID_SETUP_COMMENT_APPROVING_DESC"
+msgstr "Здесь вы можете увидеть все не одобренные или удаленные коментарии. Одобрение удалит их из этого списка но коментарии остаются под изображением, тогда вы можете ужалить их после одобрения. Если удалить их здесь, то они удалятся и из под изображения. Не будет никакого запроса типа:  вы действительно хотите удалить это? Так что будьте внимательны. Вы можете удалить их также из под изображения но только если вы уже ввели пароль. Так что здесь все новые не одобренные и не удаленные коментарии:"
+
+msgid "ID_SETUP_NEW_COMMENTS"
+msgstr "Новые коментарии"
+
+msgid "ID_SETUP_ENABLE_ECARD"
+msgstr "Разрешить отправку открыток"
+
+msgid "ID_SETUP_ENABLE_ECARD_DESC"
+msgstr "Поставьте галочку чтобы разрешить отправку электронных открыток с вашей страницы"
+
+msgid "ID_SETUP_ECARD_SUBJECT"
+msgstr "Тема электронного письма, в котором отправляется открытка"
+
+msgid "ID_SETUP_ECARD_SUBJECT_DESC"
+msgstr "Этот текст будет использован в качестве предмета вашего e-mail послания электронной открытки"
+
+msgid "ID_SETUP_ECARD_PICKED_SUBJECT"
+msgstr "Тема письма уведомления"
+
+msgid "ID_SETUP_ECARD_PICKED_SUBJECT_DESC"
+msgstr "Этот текст будет использован как предмет <b>уведомительного</b> письма, которое будет послано отправителю открытки"
+
+msgid "ID_SETUP_ECARD_TEXT"
+msgstr "текст e-mail для отправления открытки"
+
+msgid "ID_SETUP_ECARD_TEXT_DESC"
+msgstr "Это сообщени будет отправлено по e-mail. Вы можете здесь использовать несколько специальных строк, которые будут заменены на соответствующие значения. (#TO_NAME, #TO_EMAIL, #FROM_NAME, #FROM_EMAIL, #DATE, #TIME, #ECARD_ADRESS, #IMAGE_ADRESS)"
+
+msgid "ID_SETUP_ECARD_PICKED_TEXT"
+msgstr "текст письма-уведомления"
+
+msgid "ID_APPROVE"
+msgstr "Одобрить"
+
+msgid "ID_DELETE"
+msgstr "Удалить"
+
+msgid "ID_TEXT"
+msgstr "Текст"
+
+msgid "ID_PICTURE"
+msgstr "Изображение"
+
+msgid "ID_TYPE"
+msgstr "Тип"
+
+msgid "ID_ERROR_NUMBER"
+msgstr "Код ошибки"
+
+msgid "ID_ERROR_MESSAGE"
+msgstr "Сообщение об ошибке"
+
+msgid "ID_SCRIPT_NAME"
+msgstr "Имя скрипта"
+
+msgid "ID_LINE"
+msgstr "Строка"
+
+msgid "ID_LOGIN"
+msgstr "Вход"
+
+msgid "ID_LOGOUT"
+msgstr "Выход"
+
+msgid "ID_SAVE"
+msgstr "Сохранить"
+
+msgid "ID_REGISTER"
+msgstr "Зарегистрировать нового пользователя"
+
+msgid "ID_REMEMBER"
+msgstr "Запомнить"
+
+msgid "ID_SETUP_USERNAME_DESC"
+msgstr "Введите здесь желаемое имя пользователя. Если оно уже существует, вы получите сообщение об ошибке"
+
+msgid "ID_RETYPE_PASSWORD"
+msgstr "Пароль повторно:"
+
+msgid "ID_SETUP_EMAIL"
+msgstr "Ваш E-Mail адрес:"
+
+msgid "ID_SETUP_EMAIL_DESC"
+msgstr "Введите здесь ваш адрес электронной почты, он не будет опубликован."
+
+msgid "ID_SETUP_HOMEPAGE"
+msgstr "Домашняя страница:"
+
+msgid "ID_SETUP_HOMEPAGE_DESC"
+msgstr "Введите вашу Домашнюю страницу, она будет опубликована вместе с вашими коментариями к изображениям."
+
+msgid "ID_SETUP_REGISTER_NEW_USER"
+msgstr "Регистрация"
+
+msgid "ID_THANKS_FOR_REGISTER"
+msgstr "Спасибо за регистрацию на этом сайте."
+
+msgid "ID_SETUP_DELETE_ERROROLOG"
+msgstr "Очистить журнал ошибок"
+
+msgid "ID_SETUP_ADD_GROUP"
+msgstr "Добавить новую группу пользователей"
+
+msgid "ID_SETUP_NEW_GROUP_NAME"
+msgstr "Название новой группы:"
+
+msgid "ID_SETUP_ADD_GROUP_DESC"
+msgstr "Введите название для новой группы и нажмите кнопку. Это создаст новую группу. Потом вы сможете назначать ее пользователям и галереям."
+
+msgid "ID_SETUP_SHOW_DIRS"
+msgstr "Показать назначенные галереи"
+
+msgid "ID_SETUP_SHOW_USERS"
+msgstr "Показать пользователей"
+
+msgid "ID_USER"
+msgstr "Пользователь"
+
+msgid "ID_EDIT"
+msgstr "Редактировать"
+
+msgid "ID_ID"
+msgstr "Id"
+
+msgid "ID_NOT_POSSIBLE"
+msgstr "Не возможно"
+
+msgid "ID_SETUP_ADD_NEW_PARAM"
+msgstr "Добавить новый параметр"
+
+msgid "ID_SETUP_ADD_PARAM_DESC"
+msgstr "Введите название новогоПараметра и выберите его тип. <ul><li><b>Пользовательское значение</b> - текстовое значение заданное пользователем</li><li><b>Пользовательский список значений</b> - предопределенный пользователем список значений, выбираемых в последствии для каждого изображения</li><li><b>Системное значение</b> - вы сможете выбрать в качестве умолчательного значения системных переменных изображения, таких как размеры, дата создания, имя файла, имя файла с полноразмерной ссылкой для скачивания ...</li></ul>"
+
+msgid "ID_SETUP_PARAM_NAME"
+msgstr "Имя параметра:"
+
+msgid "ID_SETUP_PARAM_NAME_DESC"
+msgstr "Введите новое название параметра, если вы хотите переименовать его. Кликнув на ссылку Удалить, вы удалете параметр здесь и под каждым изображением тоже, так что будьте внимательны, делая это."
+
+msgid "ID_SETUP_DELETE_PARAM"
+msgstr "Удалить параметр"
+
+msgid "ID_SETUP_PARAM_DEFAULT"
+msgstr "Значение по умолчанию:"
+
+msgid "ID_SETUP_PARAM_DEFAULT_DESC"
+msgstr "Здесь вы можете установить умолчательное значение этого параметра, которое будет отображаться на всех фотографиях, где оно не переписано другими специфичными для фото значениями."
+
+msgid "ID_ALLOW_HTML"
+msgstr "Разрешить использование HTML кода (не упускайте это из виду)"
+
+msgid "ID_SETUP_PARAM_SYS_DEFAULT"
+msgstr "Автоматическое значение:"
+
+msgid "ID_SETUP_PARAM_SYS_DEFAULT_DESC"
+msgstr "Выберите значение которое будет отображаться для этого параметра."
+
+msgid "ID_SETUP_EDIT_LOV"
+msgstr "Редактировать список значений"
+
+msgid "ID_SETUP_DELETE_LOV"
+msgstr "Удалить значение"
+
+msgid "ID_NOT_DEFINED"
+msgstr "НЕ ОПРЕДЕЛЕНО"
+
+msgid "ID_ADD_NEW_VALUE"
+msgstr "Добавить новое значение"
+
+msgid "ID_SETUP_ACCOUNT_GROUP_DESC"
+msgstr "Выбеоите группы которые вы хотите назначить этой учетной записи."
+
+msgid "ID_SETUP_GALLERY"
+msgstr "Галерея:"
+
+msgid "ID_SETUP_GALLERY_DESC"
+msgstr "Выберите директорию, которую вы хотите настроить. Если вы не можете ее здесь обнаружить, попробуйте просканировать директории (нажмите на ссылку ниже)..."
+
+msgid "ID_SETUP_ALIAS"
+msgstr "Псевдоним:"
+
+msgid "ID_SETUP_ALIAS_DESC"
+msgstr "Введите псевдоним для директории который отображается вместо имени директории"
+
+msgid "ID_SETUP_DESC"
+msgstr "Коорткое описание:"
+
+msgid "ID_SETUP_DESC_DESC"
+msgstr "Это короткое описание директории, оно может отображаться под изображением и его директорией и пиктограммой/логотипом этой директории"
+
+msgid "ID_SETUP_PIC_DESC_DESC"
+msgstr "Это короткое описание изображения, оно может отображаться под изображением и его пикрограммой"
+
+msgid "ID_SETUP_LONG_DESC"
+msgstr "Длинное описание:"
+
+msgid "ID_SETUP_LONG_DESC_DESC"
+msgstr "Введите длинное описание, отображаемое для этой директории. Также вы можете вводить HTML код. Для задания новой строки введите &lt;br&gt;"
+
+msgid "ID_SETUP_PIC_LONG_DESC_DESC"
+msgstr "Введите длинное описание, отображаемое под этой картинкой вместе с коротким описанием. Также вы можете вводить HTML код. Для задания новой строки введите &lt;br&gt;"
+
+msgid "ID_SETUP_SORTING"
+msgstr "Сортировка:"
+
+msgid "ID_SETUP_SORTING_DESC"
+msgstr "Выберите жедаемую сортировку изображений в директории. По умолчанию действует сортировка определенная в секции Главные Настройки"
+
+msgid "ID_SETUP_VISIBLE"
+msgstr "Отображать"
+
+msgid "ID_SETUP_VISIBLE_DESC"
+msgstr "Выберите, должна ли директория быть видимой или нет."
+
+msgid "ID_SETUP_ACCESS_RIGHTS"
+msgstr "Права доступа"
+
+msgid "ID_SETUP_GALLERY_GROUP_DESC"
+msgstr "Пожалуйста выберите группы, если вы хотите ограничить видимость этой галереи для этих групп. Disabled checkboxes are inherited from some gallery above int the structure,so you can't change it here but in the respective gallery"
+
+msgid "ID_SETUP_GALLERY_PARAMS_DESC"
+msgstr "Выберите параметры которые вы хотите видеть вместе с изображением. Для опрделения дополнительных параметров зайдите в секцию Параметры Фотографий."
+
+msgid "ID_SETUP_SHOW_CUSTOM_PARAMS"
+msgstr "Показать собственные параметры"
+
+msgid "ID_SETUP_SHOW_DEFAULT_PARAMS"
+msgstr "Показать параметры по умолчанию"
+
+msgid "ID_SETUP_PARAMS_DEFAULT_CUSTOM_DESC"
+msgstr "Выберите хотите ли вы чтобы под каждым изображением в этой галерее отображались параметры по умолчанию либо собственные заданные параметры."
+
+msgid "ID_SETUP_SHOW_PARAMS"
+msgstr "Собственные ил Умолчательные:"
+
+msgid "ID_NO_DEFINED_PARAMS"
+msgstr "Параметры не определены."
+
+msgid "ID_SETUP_NEXT_SCAN"
+msgstr "Следующее автоматическое полное сканирование директорий : %s"
+
+msgid "ID_SETUP_SCAN_DIRS"
+msgstr "Просканировать директории прямо сейчас!"
+
+msgid "ID_DEFAULT_DISPLAYED"
+msgstr "Отображать параметр по умолчанию"
+
+msgid "ID_SETUP_PARAM_DEFAULT_DISPLAYED_DESC"
+msgstr "Поставьте здесь галочку, если вы хотите чтобы этот параметр отображался по умолчанию, т.е. для каждой галереи. где включено отображение парасетров по умолчанию."
+
+msgid "ID_HTML_NOT_ALLOWED"
+msgstr "HTML код запрещен."
+
+msgid "ID_HTML_ALLOWED"
+msgstr "HTML код разрешен."
+
+msgid "ID_DEFAULT_VALUE"
+msgstr "Значение по умолчанию <b>%s</b>"
+
+msgid "ID_NO_DEFAULT_VALUE"
+msgstr "Значение по умолчанию не задано"
+
+msgid "ID_DEFAULT"
+msgstr "По умолчанию"
+
+msgid "ID_SETUP_THEME_BORDERS"
+msgstr "Кромка изображений и пиктограмм"
+
+msgid "ID_SETUP_THEME_PIC_BORDER_SIZE"
+msgstr "Размер кромки изображения"
+
+msgid "ID_SETUP_THEME_THMB_BORDER_SIZE"
+msgstr "Размер кромки пиктограммы"
+
+msgid "ID_SETUP_THEME_DISPLAY_SHADOWS"
+msgstr "Показывать тени"
+
+msgid "ID_SETUP_THEME_DISPLAY_SHADOWS_DESC"
+msgstr "Показывать или нет тень позяди пиктограмм и изображений (если тема это поддерживает)."
+
+msgid "ID_SETUP_THEME_PIC_BORDER_SIZE_DESC"
+msgstr "Введите ширину кромки изображения"
+
+msgid "ID_SETUP_THEME_THMB_BORDER_SIZE_DESC"
+msgstr "Введите ширину кромки пиктограммы"
+
+msgid "ID_SETUP_WATERMARK_FILE"
+msgstr "Файл с водяным знаком"
+
+msgid "ID_SETUP_WATERMARK_FILE_DESC"
+msgstr "Выберите png-файл для использования в качестве водяного знака на фотографиях с измененным размером. Положите ваши прозрачные PNGшки в главную phpAlbum директорию."
+
+msgid "ID_NO_WATERMARK"
+msgstr "Водяной знак не выбран"
+
+msgid "ID_SETUP_WATERMARK_POSITION"
+msgstr "Позиция водяного знака"
+
+msgid "ID_SETUP_WATERMARK_POSITION_DESC"
+msgstr "Выберите позицию водяного знака"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE"
+msgstr "Стиль логотипа галереи (иконка)"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_DESC"
+msgstr "Выбрите как галерея (директория) будет отображаться, как иконка директории, или как пиктограмма какого-то изображения из нее с нормальным размером пиктограммы или указанным дополнительно размером."
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_LOGO"
+msgstr "Показывать логотип директории"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_PIC1"
+msgstr "Показывать пиктограммы изображений (того же размера)"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_PIC2"
+msgstr "Показывать пиктограммы изображений (другого размера)"
+
+msgid "ID_USE_FOR_LOGO"
+msgstr "Использовать в качестве логотипа директории"
+
+msgid "ID_SETUP_ADD_THMB_HEIGHT"
+msgstr "Дополтнительая высота для пиктограмм"
+
+msgid "ID_SETUP_ADD_THMB_WIDTH"
+msgstr "Дополтнительая ширина для пиктограмм"
+
+msgid "ID_SETUP_ADD_THMB_HEIGHT_WIDTH_DESC"
+msgstr "Пожалуйста увеличте это значение если вы используете больше строк для описания директории или пиктограммы. Это увеличит место под пиктограммами. Эта возможность используется только в плавающем стиле пиктограмм, где большее количество строк под пиктограммой пожет привести к проблемам в структуре отображения."
+
+msgid "ID_SETUP_SHARPEN_WITH_PARAM"
+msgstr "Увеличеие резкости с параметрами:"
+
+msgid "ID_SETUP_AMOUNT"
+msgstr "Величина"
+
+msgid "ID_SETUP_RADIUS"
+msgstr "Радиус"
+
+msgid "ID_SETUP_TRESHOLD"
+msgstr "Порог"
+
+msgid "ID_SETUP_SHARPEN_DESC"
+msgstr "Вы можете включить увеличение резкости пиктограмм, которые обычно становятся размытыми после изменения размеров. <b>Пожалуйста учтите, что это потребует достаточно больших затрат производительности.</b>"
+
+msgid "ID_SETUP_SHARPEN_THMB"
+msgstr "Увеличение резкости пиктограмм"
+
+msgid "ID_SETUP_INFO_THMB"
+msgstr "Показывать следующее под пиктограммами:"
+
+msgid "ID_SETUP_INFO_THMB_DESC"
+msgstr "Выберите какую информацию отображать под пиктограммами."
+
+msgid "ID_SETUP_INFO_THMB_VIEWS"
+msgstr "Количество просмотров"
+
+msgid "ID_SETUP_INFO_THMB_COMMENTS"
+msgstr "Количество коментариев"
+
+msgid "ID_SETUP_INFO_THMB_VOTES"
+msgstr "Итоги голосования"
+
+msgid "ID_SETUP_DATE_FORMAT"
+msgstr "Формат Даты/Времени"
+
+msgid "ID_SETUP_DATE_FORMAT_DESC"
+msgstr "Установить формат даты/времени который вы хотите использовать. Используйте для этого PHP стандарты, используемые в функции date()"
+
+msgid "ID_SYS_PAR_SIZ"
+msgstr "%s Кб"
+
+msgid "ID_SYS_PAR_DIM"
+msgstr "%s x %s ( Шир x Выс )"
+
+msgid "ID_SYS_PAR_FNM"
+msgstr "%s"
+
+msgid "ID_SYS_PAR_FNL"
+msgstr "<a class=\"me3\" href=\"%s\" target=\"_blank\">%s</a> (нажмите чтобы скачать оригинальный файл)"
+
+msgid "ID_SYS_PAR_DWL"
+msgstr "<a class=\"me3\" href=\"%s\" target=\"_blank\">(нажмите чтобы скачать оригинальный файл)</a>"
+
+msgid "ID_SYS_PAR_CDT"
+msgstr "%s"
+
+msgid "ID_SYS_PAR_EXIF_F"
+msgstr "F %s"
+
+msgid "ID_SYS_PAR_EXIF_FL"
+msgstr "%smm"
+
+msgid "ID_SYS_PAR_EXIF_ISO"
+msgstr "ISO %s"
+
+msgid "ID_SYS_PAR_EXIF_EXP_TIME"
+msgstr "%s сек"
+
+msgid "ID_PHOTO_DETAILS"
+msgstr "Фото-подробности"
+
+msgid "ID_SETUP_PRIVILEGES"
+msgstr "Привилегии"
+
+msgid "ID_SETUP_PRIVILEGES_DESC"
+msgstr "Здесь вы можете задать какая группа будет иметь доступ к каким функциям в установках. Зеленый цвет означает разрешение,а красный запрещение для указанной группы. Нажатие на ссылке будет изменять этот статус и предоставлять/изымать доступ к функци на которой нажали.<br/><br/>В колонке По умолчанию вы можете отметить какие группы должны назначится автоматически новым зарегистрированным пользователям."
+
+msgid "ID_ENTER_ANTISPAM_CODE"
+msgstr "Введите противоспамный код:"
+
+msgid "ID_DISABLE_ERROR_LOG"
+msgstr "Выключить журналирование ошибок"
+
+msgid "ID_SETUP_ENABLE_ANTISPAM"
+msgstr "Включить антиспам"
+
+msgid "ID_SETUP_ENABLE_ANTISPAM_DESC"
+msgstr "Включить кодовые картинки для защиты от спама. Это сделанет невозможной автоматическую рассылку некоторых спам-коментариев на вашем сайте."
+
+msgid "ID_SETUP_PUBLISH_ONLY_APPROVED"
+msgstr "Публиковать только подтвержденные коментарии"
+
+msgid "ID_SETUP_PUBLISH_ONLY_APPROVED_DESC"
+msgstr "Если здесь проставлена \"птичка\", коментарии будут опубликованы только после  подтверждения на этой странице"
+
+msgid "ID_SETUP_THEME_NEWEST_COUNT"
+msgstr "Показывать количество новых изображений"
+
+msgid "ID_SETUP_THEME_NEWEST_COUNT_DESC"
+msgstr "Введите количество самых свежих изображений, которые должны отображаться на личевой странице"
+
+msgid "ID_NEWEST_PICTURES"
+msgstr "Самые свежие изображения"
+
+msgid "ID_SETUP_USE_IPTC_DESC"
+msgstr "Использовать фото-IPTC информацию"
+
+msgid "ID_SETUP_USE_IPTC_DESC_DESC"
+msgstr "Если это отмечено, при первом сканировании изображений IPTC надписи и заголовки будут использованы в качестве Длинного и Короткого пояснения к фотографии."
+
+msgid "ID_IMAGEORIG"
+msgstr "Скачать изображение"
+
+msgid "ID_IMAGEVIEW"
+msgstr "Просмотр изображения"
+
+msgid "ID_ERROR_PAGE_MESSAGE"
+msgstr "У вас нет прав просмотра этой страницы или скачивания этого изображения!"
+
+msgid "ID_RECIPIENT_NAME"
+msgstr "Имя получателя"
+
+msgid "ID_RECIPIENT_EMAIL"
+msgstr "E-mail получателя"
+
+msgid "ID_SENDER_NAME"
+msgstr "Имя отправителя"
+
+msgid "ID_SENDER_EMAIL"
+msgstr "E-mail отправителя"
+
+msgid "ID_YOUR_MESSAGE"
+msgstr "Ваше сообщение"
+
+msgid "ID_WRITE_ECARD"
+msgstr "Написать открытку"
+
+msgid "ID_FROM"
+msgstr "Отправитель:&nbsp;"
+
+msgid "ID_TO"
+msgstr "Получатель:&nbsp;"
+
+msgid "ID_SETUP_SHOW_SEARCH_BOX"
+msgstr "Показывать панель поиска"
+
+msgid "ID_SETUP_SHOW_SEARCH_BOX_DESC"
+msgstr "Включает отображение поля поиска на странице альбома. На данный момент поиск работает для ключевых слов импортированных из IPTC"
+
+msgid "ID_SETUP_TRACKING_CODE"
+msgstr "Трекер-код"
+
+msgid "ID_SETUP_TRACKING_CODE_DESC"
+msgstr "Сюда вы можете поместить, например, трекер-Javascript-код (как в Google Аналитика) который будет отображаться на каждой странице."
+
+msgid "ID_MSG_DIR_NOT_EXISTS"
+msgstr "Директория %s не существует, смените!"
+
+msgid "ID_MSG_DIR_NOT_WRITABLE"
+msgstr "Нет права записи в директорию %s , измените права (в unix-подобных ОС с помощью команды CHMOD) !"
+
+msgid "ID_MSG_FILE_NOT_EXISTS"
+msgstr "Файл %s не найден"
+
+msgid "ID_FILE_WAS_DELETED"
+msgstr "Файл %s был удален"
+
+msgid "ID_MSG_SETUP_FTP"
+msgstr "Пожалуйста войдите в Главную секцию и установите ftp-сервер и ftp-фото-директорию для того чтобы стало возможным использоваin менеджер загрузок"
+
+msgid "ID_MSG_FTP_SUPPORT"
+msgstr "Поддержка FTP не разрешена!!! Вы не можере использовать менеджер загрузок. Обратитесь к вашему провайдеру для разрешения или установки FTP сервера."
+
+msgid "ID_MSG_FTP_UNABLE_CONNECT"
+msgstr "Не могу соединиться с сервером %s"
+
+msgid "ID_MSG_FTP_INVALID_LOGIN"
+msgstr "Неверные имя пользователя или пароль!"
+
+msgid "ID_MSG_FTP_PASSIVE_MODE"
+msgstr "Не могу установить пассивный режим для ftp сервера"
+
+msgid "ID_MSG_FTP_UNABLE_CHDIR"
+msgstr "Не могу сменить директорию на %s"
+
+msgid "ID_MSG_FTP_PHOTO_DIR"
+msgstr "Директория фотограий на Ftp-сервере указывает на другую директорию, не на фотографии"
+
+msgid "ID_MSG_FTP_UNABLE_DELETE"
+msgstr "Не могу удалить файл %s на ftp сервере"
+
+msgid "ID_MSG_FTP_UNABLE_UPLOAD"
+msgstr "Не могу загрузить файл %s!"
+
+msgid "ID_MSG_FTP_UNABLE_OPEN_TMP"
+msgstr "Не могу открыть временный файл!"
+
+msgid "ID_MSG_FTP_UNABLE_MKDIR"
+msgstr "Не могу создать директорию %s на ftp сервере!"
+
+msgid "ID_MSG_FTP_UNABLE_RMDIR"
+msgstr "Не могу удалить директорию %s на ftp сервере!"
+
+msgid "ID_MSG_FTP_NOT_ZIP"
+msgstr "Этот файл нев формате zip, либо этот формат не поддерживается!"
+
+msgid "ID_MSG_FTP_ZIP_UNSUPPORTED"
+msgstr "Не установлена поддержка ZIP для PHP!"
+
+msgid "ID_MSG_FTP_FILE_UPLOAD_ATTACK"
+msgstr "Возможно аттака по загрузке файлов!!!"
+
+msgid "ID_MSG_PASSWORD_ERROR"
+msgstr "Введенный пароль и его повтор не совпадают. Пароль не изменен!"
+
+msgid "ID_MSG_EMAIL_REQUIRED"
+msgstr "E-Mail является обязательным к вводу полем. Пожалуйста введите ваш e-mail, он не будет опубликован."
+
+msgid "ID_MSG_USERNAME_EXISTS"
+msgstr "Имя пользователя <b>%s</b> уже используется!"
+
+msgid "ID_MSG_PASSWORD_REQUIRED"
+msgstr "Требуется пароль!"
+
+msgid "ID_MSG_GROUP_EXISTS"
+msgstr "Группа <b>%s</b> уже существует. Вы не можете создать группу с таким же именем!"
+
+msgid "ID_MSG_PARAM_EXISTS"
+msgstr "Параметр <b>%s</b>  уже существует. Пожалуйста используйте другое название параметра."
+
+msgid "ID_MSG_PARAM_MANDATORY"
+msgstr "Название параметра является обязятельным, пожалуйста введите название для нового параметра"
+
+msgid "ID_MSG_USERNAME_MANDATORY"
+msgstr "Имя пользователя является обязательным полем!"
+
+msgid "ID_MSG_VIEW_COUNT"
+msgstr "Просмотров: %s times"
+
+msgid "ID_MSG_COMMENT_COUNT"
+msgstr "Коментариев: %s"
+

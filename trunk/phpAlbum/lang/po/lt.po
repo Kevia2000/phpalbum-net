@@ -1,0 +1,1068 @@
+msgid "ID_NEXT"
+msgstr "Sekantis"
+
+msgid "ID_PREV"
+msgstr "Ankstesnis"
+
+msgid "ID_NEXT_PAGE"
+msgstr "Sekantis puslapis"
+
+msgid "ID_PREV_PAGE"
+msgstr "Ankstesnis puslapis"
+
+msgid "ID_ALBUM_NAME"
+msgstr "Fotoalbumas"
+
+msgid "ID_PHOTO_DIR"
+msgstr "Fotografijos"
+
+msgid "ID_SETUP"
+msgstr "Nustatymai"
+
+msgid "ID_HOME"
+msgstr "Pagrindinis"
+
+msgid "ID_NAME"
+msgstr "Vardas"
+
+msgid "ID_EMAIL"
+msgstr "E-paštas"
+
+msgid "ID_NAME_EMAIL"
+msgstr "Papildomai galite įvesti savo Vardą ir E-pašto adresą"
+
+msgid "ID_COMMENT_INSTR"
+msgstr "Parašykite savo nuomonę ir nuspauskite Komentuoti"
+
+msgid "ID_ADD_COMMENT"
+msgstr "Komentuoti"
+
+msgid "ID_ENTER_PASSWD"
+msgstr "Įveskite Slaptažodį :"
+
+msgid "ID_DELETE_COMMENT"
+msgstr "Panaikinti Komentarą"
+
+msgid "ID_ALBUMS"
+msgstr "Albumai"
+
+msgid "ID_SEARCH"
+msgstr "Paiėška"
+
+msgid "ID_ENABLE"
+msgstr "Leisti"
+
+msgid "ID_SETUP_MENU"
+msgstr "Meniu :"
+
+msgid "ID_SETUP_MENU_MAIN"
+msgstr "Pagrindiniai Nustatymai"
+
+msgid "ID_SETUP_MENU_LOGS"
+msgstr "Apsilankymų įrašai (LOG-ai)"
+
+msgid "ID_SETUP_MENU_DIRS"
+msgstr "Galerijos"
+
+msgid "ID_SETUP_MENU_CACHE"
+msgstr "Talpyklos Nustatymai"
+
+msgid "ID_SETUP_MENU_ADMIN"
+msgstr "Nusiuntimų Vadovas"
+
+msgid "ID_SETUP_MENU_COMMENTS"
+msgstr "Komentarai ir Balsavimas"
+
+msgid "ID_SETUP_MENU_ECARD"
+msgstr "E-Kortelė"
+
+msgid "ID_SETUP_MENU_TEXTS"
+msgstr "Vertimai"
+
+msgid "ID_SETUP_MENU_ERRORLOG"
+msgstr "Klaidų įrašai (LOG-ai)"
+
+msgid "ID_SETUP_MENU_SYSCHECK"
+msgstr "Sistemos patikrinimas"
+
+msgid "ID_SETUP_MENU_THUMBNAILS"
+msgstr "Maži paveiksliukai"
+
+msgid "ID_SETUP_MENU_THEMES"
+msgstr "Temos (išvaizda)"
+
+msgid "ID_SETUP_MENU_USERS"
+msgstr "Vartotojai"
+
+msgid "ID_SETUP_MENU_GROUPS"
+msgstr "Grupės"
+
+msgid "ID_SETUP_SAVE_CONFIG"
+msgstr "Įšsaugoti Nustatymus"
+
+msgid "ID_SETUP_MY_ACCOUNT"
+msgstr "Mano dėžutė"
+
+msgid "ID_SETUP_MENU_PARAMS"
+msgstr "Fotografijų parametrai"
+
+msgid "ID_SETUP_MENU_PICS"
+msgstr "Paveiksliukai"
+
+msgid "ID_SETUP_THUMBNAILS"
+msgstr "Mažų paveikslėlių Nustatymai"
+
+msgid "ID_SETUP_DESC_MAIN"
+msgstr "Tai Pagrindinių Nustatymų puslapis. Čia galite pakeisti pagrindinius nustatymus, mažų paveikslėlių nustatymus, pakeisti temas bei atlikti kitus pakeitimus. Šis puslapis automatiškai atsiveria instaliavus produktą ir jūs turite atlikti kai kuriuos būtinuosius pakeitimus prieš pradedant naudotis FotoGalerija."
+
+msgid "ID_SETUP_DESC_THUMBNAILS"
+msgstr "Šiame puslapyje galite nustatyti Mažų paveikslėlių ir transformuotų fotonuotraukų dydį ir kokybę. Kiekviena Mažų paveikslėlių grupė atitinka tik vieną kokybės nustatymą. Vartotojas gali pakeisti vieną iš galimų kokybės nustatymų. Išankstinis kokybės nustatymas naudojamas pirmiesiems lankytojams. Jūs galite pridėti naujus kokybės nustatymus arba juos panaikinti. Neįmanoma panaikinti paskutiniojo (likusiojo) nustatymo, todėl šis yra aktyvus ir pagal išankstinius nustatymus - matomas."
+
+msgid "ID_SETUP_DESC_THEMES"
+msgstr "Šiame puslapyje galite vykdyti pakeitimus susijusius su Fotoalbumo išvaizda (Temos).Jūs galite pakeisti Mažų paveiksliukų stilių (flowing - grakštus arba raster - taškinė grafika). Taip pat galite pasirinkti temą, keisti jos spalvų nustatymus, sukurti naujas temas."
+
+msgid "ID_SETUP_DESC_LOGS"
+msgstr "Šiame puslapyje Jūs galite nustatyti, kad būtų registruojamos galerijų fotonuotraukų peržiūros, galite pakeisti registravimams naudojamo failo vardą ir panašiai."
+
+msgid "ID_SETUP_DESC_CACHE"
+msgstr "Šiame puslapyje galite nustatyti ar naudoti Talpyklą ir kokio tipo failams ją naudoti. Taip pat galite pamatyti kiek vietos užima Talpykla ir, esant reikalui, - ją ištrinti."
+
+msgid "ID_SETUP_RESET_CONFIG"
+msgstr "Atkurti Išankstinius Nustatymus"
+
+msgid "ID_SETUP_DESC_ADMIN"
+msgstr "Šiame puslapyje galite pridėti į galerijas naujas fotografijas, administruoti fotografijų direktoriją (tam būtina atlikti FTP serverio nustatymus, nurodyti FTP serverio Fotografijų direktoriją). Jeigu šią programą instaliavote /įrašėte naudodami WebIstall, minėti nustatymai greičiausiai nebus reikalingi. Jeigu pakeitėte programos pagrindinę direktoriją, reikia atlikti ir direktorijos nustatymus."
+
+msgid "ID_SETUP_DESC_COMMENTS"
+msgstr "Šiame puslapyje galite atlikti Komentavimų ir Balsavimų nustatymus. Nauji komentarai gali būti įkeliami tik patvirtinus arba tiesiog tik peržiūrimi."
+
+msgid "ID_SETUP_DESC_ECARD"
+msgstr "Šiame puslapyje galite atlikti E-kortelių nustatymus. E-kortelės - tai e-pašto atmaina, kai Jūsų vartotojai gali siūsti E-korteles su Jūsų fotogalerijos nuotraukomis kitiems asmenims."
+
+msgid "ID_SETUP_ALBUM_DIR"
+msgstr "Albumo direktorija :"
+
+msgid "ID_SETUP_ALBUM_DIR_DESC"
+msgstr "Nurodykite direktoriją, kurioje yra saugojamos fotografijos (reliatyvus kelias nuo failo main.php, pvz: photos/ )."
+
+msgid "ID_SETUP_ERRORLOG_DESC"
+msgstr "Šis puslapis - apie klaidų pranešimus. Tai naudinga tais atvejais jeigu kažkas neveikia. Jūs galite naudoti gedimų registravimui arba pagalbos iš phpAlbum gavimui."
+
+msgid "ID_SETUP_TEXTS_DESC"
+msgstr "Šiame puslapyje Jūs galite pakeisti/papildyti originaliuosius vertimus. Prašome patikrinti Pagrindinius Nustatymus dėl galimų naudoti kalbų. Pakeitimai yra išsaugomi translate_kalba_kodavimas.dat faile (pvz.: translate_lt_utf8.dat)."
+
+msgid "ID_SETUP_TEXTS_GUIDE"
+msgstr "Vertimo gidas : Jūs galite pakeisti pageidaujamas frazes. Pakeitimai bus naudojami vietoje originaliojo vertimo.</br>Jūs matote 3 laukelius kiekvienam kalbos elementui. ID kodas yra PILKOS spalvos, jo originalus vertimas - ŽALSVOS spalvos, o pakeitimams skirtas laukelis (esantis žemiau) - tuščias arba užpildytas (GELTONOS spalvos laukelyje - jeigu vertimas neatliktas, BALTAME laukelyje - jeigu vertimas jau yra). <b> Būkite atidūs naudodami %s (ir kitus panašius) kodus bei HTML kodus (&lt;b&gt ir kt). Dėl netinkamai atlikto vertimo gali būti neteisingai atvaizduojami pranešimai arba sutrikti programos darbas !"
+
+msgid "ID_SETUP_CACHE_DIR"
+msgstr "Talpyklos direktorija :"
+
+msgid "ID_SETUP_CACHE_DIR_DESC"
+msgstr "Nurodykite Talpyklos direktoriją (reliatyvus kelias nuo failo main.php, pvz: cache_123456/ ). Į šią direktoriją turi būti leidžiami įrašyti (žr. privilegijos)."
+
+msgid "ID_SETUP_MY_ACCOUNT_DESC"
+msgstr "Čia Jūs galite pakeisti vartotojų duomenis (Vardą, E-paštą, tinklapį, pakeisti prisijungimo Slaptažodį)."
+
+msgid "ID_SETUP_DESC_USERS"
+msgstr "Šiame puslapyje Jūs galite vykdyti registruotų vartotojų nustatymų pakeitimus. Jūs galite pašalinti vartotojus, redaguoti jų duomenis. Jeigu pageidaujate sukurti naują vartotoją - tiesiog naudokite funkciją : Registruoti Naują Vartotoją (esant Galerijų puslapyje)."
+
+msgid "ID_SETUP_DESC_GROUPS"
+msgstr "Šiame puslapyje Jūs galite vykdyti vartotojų Grupių nustatymų pakeitimus. Vėliau Jūs galėsite priskirti vartotojus šioms grupėms. Jūs galite tam tikrai vartotojų grupei uždrausti peržiūrėti tam tikras galerijas/direktorijas (padaryti jas nematomomis)."
+
+msgid "ID_SETUP_DESC_DIRS"
+msgstr "Šiame puslapyje Jūs galite vykdyti Galerijų nustatymų pakeitimus. Jūs galite sukurti/panaikinti galerijų aprašymus, nustatyti vartotojų grupes, parinkti rūšiavimo būdus ir kt."
+
+msgid "ID_SETUP_DESC_PICS"
+msgstr "Šiame puslapyje Jūs galite sukurti aprašymus atskiroms fotografijoms, pakeisti nustatymus."
+
+msgid "ID_SETUP_DESC_PARAMS"
+msgstr "Čia galite sukurti, panaikinti ar pakeisti parametrus, kurie bus atvaizduojami peržiūrint fotografiją (apačioje paveikslėlio/fotografijos). Taip pat yra įmanoma atlikti kiekvienai galerijai/direktorijai individualius nustatymus (tai atliekama Galerijos-e)."
+
+msgid "ID_SETUP_PASSWORD"
+msgstr "Slaptažodis :"
+
+msgid "ID_SETUP_PASSWORD_DESC"
+msgstr "Sugalvokite ir įveskite Slaptažodį, pakartotinai tą patį Slaptažodį įveskite sekančiame laukelyje. Įvedami duomenys nėra rodomi ir yra užšifruojami. Taigi niekas, be Jūsų, nežinos Jūsų slaptažodžio."
+
+msgid "ID_SETUP_LANGUAGE"
+msgstr "Kalba :"
+
+msgid "ID_SETUP_LANGUAGE_DESC"
+msgstr "Pasirinkite kalbą, kuria bus atvaizduojamas tekstas bei paaiškinimai ekrane. Jeigu naudojant turite problemų - įsitikinkite (žr. Sistemos Patikrinimas), kad tinkamai veikia mbstring modulis. Jeigu ne - UTF-8 kodavimas (lietuviškos ą,č,ę,ė,į,š ir kitos raidės) negali būti naudojamas failų ir direktorijų pavadinimams."
+
+msgid "ID_SETUP_HOME_URL"
+msgstr "Tinklapio (Namų) URL :"
+
+msgid "ID_SETUP_HOME_URL_DESC"
+msgstr "Įrašykite URL į kurį bus nukreipiama pagal HOME nuorodą."
+
+msgid "ID_SETUP_SITE_NAME"
+msgstr "Tinklapio pavadinimas :"
+
+msgid "ID_SETUP_SITE_NAME_DESC"
+msgstr "Įrašykite tinklapio pavadinimą. Jis bus naudojamas kaip šio puslapio antraštė."
+
+msgid "ID_SETUP_NEW_DIR_INDIC"
+msgstr "Naujų failų galerijoje indikatorius :"
+
+msgid "ID_SETUP_NEW_DIR_INDIC_DESC"
+msgstr "Kaip ilgai bus naudojama senoji direktorijos ikonėlė atsiradus naujiems failams direktorijoje. Įveskite skaičių Valandomis (pvz: 1 - reikš 1 valanda)"
+
+msgid "ID_SETUP_FTP_SERVER"
+msgstr "FTP Serveris :"
+
+msgid "ID_SETUP_FTP_SERVER_DESC"
+msgstr "Įveskite Jūsų FTP serverio URL (pvz: ftp.myserver.com)"
+
+msgid "ID_SETUP_FTP_PHOTO_DIR"
+msgstr "FTP fotografijų direktorija :"
+
+msgid "ID_SETUP_FTP_PHOTO_DIR_DESC"
+msgstr "Tai Fotografijų direktorija Jūsų tinklapio FTP serveryje (pvz: /Albumas/photos_123456/). Simboliai / bei _ (jei toks yra) pradžioje ir gale (žr. pavyzdį) yra BŪTINI !"
+
+msgid "ID_SETUP_QUALITY_NAME"
+msgstr "Aprašymas :"
+
+msgid "ID_SETUP_QUALITY_NAME_DESC"
+msgstr "Aprašo kokybės nustatymus. Naudojamas Galerijų aprašymuose."
+
+msgid "ID_SETUP_QUALITY_THMB"
+msgstr "Mažų paveikslėlių Dydis / Kokybė"
+
+msgid "ID_SETUP_QUALITY_THMB_DESC"
+msgstr "Čia įveskite didžiausią Mažų paveikslėlių dydį (pvz: 100 arba 150). Sekantis parametras - JPEG kompresijos kokybė (rekomenduojami dydžiai ribose nuo 40 iki 90). Šis kokybės nustatymas naudojamas TIKTAI JPG failams (ne PNG ar GIF). Taip pat Jūs galite parinkti <b>Kvadratiniai Maži Paveikslėliai</b> (šiuo atveju visi Mažieji Paveikslėliai bus kvadratiniai ir to paties dydžio)."
+
+msgid "ID_SETUP_QUALITY_PHOTO"
+msgstr "Fotografijos (paveikslėlio) Dydis / Kokybė"
+
+msgid "ID_SETUP_QUALITY_PHOTO_DESC"
+msgstr "Čia įveskite maksimalų transformuotos (pakeitus išmatavimus) fotografijos dydį (pvz: 100 ar 150). Sekantis parametras - JPEG kompresijos kokybė (paprastai dydžiai ribose nuo 40 to 90). Šis kokybės nustatymas naudojamas TIKTAI JPG failams (ne PNG ar GIF). <b> Naudokite dydį = 0 (nulis) jeigu nereikia pakeisti fotografijos išmatavimų (nereikia transformacijos)</b>"
+
+msgid "ID_SETUP_DEFAULT_SORT"
+msgstr "Išankstinis rūšiavimo nustatymas :"
+
+msgid "ID_SETUP_DEFAULT_SORT_DESC"
+msgstr "Pasirinkite rūšiavimo nustatymą rūšiuojant Mažuosius paveikslėlius ir Direktorijas. Šis parametras naudojamas rūšiuoti direktorijose, kuriose buvo naudojamas rūšiavimas pagal išankstinius nustatymus."
+
+msgid "ID_SETUP_SQUARE_THMB"
+msgstr "Kvadratiniai Mažieji Paveiksliukai"
+
+msgid "ID_SETUP_ADD_QUALITY"
+msgstr "Sukurti naują kokybės nustatymą"
+
+msgid "ID_SETUP_DELETE_QUALITY"
+msgstr "Panaikinti šį kokybės nustatymą"
+
+msgid "ID_SETUP_RESIZE_IF_BIGGER"
+msgstr "Pakeisti išmatavimus tik jeigu didesni..."
+
+msgid "ID_SETUP_RESIZE_TO_FIT"
+msgstr "Pakeisti išmatavimus kad atitiktų :"
+
+msgid "ID_SETUP_RESIZE_TO_FIT_DESC"
+msgstr "Pasirinkite kaip bus keičimi fotografijų išmatavimai : proporcingai pagal plotį ir aukštį, tik pagal plotį ar tik pagal aukštį. Taip pat galite nustatyti, kad visos fotografijos bus tokių pat išmatavimų (plotis ir aukštis) arba būtų kvadratinės (x kraštinės)."
+
+msgid "ID_BOTH_WIDTH_AND_HEIGHT"
+msgstr "Plotis ir Aukštis (abu)"
+
+msgid "ID_WIDTH"
+msgstr "Plotis"
+
+msgid "ID_HEIGHT"
+msgstr "Aukštis"
+
+msgid "ID_SETUP_THEME_SETTINGS"
+msgstr "Temų nustatymai"
+
+msgid "ID_SETUP_THEME_COLOR_SETTINGS"
+msgstr "Temų spalvos"
+
+msgid "ID_SETUP_THEME_THUMBNAILS_STYLE"
+msgstr "Mažų paveikslėlių stilius :"
+
+msgid "ID_SETUP_THEME"
+msgstr "Tema :"
+
+msgid "ID_SETUP_THEME_DESC"
+msgstr "Pasirinkite vieną iš temų. Norėdami sukurti Savo naują Temą, tiesiog nukopijuokite (pvz) Borders direktoriją suteikdami jai Naują pavadinimą (toje pat Themes direktorijoje). Naujoji tema iškart atsiras Meniu (galėsite ją pasirinkti)."
+
+msgid "ID_SETUP_LOGO_PATH"
+msgstr "Logotipas yra čia (kelias) :"
+
+msgid "ID_SETUP_LOGO_PATH_DESC"
+msgstr "Nurodykite logotipo, kurį pageidaujate naudoti, reliatyvų kelią (nuo failo main.php, pvz: logo_paveiksliukas/)"
+
+msgid "ID_SETUP_LOGO_STYLE"
+msgstr "Logotipo stilius :"
+
+msgid "ID_SETUP_LOGO_STYLE_DESC"
+msgstr "Pasirinkite kaip bus sukuriamas (sugeneruojams) logotipas. NONE - jeigu nebus logotipo, GRAPHICAL - sugeneruotas grafinis logotipas, TEXT - paprastas tekstinis logotipas (paprasčiausias variantas) ir FILE - naudojamas grafinis logotipas esantis faile."
+
+msgid "ID_SETUP_LOGO_TEXT"
+msgstr "Logotipo tekstas :"
+
+msgid "ID_SETUP_LOGO_TEXT_DESC"
+msgstr "Įveskite tekstą grafiniam arba tekstiniam logotipui."
+
+msgid "ID_SETUP_THEME_FLOWING_STYLE"
+msgstr "Grakštus (Flowing) stilius"
+
+msgid "ID_SETUP_THEME_RASTER_STYLE"
+msgstr "Taškinės grafikos (Raster) stilius"
+
+msgid "ID_SETUP_MAX_PHOTO_PER_PAGE"
+msgstr "Maks. Mažų paveikslėlių skaičius puslapyje :"
+
+msgid "ID_SETUP_MAX_PHOTO_PER_PAGE_DESC"
+msgstr "Įveskite maks. rodomų Mažų paveiksl skaičių. Jeigu galerijoje yra daugiau fotografijų, bus naudojamos nuorodos Sekantis bei Ankstesnis galerijos puslapiai."
+
+msgid "ID_SETUP_RASTER_SIZE"
+msgstr "Stulpelis / Eilutė :"
+
+msgid "ID_SETUP_RASTER_SIZE_DESC"
+msgstr "Įveskite stulpelių ir eilučių skaičius esant Taškinės grafikos Mažų paveiksliukų peržiūros stiliui."
+
+msgid "ID_SETUP_SHOW_FILENAMES"
+msgstr "Rodyti failų vardus"
+
+msgid "ID_SETUP_SHOW_FILENAMES_DESC"
+msgstr "Leisti jeigu pageidaujate rodyti failų vardus (po Mažais paveiksliukais). Vardas bus rodomas jeigu nėra sukurtas Trumpasis aprašymas fotografijai."
+
+msgid "ID_SETUP_DISABLE_BOTTOM_NEXTPREV"
+msgstr "Neleisti puslapio apačioje esančius Sekantis/Ankstesnis (nuorodas)"
+
+msgid "ID_SETUP_DISABLE_BOTTOM_NEXTPREV_DESC"
+msgstr "Jeigu čia pažymėsite varnele - puslapio apačioje nebus Sekantis/Ankstesnis nuorodų."
+
+msgid "ID_SETUP_COLOR_SETTINGS"
+msgstr "Spalvų nustatymai :"
+
+msgid "ID_SETUP_ADD_COLOR_MAP"
+msgstr "Sukurti naują spalvų paletę"
+
+msgid "ID_SETUP_COLOR_DELETE"
+msgstr "Panaikinti šią spalvų paletę"
+
+msgid "ID_SETUP_COLOR_NAME"
+msgstr "Spalvų paletės pavadinimas :"
+
+msgid "ID_SETUP_COLOR_NAME_DESC"
+msgstr "Tai Spalvų paletės pavadinimas. Jeigu ji nėra paskutinė - galite ją panaikinti."
+
+msgid "ID_SETUP_COLOR_BG"
+msgstr "Fonas :"
+
+msgid "ID_SETUP_COLOR_LINK"
+msgstr "Nuoroda :"
+
+msgid "ID_SETUP_COLOR_DIR_DESC"
+msgstr "Direktorijos aprašymas :"
+
+msgid "ID_SETUP_COLOR_BORDER"
+msgstr "Fotografijos rėmelis :"
+
+msgid "ID_SETUP_COLOR_PHOTO_DESC"
+msgstr "Fotografijos aprašymas :"
+
+msgid "ID_SETUP_COLOR_LOGO"
+msgstr "Logotipas :"
+
+msgid "ID_SETUP_ENABLE_LOGGING"
+msgstr "Prisijungimas leistinas"
+
+msgid "ID_SETUP_ENABLE_LOGGING_DESC"
+msgstr "Jei pažymėsite varnele - prisijungimų registravimas (LOG-ai) bus vykdomas"
+
+msgid "ID_SETUP_LOGS_FILENAME"
+msgstr "Registravimų failo pavadinimas (pvz.: registravimai.log)"
+
+msgid "ID_SETUP_LOGS_FILENAME_DESC"
+msgstr "Failo vardas, kuriuo bus išsaugojami registravimai"
+
+msgid "ID_SETUP_LOGS_EXCLUDE"
+msgstr "Išskyrus frazes :"
+
+msgid "ID_SETUP_LOGS_EXCLUDE_DESC"
+msgstr "Įveskite frazes, atskirdami jas kabliataškiu (;). Jūs galite neregistruoti prisijungimų, vykdomų iš tam tikrų HOST-ų. Pvz.: žinodami, kad prisijungimai vyks iš INETO_TIEKEJAS.COM, įveskite frazę : INETO_TIEKEJAS. !!! SVARBU !!! : Jeigu nenusimanote arba neįsitikinę - neįvedinėkite NIEKO !!!"
+
+msgid "ID_SETUP_CACHE_THUMBNAILS"
+msgstr "Mažųjų paveiksliukų Talpykla"
+
+msgid "ID_SETUP_CACHE_RESIZED_PHOTOS"
+msgstr "Transformuotų fotografijų Talpykla"
+
+msgid "ID_SETUP_CACHE_THUMBNAILS_DESC"
+msgstr "Pažymėjus varnele, sukuriant Mažuosius paveiksliukus bus naudojama Talpykla. Tai atlikti REKOMENDUOJAME, nes programa (ir Galerijos tinklapis) veiks sparčiau, bus išvengiama vykdymo klaidų."
+
+msgid "ID_SETUP_CACHE_RESIZED_PHOTOS_DESC"
+msgstr "Pažymėjus varnele, transformuojant fotografijas bus naudojama Talpykla. Tai taip pat naudinga, paspartins programos veikimą, tinklapio puslapių užsikrovimą. Tačiau turėkite omeny, kad transformuoti paveiksliukai Talpykloje užims tam tikrą dydį. Tai svarbu jeigu tinklapio saugojimui paskirtoji erdvė yra ribojama ir nėra didelė."
+
+msgid "ID_SETUP_LOGIN"
+msgstr "Prisijungimas"
+
+msgid "ID_USERNAME"
+msgstr "Vartotojas"
+
+msgid "ID_PASSWORD"
+msgstr "Slaptažodis"
+
+msgid "ID_SETUP_ACT_DIR"
+msgstr "Esamoji direktorija"
+
+msgid "ID_SETUP_ACT_DIR_DESC"
+msgstr "Čia galite pakeisti Esamąją direktoriją jūsų FTP serveryje."
+
+msgid "ID_SETUP_UPLOAD_FILE"
+msgstr "Patalpinti failą :"
+
+msgid "ID_SETUP_UPLOAD_FILE_DESC"
+msgstr "Čia galite patalpinti failą į Esamąją direktoriją jūsų FTP serveryje."
+
+msgid "ID_UPLOAD"
+msgstr "Patalpinti"
+
+msgid "ID_SETUP_MAX_SIZE"
+msgstr "Maks. dydis :"
+
+msgid "ID_SETUP_UPLOAD_ZIP_FILE"
+msgstr "Patalpinamas ZIP-failas :"
+
+msgid "ID_SETUP_UPLOAD_ZIP_FILE_DESC"
+msgstr "Čia jūs galite patalpinti ZIP failą į Esamąją direktoriją FTP serveryje. Šis ZIP failas bus išarchyvuotas ir atkurta jame esanti direktorijų struktūra. Jeigu serveryje nėra palaikomas (arba nesate dėl to užtikrinti) ZIP (ar panašus) išarchyvavimas - išarchyvuokite failus savo kompiuteryje ir patalpinkite failus (ir direktorijas) naudodami FTP programa (pvz. : Cute FTP)"
+
+msgid "ID_UPLOAD_ZIP"
+msgstr "Patalpinti ZIP"
+
+msgid "ID_SETUP_CREATE_DIR"
+msgstr "Sukurti direktoriją"
+
+msgid "ID_SETUP_CREATE_DIR_DESC"
+msgstr "Čia galite sukurti naują direktoriją Esamoje FTP serverio direktorijoje."
+
+msgid "ID_CREATE"
+msgstr "Sukurti"
+
+msgid "ID_FILENAME"
+msgstr "Failo vardas"
+
+msgid "ID_SIZE"
+msgstr "Dydis"
+
+msgid "ID_IMAGE_SIZE"
+msgstr "Paveikslėlio dydis"
+
+msgid "ID_OWNER"
+msgstr "Savininkas"
+
+msgid "ID_GROUP"
+msgstr "Grupė"
+
+msgid "ID_FUNCTIONS"
+msgstr "Funkcijos"
+
+msgid "ID_TIME"
+msgstr "Laikas"
+
+msgid "ID_COMMAND"
+msgstr "Komanda"
+
+msgid "ID_FILE_DIR"
+msgstr "Failas / Direktorija"
+
+msgid "ID_HOST"
+msgstr "HOST-as"
+
+msgid "ID_PATH"
+msgstr "Kelias"
+
+msgid "ID_ALIAS"
+msgstr "Pseudonimas"
+
+msgid "ID_PASSWORDS"
+msgstr "Slaptažodžiai"
+
+msgid "ID_SETUP_ENABLE_COMMENTS"
+msgstr "Leisti Komentuoti"
+
+msgid "ID_SETUP_ENABLE_COMMENTS_DESC"
+msgstr "Čia pažymėjus varnele bus leidžiama rašyti komentarus paveiksliukams/fotografijoms"
+
+msgid "ID_SETUP_COMMENT_QUEUE"
+msgstr "Patvirtinti eilės dydį "
+
+msgid "ID_SETUP_COMMENT_QUEUE_DESC"
+msgstr "Čia galite nustatyti kiek Komentarų bus matoma (pagrindinai naujausius Komentarus). Nepamirškite periodiškai ištrinti senuosius Komentarus."
+
+msgid "ID_SETUP_COMMENT_APPROVING_DESC"
+msgstr "Čia jūs matote Komentarus, kurie nebuvo patvirtinti arba buvo ištrinti. Patvirtinus nepatvirtintąjį Komentarą, šis bus pašalintas iš šio sąrašo ir atsiras po paveikslėliu. Panaikinus Komentarą iš šio sąrašo, Komentaras bus pašalintas ir nuo paveiksliuko (nebus matomas po paveiksliuku). Būkite ATIDŪS pavirtindami arba pašalindami Komentarus. Pašalinus Komentarą, šis bus pašalinamas NEGRĮŽTAMAI !!!"
+
+msgid "ID_SETUP_NEW_COMMENTS"
+msgstr "Nauji Komentarai "
+
+msgid "ID_SETUP_ENABLE_ECARD"
+msgstr "Leisti E-korteles "
+
+msgid "ID_SETUP_ENABLE_ECARD_DESC"
+msgstr "Čia pažymėjus varnele, vartotojamas bus leidžiama siūsti draugams E-korteles su Jūsų fotografija. Tai gražu, tačiau nepamirškite - tai didina jūsų tinklapio mėnesinį TRAFIKĄ. Taigi jeigu jis ribotas ir nedidelis - neleiskite siūsti E-kortelių."
+
+msgid "ID_SETUP_ECARD_SUBJECT"
+msgstr "E-kortelės tema (Subject E-paštui) "
+
+msgid "ID_SETUP_ECARD_SUBJECT_DESC"
+msgstr "Šis tekstas bus naudojamas kaip E-kortelės tema (Subject E-paštui) "
+
+msgid "ID_SETUP_ECARD_PICKED_SUBJECT"
+msgstr "Parinkta Jums !!! E-paštui tema (Subject) "
+
+msgid "ID_SETUP_ECARD_PICKED_SUBJECT_DESC"
+msgstr "Šis tekstas bus naudojamas kaip tema <b> Parinkta Jums !!! </b> išsiunčiant E-kortelės siuntėjui E-paštą"
+
+msgid "ID_SETUP_ECARD_TEXT"
+msgstr "E-kortelės (E-pašto) tekstas "
+
+msgid "ID_SETUP_ECARD_TEXT_DESC"
+msgstr "Tai bus žinutė, siunčiama E-paštu. Jūs galite naudoti čia specialias frazes, kurios bus pakeičiamos teisingomis reikšmėmis. (#TO_NAME, #TO_EMAIL, #FROM_NAME, #FROM_EMAIL, #DATE, #TIME, #ECARD_ADRESS, #IMAGE_ADRESS) !!! SVARBU !!! Jei nesate įsitikinęs ar Jums to reikia ir ar atliksite tai teisingai - nieko NEKEISKITE !!!"
+
+msgid "ID_SETUP_ECARD_PICKED_TEXT"
+msgstr "Parinkta Jums !!! E-pašto tekstas "
+
+msgid "ID_APPROVE"
+msgstr "Patvirtinti "
+
+msgid "ID_DELETE"
+msgstr "Panaikinti "
+
+msgid "ID_TEXT"
+msgstr "Tekstas "
+
+msgid "ID_PICTURE"
+msgstr "Paveiksliukas "
+
+msgid "ID_TYPE"
+msgstr "Tipas "
+
+msgid "ID_ERROR_NUMBER"
+msgstr "Klaidos Nr. "
+
+msgid "ID_ERROR_MESSAGE"
+msgstr "Klaidos pranešimas"
+
+msgid "ID_SCRIPT_NAME"
+msgstr "Scenarijaus (SCRIPT) pavadinimas"
+
+msgid "ID_LINE"
+msgstr "Eilutė"
+
+msgid "ID_LOGIN"
+msgstr "Prisijungti"
+
+msgid "ID_LOGOUT"
+msgstr "Atsijungti"
+
+msgid "ID_SAVE"
+msgstr "Išsaugoti"
+
+msgid "ID_REGISTER"
+msgstr "Naujo Vartotojo registravimas"
+
+msgid "ID_REMEMBER"
+msgstr "Prisiminti"
+
+msgid "ID_SETUP_USERNAME_DESC"
+msgstr "Įveskite pageidaujamą vartotojo Vardą. Jeigu toks Vardas jau yra naudojamas - apie tai gausite pranešimą."
+
+msgid "ID_RETYPE_PASSWORD"
+msgstr "Slaptažodis (pakartotinai) :"
+
+msgid "ID_SETUP_EMAIL"
+msgstr "Jūsų E-pašto adresas :"
+
+msgid "ID_SETUP_EMAIL_DESC"
+msgstr "Įveskite savo E-pašto adresą. Jis nebus skelbiamas arba paviešinamas."
+
+msgid "ID_SETUP_HOMEPAGE"
+msgstr "Tinklapis "
+
+msgid "ID_SETUP_HOMEPAGE_DESC"
+msgstr "Įrašykite savo tinklapio adresą (URL). Jis bus atvaizduojamas jeigu Komentuosite paveikslėlius."
+
+msgid "ID_SETUP_REGISTER_NEW_USER"
+msgstr "Registruotis "
+
+msgid "ID_THANKS_FOR_REGISTER"
+msgstr "Sveikiname užsiregistravus ir tapus mūsų tinklapio FotoGalerijos vartotoju !"
+
+msgid "ID_SETUP_DELETE_ERROROLOG"
+msgstr "Ištrinti Klaidos registravimą (Errorlog) "
+
+msgid "ID_SETUP_ADD_GROUP"
+msgstr "Sukurti naują vartotojų Grupę "
+
+msgid "ID_SETUP_NEW_GROUP_NAME"
+msgstr "Naujos vartotojų grupės pavadinimas :"
+
+msgid "ID_SETUP_ADD_GROUP_DESC"
+msgstr "Įveskite naujos grupės pavadinimą ir nuspauskite šį mygtuką. Nuspaudus bus sukurta nauja vartotojų grupė. Po to galėsite priskirti ją vartotojams ir galerijoms."
+
+msgid "ID_SETUP_SHOW_DIRS"
+msgstr "Rodyti priskirtas FotoGalerijas"
+
+msgid "ID_SETUP_SHOW_USERS"
+msgstr "Rodyti Vartotojus"
+
+msgid "ID_USER"
+msgstr "Vartotojas"
+
+msgid "ID_EDIT"
+msgstr "Redaguoti"
+
+msgid "ID_ID"
+msgstr "ID (identifikacinis numeris)"
+
+msgid "ID_NOT_POSSIBLE"
+msgstr "Neįmanoma"
+
+msgid "ID_SETUP_ADD_NEW_PARAM"
+msgstr "Sukurti naują parametrą"
+
+msgid "ID_SETUP_ADD_PARAM_DESC"
+msgstr "Įrašykite naujo Parametro pavadinimą ir parinkite šio parametro tipą.<ul><li><b> Vartotojo reikšmė</b> - vartotojo nustatyta reikšmė (kaip tekstas)</li><li><b> Vartotojo reikšmių sąrašas</b> - vartotojo nustatytos reikšmių sąrašas kiekvienam paveikslėliui</li><li><b> Sisteminė reikšmė</b> - galite nustatyti kaip Išankstinę reikšmę tokiems parametrams kaip : dydis, išmatavimai, sukūrimo data, failo vardas, parsisiuntimo nuoroda ir t.t..</li></ul>"
+
+msgid "ID_SETUP_PARAM_NAME"
+msgstr "Parametro pavadinimas :"
+
+msgid "ID_SETUP_PARAM_NAME_DESC"
+msgstr "Įrašykite naująjį parametro pavadinimą jeigu norite pakeisti pastarąjį. Nuspausdami panaikinimo/ištrynimo nuorodą, šis parametras bus panaikintas ir tai įtakos paveiksliukų atvaizdavimą. !!! SVARBU !!! Jeigu nesate užtikrinti arba abejojate - NIEKO NEKEISKITE !!!"
+
+msgid "ID_SETUP_DELETE_PARAM"
+msgstr "Panaikinti parametrą"
+
+msgid "ID_SETUP_PARAM_DEFAULT"
+msgstr "Išankstinio nustatymo reikšmė :"
+
+msgid "ID_SETUP_PARAM_DEFAULT_DESC"
+msgstr "Čia galite nustatyti šio parametro Išankstinio nustatymo reikšmę. Ši reikšmė bus naudojama visiems paveikslėliams ir nebus pakeičiama kita fotografijos specifine reikšme."
+
+msgid "ID_ALLOW_HTML"
+msgstr "Leisti HTML kodą"
+
+msgid "ID_SETUP_PARAM_SYS_DEFAULT"
+msgstr "Automatiškai nustatyta reikšmė :"
+
+msgid "ID_SETUP_PARAM_SYS_DEFAULT_DESC"
+msgstr "Parinkite reikšmę, naudojamą šiam parametrui"
+
+msgid "ID_SETUP_EDIT_LOV"
+msgstr "Redaguoti reikšmių sąrašą"
+
+msgid "ID_SETUP_DELETE_LOV"
+msgstr "Panaikinti reikšmę"
+
+msgid "ID_NOT_DEFINED"
+msgstr "NEAPIBRĖŽTA"
+
+msgid "ID_ADD_NEW_VALUE"
+msgstr "Sukurti naują reikšmę"
+
+msgid "ID_SETUP_ACCOUNT_GROUP_DESC"
+msgstr "Prašome parinkti grupes, priskiriamas šiai dėžutei"
+
+msgid "ID_SETUP_GALLERY"
+msgstr "Galerija : "
+
+msgid "ID_SETUP_GALLERY_DESC"
+msgstr "Pasirinkite Galeriją, kurios nustatymus pageidaujate koreguoti. Jeigu neradote pageidaujamos Galerijos, pabandykite skenuoti paveikslėlių direktorijas (naudokite žemiau esančią nuorodą)"
+
+msgid "ID_SETUP_ALIAS"
+msgstr "Pseudonimo vardas : "
+
+msgid "ID_SETUP_ALIAS_DESC"
+msgstr "Įrašykite direktorijos pseudonimo pavadinimą (šis bus naudojamas vietoje tikrojo direktorijos pavadinimo). "
+
+msgid "ID_SETUP_DESC"
+msgstr "Trumpas aprašymas :"
+
+msgid "ID_SETUP_DESC_DESC"
+msgstr "Tai šios direktorijos trumpas aprašymas. Aprašymas bus atvaizduojamas šalia direktorijos Mažojo paveikslėlio arba jos Logotipo"
+
+msgid "ID_SETUP_PIC_DESC_DESC"
+msgstr "Tai šio paveikslėlio trumpasis aprašymas. Šis aprašymas bus atvaizduojamas šalia paveikslėlio Mažojo paveikslėlio."
+
+msgid "ID_SETUP_LONG_DESC"
+msgstr "Išsamesnis aprašymas :"
+
+msgid "ID_SETUP_LONG_DESC_DESC"
+msgstr "Čia rašykite išsamų šios direktorijos aprašymą. Taip pat čia galite įkelti HTML kodą. Naujoms eilutėms sukurti naudokite &lt;br&gt;."
+
+msgid "ID_SETUP_PIC_LONG_DESC_DESC"
+msgstr "Čia rašykite išsamų šio paveikslėlio aprašymą. Jis bus atvaizduojamas kartu su trumpuoju aprašymu po paveikslėliu. Taip pat čia galite įkelti HTML kodą. Naujoms eilutėms sukurti naudokite &lt;br&gt;."
+
+msgid "ID_SETUP_SORTING"
+msgstr "Rūšiavimas :"
+
+msgid "ID_SETUP_SORTING_DESC"
+msgstr "Prašome parinkti šiai direktorijai paveikslėlių rūšiavimo būdą. Jeigu parinktas Išankstinis (default) - bus naudojamas toks, koks nurodytas Pagrindiniuose nustatymuose"
+
+msgid "ID_SETUP_VISIBLE"
+msgstr "Matoma "
+
+msgid "ID_SETUP_VISIBLE_DESC"
+msgstr "Pasirinkite ar ši direktorija bus matoma ar nematoma (unvisible)"
+
+msgid "ID_SETUP_ACCESS_RIGHTS"
+msgstr "Leidimų (access) teisės "
+
+msgid "ID_SETUP_GALLERY_GROUP_DESC"
+msgstr "Prašome parinkti grupes jeigu pageidaujate uždrausti šios galerijos matomumą pažymėtoms grupėms. Jeigu pažymėjimo laukeliai uždrausti - pakeisti neįmanoma, nebent tik atitinkamoje Galerijoje."
+
+msgid "ID_SETUP_GALLERY_PARAMS_DESC"
+msgstr "Parinkite parametrus, kuriuos pageidaujate matyti šalia paveikslėlių. Norėdami daugiau matomų parametrų - sugrįžkite į Fotografijų nustatymus ir ten atlikite reikiamus pakeitimus/papildymus"
+
+msgid "ID_SETUP_SHOW_CUSTOM_PARAMS"
+msgstr "Rodyti užsakytus parametrus"
+
+msgid "ID_SETUP_SHOW_DEFAULT_PARAMS"
+msgstr "Rodyti Išankstinius parametrus"
+
+msgid "ID_SETUP_PARAMS_DEFAULT_CUSTOM_DESC"
+msgstr "Pasirinkite ko pageidautumėte, kad būtų atvaizduojama po kiekviena šios galerijos fotografija : Išankstinių ar Užsakytųjų nustatymų parametrai"
+
+msgid "ID_SETUP_SHOW_PARAMS"
+msgstr "Išankstiniai ar Užsakytieji"
+
+msgid "ID_NO_DEFINED_PARAMS"
+msgstr "Nėra Užsakytųjų parametrų"
+
+msgid "ID_SETUP_NEXT_SCAN"
+msgstr "Sekantis automatinis pilnasis direktorijos skenavimas : %s"
+
+msgid "ID_SETUP_SCAN_DIRS"
+msgstr "Skenuoti direktorijas dabar !"
+
+msgid "ID_DEFAULT_DISPLAYED"
+msgstr "Atvaizduojami Išankstiniai "
+
+msgid "ID_SETUP_PARAM_DEFAULT_DISPLAYED_DESC"
+msgstr "Pažymėkite varnele jeigu pageidaujate, kad šis parametras būtų atvaizduojamas kaip Išankstinis. Pvz.: kiekvienai galerijai, kuriai nurodyta atvaizduoti Išankstinius parametrus. "
+
+msgid "ID_HTML_NOT_ALLOWED"
+msgstr "HTML kodas yra neleidžiamas"
+
+msgid "ID_HTML_ALLOWED"
+msgstr "HTML kodas yra leidžiamas"
+
+msgid "ID_DEFAULT_VALUE"
+msgstr "Išankstinio nustatymo reikšmė yra <b>%s</b>"
+
+msgid "ID_NO_DEFAULT_VALUE"
+msgstr "Nenustatyta/Nenurodyta Išankstinio nustatymo reikšmė"
+
+msgid "ID_DEFAULT"
+msgstr "Išankstiniai "
+
+msgid "ID_SETUP_THEME_BORDERS"
+msgstr "Paveikslėlio ir Mažojo paveikslėlio briaunos"
+
+msgid "ID_SETUP_THEME_PIC_BORDER_SIZE"
+msgstr "Paveikslėlio briaunos dydis"
+
+msgid "ID_SETUP_THEME_THMB_BORDER_SIZE"
+msgstr "Mažojo paveikslėlio briaunos dydis"
+
+msgid "ID_SETUP_THEME_DISPLAY_SHADOWS"
+msgstr "Rodyti šešėlius "
+
+msgid "ID_SETUP_THEME_DISPLAY_SHADOWS_DESC"
+msgstr "Jeigu Tema palaiko, tai rodyti šešėlius atvaizduojant Paveikslėlius ir Mažuosius paveikslėlius"
+
+msgid "ID_SETUP_THEME_PIC_BORDER_SIZE_DESC"
+msgstr "Nurodykite Paveikslėlio briaunos plotį "
+
+msgid "ID_SETUP_THEME_THMB_BORDER_SIZE_DESC"
+msgstr "Nurodykite Mažojo Paveikslėlio briaunos plotį "
+
+msgid "ID_SETUP_WATERMARK_FILE"
+msgstr "Vandenženklio failas "
+
+msgid "ID_SETUP_WATERMARK_FILE_DESC"
+msgstr "Nurodykite PNG failą, kuris bus naudojamas kaip vandenženklis modifikuotoms fotografijoms. Jeigu failas nesukurtas, sukurkite jį skaidrų (transparent) ir įkelkite jį į pagrindinę direktoriją (ten pat kur matote failą main.php)."
+
+msgid "ID_NO_WATERMARK"
+msgstr "Nenurodytas Vandenženklis "
+
+msgid "ID_SETUP_WATERMARK_POSITION"
+msgstr "Vandenženklio pozicija (ant paveikslėlio) "
+
+msgid "ID_SETUP_WATERMARK_POSITION_DESC"
+msgstr "Nurodykite Vandenženklio poziciją"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE"
+msgstr "Galerijos logotipo (ikonėlės) stilius"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_DESC"
+msgstr "Nurodykite kaip bus atvaizduojama Galerija (direktorija) : kaip direktorijos ikonėlė ar kaip vieno iš direktorijoje esančio fotografijos failo (reikės nurodyti papildomai) Mažasis paveikslėlis (nurodyto ar normalaus dydžio)."
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_LOGO"
+msgstr "Rodyti direktorijos logotipą "
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_PIC1"
+msgstr "Rodyti paveikslėlio Mažąjį paveikslėlį (tokio paties dydžio)"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_PIC2"
+msgstr "Rodyti paveikslėlio Mažąjį paveikslėlį (kitokio dydžio)"
+
+msgid "ID_USE_FOR_LOGO"
+msgstr "Naudoti kaip direktorijos logotipą "
+
+msgid "ID_SETUP_ADD_THMB_HEIGHT"
+msgstr "Papildomai nurodytas Mažojo paveikslėlio aukštis "
+
+msgid "ID_SETUP_ADD_THMB_WIDTH"
+msgstr "Papildomai nurodytas Mažojo paveikslėlio plotis "
+
+msgid "ID_SETUP_ADD_THMB_HEIGHT_WIDTH_DESC"
+msgstr "Padidinkite šią reikšmę jeigu naudojate daugiau eilučių direktorijai arba naudojate Mažųjų paveikslėlių aprašymus. Tai užtikrins daugiau vietos po Mažaisiais paveikslėliais. Tai svarbu jeigu naudojamas grakštus (flowing) stilius, kai naudojant didesnės apimties aprašymo tekstą, gali atsirasti atvaizdavimo problemų."
+
+msgid "ID_SETUP_SHARPEN_WITH_PARAM"
+msgstr "Naudoti Paryškinimą su tokiais parametrais :"
+
+msgid "ID_SETUP_AMOUNT"
+msgstr "Kiekis"
+
+msgid "ID_SETUP_RADIUS"
+msgstr "Spindulys / Ribos"
+
+msgid "ID_SETUP_TRESHOLD"
+msgstr "Slenkstis / Pradžia"
+
+msgid "ID_SETUP_SHARPEN_DESC"
+msgstr "Jūs galite nurodyti LEISTI Paryškinimą Mažiesiems paveikslėliams, kurie nekontrastingi po transformacijos. <b> Žinokite, kad tai naudoja daugiau resursų.</b>"
+
+msgid "ID_SETUP_SHARPEN_THMB"
+msgstr "Mažojo paveikslėlio Paryškinimas"
+
+msgid "ID_SETUP_INFO_THMB"
+msgstr "Rodyti tai po Mažaisiais paveikslėliais"
+
+msgid "ID_SETUP_INFO_THMB_DESC"
+msgstr "Pasirinkite kokia informacija bus atvaizduojama po Mažaisiais paveikslėliais"
+
+msgid "ID_SETUP_INFO_THMB_VIEWS"
+msgstr "Peržiūrų skaitiklis"
+
+msgid "ID_SETUP_INFO_THMB_COMMENTS"
+msgstr "Komentarų skaitiklis"
+
+msgid "ID_SETUP_INFO_THMB_VOTES"
+msgstr "Balsavimo suvestinė"
+
+msgid "ID_SETUP_DATE_FORMAT"
+msgstr "Datos / Laiko formatas"
+
+msgid "ID_SETUP_DATE_FORMAT_DESC"
+msgstr "Nurodykite Datos / Laiko formatą. Jeigu nežinote PHP programavimo kalbos funkcijos DATE() standartų - nieko NEKEISKITE !!!"
+
+msgid "ID_SYS_PAR_SIZ"
+msgstr "%s KB"
+
+msgid "ID_SYS_PAR_DIM"
+msgstr "%s x %s (Plotis x Aukštis)"
+
+msgid "ID_SYS_PAR_FNM"
+msgstr "%s"
+
+msgid "ID_SYS_PAR_FNL"
+msgstr "<a class=\"me3\" href=\"%s\" target=\"_blank\">%s</a> (nuspauskite nuorodą tam, kad Parsisiūsti orinalųjį failą)"
+
+msgid "ID_SYS_PAR_DWL"
+msgstr "<a class=\"me3\" href=\"%s\" target=\"_blank\">(Parsisiūsti orinalųjį failą)</a>"
+
+msgid "ID_SYS_PAR_CDT"
+msgstr " %s"
+
+msgid "ID_SYS_PAR_EXIF_F"
+msgstr "F %s"
+
+msgid "ID_SYS_PAR_EXIF_FL"
+msgstr "%smm"
+
+msgid "ID_SYS_PAR_EXIF_ISO"
+msgstr "ISO %s"
+
+msgid "ID_SYS_PAR_EXIF_EXP_TIME"
+msgstr "%s sec"
+
+msgid "ID_PHOTO_DETAILS"
+msgstr "Fotografijos detalės "
+
+msgid "ID_SETUP_PRIVILEGES"
+msgstr "Privilegijos "
+
+msgid "ID_SETUP_PRIVILEGES_DESC"
+msgstr "Čia galite nurodyti pasirinktąjai Grupei leistinas atlikti Nustatymų funkcijas. Žailia spalva - funkcija Grupei leidžiama, Raudonoji - neleidžiama. Nuspadžiant nuorodą, pastarosios funkcija atitinkamai tampa leidžiama arba neleidžiama.<br/><br/>Išankstinio nustatymo stulpelyje galite pažymėti kuriai grupei bus priskiriami naujai užsiregistravę vartotojai."
+
+msgid "ID_ENTER_ANTISPAM_CODE"
+msgstr "Įveskite paveikslėlyje matomą tekstą :"
+
+msgid "ID_DISABLE_ERROR_LOG"
+msgstr "Neregistruoti klaidų"
+
+msgid "ID_SETUP_ENABLE_ANTISPAM"
+msgstr "Leisti tikrinti ANTISPAM paveikslėlio tekstą. "
+
+msgid "ID_SETUP_ENABLE_ANTISPAM_DESC"
+msgstr "Naudoti ANTISPAM paveikslėlio kodą. Tai leis išvengti kenkėjiškų Registravimųsi, Komentarų bei E-pašto siuntimų."
+
+msgid "ID_SETUP_PUBLISH_ONLY_APPROVED"
+msgstr "Atvaizduoti TIK patvirtintus Komentarus "
+
+msgid "ID_SETUP_PUBLISH_ONLY_APPROVED_DESC"
+msgstr "Čia pažymėjus varnele, Komentarai bus atvaizduojami TIK atlikus patvirtinimą. "
+
+msgid "ID_SETUP_THEME_NEWEST_COUNT"
+msgstr "Rodyti Naujausių paveikslėlių skaitliuką"
+
+msgid "ID_SETUP_THEME_NEWEST_COUNT_DESC"
+msgstr "Nurodykite skaičių, kuris apibrėš Naujausių paveikslėlių skaičių, rodomą pirminiame puslapyje. "
+
+msgid "ID_NEWEST_PICTURES"
+msgstr "Naujausios fotografijos"
+
+msgid "ID_SETUP_USE_IPTC_DESC"
+msgstr "Naudoti fotografijos IPTC arašymą"
+
+msgid "ID_SETUP_USE_IPTC_DESC_DESC"
+msgstr "Čia pažymėjus varnele, pirmą kartą skanuojant fotografijas galerijoje, fotografijų Trumpojo ir Išsamaus aprašymams bus naudojamos IPTC reikšmės (Caption ir Headline atitinkamai; žinoma jei tokios reikšmės yra)."
+
+msgid "ID_IMAGEORIG"
+msgstr "Parsisiūsti Fotografiją"
+
+msgid "ID_IMAGEVIEW"
+msgstr "Paveikslėlio peržiūra"
+
+msgid "ID_ERROR_PAGE_MESSAGE"
+msgstr "Jūs neturite privilegijos peržiūrėti šį puslapį (arba parsisiūsti šią Fotografiją) !"
+
+msgid "ID_RECIPIENT_NAME"
+msgstr "Gavėjo Vardas "
+
+msgid "ID_RECIPIENT_EMAIL"
+msgstr "Gavėjo E-paštas "
+
+msgid "ID_SENDER_NAME"
+msgstr "Siuntėjo vardas "
+
+msgid "ID_SENDER_EMAIL"
+msgstr "Siuntėjo E-paštas "
+
+msgid "ID_YOUR_MESSAGE"
+msgstr "Jūsų Žinutė "
+
+msgid "ID_WRITE_ECARD"
+msgstr "Siūsti E-kortelę draugui"
+
+msgid "ID_FROM"
+msgstr "Nuo :&nbsp;"
+
+msgid "ID_TO"
+msgstr "Kam :&nbsp;"
+
+msgid "ID_SETUP_SHOW_SEARCH_BOX"
+msgstr "Rodyti paiėškos laukelį"
+
+msgid "ID_SETUP_SHOW_SEARCH_BOX_DESC"
+msgstr "Čia pažymėjus bus galima vykdyti fotonuotraukų paiėšką FotoGalerijos puslapiuose. Šiuo metu paiėška veikia tik frazėms, importuotoms iš fotonuotraukų IPTC reikšmių."
+
+msgid "ID_SETUP_TRACKING_CODE"
+msgstr "Pėdsako (Tracking) kodas "
+
+msgid "ID_SETUP_TRACKING_CODE_DESC"
+msgstr "Čia galite patalpinti Javascript pėdsako kodą (pvz.: Google Analytics), kurio rezultatas bus atvaizduojamas kiekviename puslapyje. Jei nežinote - nieko NEKEISKITE (arba palikite tuščią) !!!"
+
+msgid "ID_MSG_DIR_NOT_EXISTS"
+msgstr "Direktorija %s neegzistuoja, nurodykite ją teisingai !!!"
+
+msgid "ID_MSG_DIR_NOT_WRITABLE"
+msgstr "Neįmanoma įrašyti į %s direktoriją !!! Pakeiskite direktorijos privilegijas naudodami CHMOD !!!"
+
+msgid "ID_MSG_FILE_NOT_EXISTS"
+msgstr "Failas %s nesurastas"
+
+msgid "ID_FILE_WAS_DELETED"
+msgstr "Failas %s ištrintas"
+
+msgid "ID_MSG_SETUP_FTP"
+msgstr "Tam, kad galėtumėte naudoti Nusiuntimų Vadovą, sugrįžkite į Pagrindinius Nustatymus ir nurodykite ten FTP serverį bei FTP fotografijų direktoriją."
+
+msgid "ID_MSG_FTP_SUPPORT"
+msgstr "FTP nepalaikomas !!! Todėl neįmanoma naudoti Nusiuntimų Vadovą. Paprašykite serverio administratoriaus šios paslaugos (serverio administratorius - tai ne tinklapio administratorius !!!)"
+
+msgid "ID_MSG_FTP_UNABLE_CONNECT"
+msgstr "Neįmanoma prisijungti prie serverio %s"
+
+msgid "ID_MSG_FTP_INVALID_LOGIN"
+msgstr "Neteisingas vartotojo Vardas arba Slaptažodis !!!"
+
+msgid "ID_MSG_FTP_PASSIVE_MODE"
+msgstr "Neįmanoma nustatyti FTP serverio pasyvumo būsenos / režimo"
+
+msgid "ID_MSG_FTP_UNABLE_CHDIR"
+msgstr "Neįmanoma pakeisti direktorijos į %s"
+
+msgid "ID_MSG_FTP_PHOTO_DIR"
+msgstr "FTP serverio fotografijų direktorija nukreipta į tokią direktoriją, kurioje nėra fotografijų"
+
+msgid "ID_MSG_FTP_UNABLE_DELETE"
+msgstr "Neįmanoma panaikinti failo %s FTP serveryje "
+
+msgid "ID_MSG_FTP_UNABLE_UPLOAD"
+msgstr "Neįmanoma nusiūsti failo %s !"
+
+msgid "ID_MSG_FTP_UNABLE_OPEN_TMP"
+msgstr "Neįmanoma atidaryti laikinojo failo !"
+
+msgid "ID_MSG_FTP_UNABLE_MKDIR"
+msgstr "Neįmanoma sukurti %s direktorijos FTP serveryje !"
+
+msgid "ID_MSG_FTP_UNABLE_RMDIR"
+msgstr "Neįmanoma pašalinti %s direktorijos FTP serveryje !"
+
+msgid "ID_MSG_FTP_NOT_ZIP"
+msgstr "Tai ne ZIP failas arba toks failo formatas neleistinas !"
+
+msgid "ID_MSG_FTP_ZIP_UNSUPPORTED"
+msgstr "ZIP palaikymas neleistinas dėl PHP nustatymų !"
+
+msgid "ID_MSG_FTP_FILE_UPLOAD_ATTACK"
+msgstr "Tai galima failų siuntimo ataka !"
+
+msgid "ID_MSG_PASSWORD_ERROR"
+msgstr "Pakartotinai įvestas Slaptažodis neatitinka pirmajam Slaptažodžiui. Slaptažodis liko nepakeistas !"
+
+msgid "ID_MSG_EMAIL_REQUIRED"
+msgstr "E-pašto adreso įvedimas yra BŪTINAS ! Įrašykite savo E-pašto adresą, jis nebus publikuojamas."
+
+msgid "ID_MSG_USERNAME_EXISTS"
+msgstr "Vartotojas Vardu <b>%s</b> jau egzistuoja ! Pasirinkite kitą Vardą !"
+
+msgid "ID_MSG_PASSWORD_REQUIRED"
+msgstr "Slaptažodžio įvedimas yra BŪTINAS ! Įveskite Slaptažodį !"
+
+msgid "ID_MSG_GROUP_EXISTS"
+msgstr "Tokia Grupė <b>%s</b> jau yra ! Negalima sukurti Grupių su tokiais pat pavadinimais !"
+
+msgid "ID_MSG_PARAM_EXISTS"
+msgstr "Parametras <b>%s</b> jau yra naudojamas ! Pasirinkite kitą parametrą !"
+
+msgid "ID_MSG_PARAM_MANDATORY"
+msgstr "Parametras negali būti be pavadinimo ! Įrašykite/sukurkite pavadinimą naujajam parametrui !"
+
+msgid "ID_MSG_USERNAME_MANDATORY"
+msgstr "Vartotojo Vardo laukelis negali būti tuščias ! Pasirinkite ir įrašykite vartotojo Vardą !"
+
+msgid "ID_MSG_VIEW_COUNT"
+msgstr "Peržiūrėta : %s kartų"
+
+msgid "ID_MSG_COMMENT_COUNT"
+msgstr "Komentarų yra : %s "
+

@@ -1,0 +1,28 @@
+This is an todo task list with 3 priorities:
+
+
+1. Comming in next release ( on what we are working now)
+   
+   - possible to display thmbs in image view ... like a bar with icons or like that
+   - to be able change the sorting of comments
+   - size of thumbnail to thmb.tpl.php (also size of orig_pic for popup windows)
+   - page numbers (i.e.    prev 2 3 4 5 next )
+   - picture numbers ( prev 2 3 4 5 next )
+   -- voting
+   - 2 new themes
+BUGS:
+   - on FreeSBD the "." on the end of almost all ftp_chdir you get error, instead of that one 
+     should delete the last back slash
+   - email is published if you post some comment
+     
+2. Comming may be in overnext release ( will be done but not now )
+   - background image
+   - improved upload manager (delete more files in one step, rename/move files/dirs, delte full dirs )
+   - new pictures indicator also for thumbnails
+   - RSS-Support
+   - rotate pictures
+   - email notification if some comments are created
+   
+
+
+3. Nice to have in some of the next releases

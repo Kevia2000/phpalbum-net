@@ -1,0 +1,1068 @@
+msgid "ID_NEXT"
+msgstr "vor"
+
+msgid "ID_PREV"
+msgstr "zurück"
+
+msgid "ID_NEXT_PAGE"
+msgstr "nächste Seite"
+
+msgid "ID_PREV_PAGE"
+msgstr "vorherige Seite"
+
+msgid "ID_ALBUM_NAME"
+msgstr "Fotoalbum"
+
+msgid "ID_PHOTO_DIR"
+msgstr "Fotos"
+
+msgid "ID_SETUP"
+msgstr "Einstellungen"
+
+msgid "ID_HOME"
+msgstr "Home"
+
+msgid "ID_NAME"
+msgstr "Name"
+
+msgid "ID_EMAIL"
+msgstr "Email"
+
+msgid "ID_NAME_EMAIL"
+msgstr "Namen und Email optional eingeben"
+
+msgid "ID_COMMENT_INSTR"
+msgstr "Bitte Nachricht verfassen und  auf Hinzufügen <Neuer Kommentar> klicken"
+
+msgid "ID_ADD_COMMENT"
+msgstr "neuen Kommentar hinzufügen"
+
+msgid "ID_ENTER_PASSWD"
+msgstr "Bitte ein Passwort eingeben"
+
+msgid "ID_DELETE_COMMENT"
+msgstr "Kommentar löschen"
+
+msgid "ID_ALBUMS"
+msgstr "Alben"
+
+msgid "ID_SEARCH"
+msgstr "Suche"
+
+msgid "ID_ENABLE"
+msgstr "aktivieren"
+
+msgid "ID_SETUP_MENU"
+msgstr "Menü:"
+
+msgid "ID_SETUP_MENU_MAIN"
+msgstr "Grundeinstellungen"
+
+msgid "ID_SETUP_MENU_LOGS"
+msgstr "Annahme Login"
+
+msgid "ID_SETUP_MENU_DIRS"
+msgstr "Galerien"
+
+msgid "ID_SETUP_MENU_CACHE"
+msgstr "Optionen Cache"
+
+msgid "ID_SETUP_MENU_ADMIN"
+msgstr "Upload Manager"
+
+msgid "ID_SETUP_MENU_COMMENTS"
+msgstr "Kommentare und Abstimmung"
+
+msgid "ID_SETUP_MENU_ECARD"
+msgstr "Grußkarte"
+
+msgid "ID_SETUP_MENU_TEXTS"
+msgstr "Übersetzungen"
+
+msgid "ID_SETUP_MENU_ERRORLOG"
+msgstr "Fehler-Logfile"
+
+msgid "ID_SETUP_MENU_SYSCHECK"
+msgstr "Systemcheck"
+
+msgid "ID_SETUP_MENU_THUMBNAILS"
+msgstr "Bildvorschauen"
+
+msgid "ID_SETUP_MENU_THEMES"
+msgstr "Themen"
+
+msgid "ID_SETUP_MENU_USERS"
+msgstr "User"
+
+msgid "ID_SETUP_MENU_GROUPS"
+msgstr "Gruppen"
+
+msgid "ID_SETUP_SAVE_CONFIG"
+msgstr "Konfiguration speichern"
+
+msgid "ID_SETUP_MY_ACCOUNT"
+msgstr "Mein Zugang"
+
+msgid "ID_SETUP_MENU_PARAMS"
+msgstr "Fotoparameter"
+
+msgid "ID_SETUP_MENU_PICS"
+msgstr "Bilder"
+
+msgid "ID_SETUP_THUMBNAILS"
+msgstr "Einstellungen Bildvorschauen"
+
+msgid "ID_SETUP_DESC_MAIN"
+msgstr "Du befindest dich im Setup. Hier kannst Du alle Haupteinstellungen, Vorschaubildeinstellung und einige Themeneinstellungen vornehmen. Die Seite wird nach der Installation automatisch aufgerufen und die Einstellungen sind vor dem ersten Gebrauch des Albums vorzunehmen."
+
+msgid "ID_SETUP_DESC_THUMBNAILS"
+msgstr "Hier stellt man Größe und Qualität der Bildvorschauen und verkleinerten Fotos ein. Jede Gruppe von Bildvorschaueinstellungen stellt eine Qualitätseinstellung dar. Der Benutzer kann eine von diesen ändern. Beim ersten Aufruf sieht man die Grundeinstellung. Man kann neue Einstellungen hinzufügen oder bestehende löschen. Es ist nicht möglich die letzte dargestellte Einstellung zu löschen, da mindestens eine Option gesetzt sein muss."
+
+msgid "ID_SETUP_DESC_THEMES"
+msgstr "Hier kann man das äußere Erscheinungsbild des Albums ändern. Man  wählt zwischen Vorschaubildereinstellung mit fließendem oder rasterähnlichen Aussehen. Ferner kann man das Thema auswählen sowie die Farbpaletten editieren. "
+
+msgid "ID_SETUP_DESC_LOGS"
+msgstr "Hier kann man die Anzahl der Logins aktivieren, ebenfalls kann man den Namen des Logfiles ändern, sodass niemand diese lesen und zu Ihrem Ungunsten verändern kann."
+
+msgid "ID_SETUP_DESC_CACHE"
+msgstr "Hier hat man die Option, ob man den Cache einschalten will und wenn, für welche Art von Dateien. Ausserdem ist ersichtlich, wieviel Speicherplatz der Cache einnimmt, sodass man diesen ggfls. leeren oder löschen kann."
+
+msgid "ID_SETUP_RESET_CONFIG"
+msgstr "Zurücksetzen auf Voreinstellungen"
+
+msgid "ID_SETUP_DESC_ADMIN"
+msgstr "Hier stellt man neue Fotos ein und adminstriert das Fotoverzeichnis. Hierzu muss man vorher im Hauptmenü den FTP-Server eintragen und Angaben zum Upload-Verzeichnis machen. Falls  phpAlbum via Wizard installiert wurde, sollten diese Einstellungen bereits vorhanden und richtig sein. Wenn man das Hauptverzeichnis phpAlbum verschiebt, muss man auch die Verzeichniseinstellungen entsprechend verschieben."
+
+msgid "ID_SETUP_DESC_COMMENTS"
+msgstr "Hier nimmt man Änderungen an den Einstellungen zu Kommentar und Abstimmung für Ihre Fotos vor. Die Seite ist auch für die Bestätigung von neuen Kommentaren da oder um nur neue Kommentare zu lesen."
+
+msgid "ID_SETUP_DESC_ECARD"
+msgstr "Hier findet man die Einstellungen für den Grußkarten-Versand. Ecards sind elektronische Postkarten, Nutzer des Albums können Grußkarten mit ihren Fotos(werden nur verlinkt) an andere verschicken."
+
+msgid "ID_SETUP_ALBUM_DIR"
+msgstr "Album-Verzeichnis:"
+
+msgid "ID_SETUP_ALBUM_DIR_DESC"
+msgstr "Bitte hier das Verzeichnis wählen, wo ihre Fotos liegen, Dieses muss relativ zum Script liegen (zur main.php)"
+
+msgid "ID_SETUP_ERRORLOG_DESC"
+msgstr "Hier findet man Fehlermeldungen. Das ist von Nutzen, falls man nicht weiss, warum etwas nicht funktioniert im Ablauf der Scripts. Sie können einen Bericht erstellung und damit Hilfe durch unseren Support erhalten."
+
+msgid "ID_SETUP_TEXTS_DESC"
+msgstr "Hier kann man seine eigene Übersetzung in die jeweils gewünschte Sprache erstellen. Zur Zeit ist das Programm nur in Englisch verfügbar. Wer Spass an einer kompletten Übersetzung hat , kann uns dieses File (im data-Verzeichnis mit der Bezeichnung: translation.dat) gerne schicken, wir werden es dann in eine der nächsten Versionen zur Verfügung stellen."
+
+msgid "ID_SETUP_TEXTS_GUIDE"
+msgstr "Übersetzungshinweis: Sie können nur das übersetzen, was sie auch möchten. Das wird dann entsprechend auf den Seiten ersetzt. Es stehen 3 Felder für jedes Sprachelement zur Verfügung. In grau unterlegt die ID, die Ursprungssprache in grüner Farbe und ein Eingabefeld für Ihre Übersetzung. Dies ist gelb unterlegt, falls noch keine Übersetzung dort eingetragen wurde und wird nach Eintragung weiss. Falls alle Parameter übersetzt werden, ist dies mit Vorsicht zu tun, damit es z.B. keine Konflikte mit typischen html-flags wie %,& etc, gibt"
+
+msgid "ID_SETUP_CACHE_DIR"
+msgstr "Cache-Verzeichnis:"
+
+msgid "ID_SETUP_CACHE_DIR_DESC"
+msgstr "Hier das Cache-Verzeichnis wählen, relativ zum main.php-scipt. Es muss über Schreibrechte verfügen"
+
+msgid "ID_SETUP_MY_ACCOUNT_DESC"
+msgstr "Hier werden die Nutzerdaten editiert wie Name, Email, Homepage, Änderung des Passworts"
+
+msgid "ID_SETUP_DESC_USERS"
+msgstr "Hier können sie als admin Ihre registrierten Nutzer verwalten. Löschen oder Editieren sind möglich. Um einen neuen Nutzer(User) anzulegen, muss man die normale Registrierung auf der Eingangsseite anwenden."
+
+msgid "ID_SETUP_DESC_GROUPS"
+msgstr "Hier werden die Gruppen verwaltet. Später werden die Nutzer den einzelnen Gruppen zugewiesen. Man kann auch verbieten, dass einige Galerien/Verzeichnisse eingesehen werden können. So können sie veranlassen, dass die Gruppe family auch nur die Familienfotos sehen kann."
+
+msgid "ID_SETUP_DESC_DIRS"
+msgstr "Hier nimmt man die Einstellungen für die Galerien vor. Änderungen können an den Beschreibungen, Zugriffen auf Gruppen, Sortierungen vorgenommen, auch einige grundlegende Bildänderungen können gemacht werden."
+
+msgid "ID_SETUP_DESC_PICS"
+msgstr "Hier findet man Einstellungen zum Verändern von Erläuterungen und Foto-Parametern"
+
+msgid "ID_SETUP_DESC_PARAMS"
+msgstr "Hier kann man einstellen, was für Variabeln beim Aufruf eines Fotos angezeigt werden sollen. Diese findet man dann jeweils unter dem Foto. Es ist ebenso möglich, die Parameter sichtbar zu machen für jedes Verzeichnis einzeln, dies macht man dann in der Galerie-Sektion."
+
+msgid "ID_SETUP_PASSWORD"
+msgstr "Passwort"
+
+msgid "ID_SETUP_PASSWORD_DESC"
+msgstr "Bitte wählen Sie ein Passwort und tippen Sie es erneut im 2. Feld ein. Das aktuelle Passwort kann nicht angezeigt werden, da dies nur als verschlüsselte Zeichenfolge gespeichert ist. Deshalb erfährt auch niemand ihr Passwort."
+
+msgid "ID_SETUP_LANGUAGE"
+msgstr "Sprache"
+
+msgid "ID_SETUP_LANGUAGE_DESC"
+msgstr "Bitte den richtigen Zeichensatz Ihrer Sprache wählen. Bitte keine Sonderzeichen benutzen, falls UTF-8 Zeichensatz verwendet wird.  Bitte anhand des Systemchecks prüfen."
+
+msgid "ID_SETUP_HOME_URL"
+msgstr "Zurück zur HomeURL:"
+
+msgid "ID_SETUP_HOME_URL_DESC"
+msgstr "Bitte entsprechende URL wählen, die auf den Homelink verweist"
+
+msgid "ID_SETUP_SITE_NAME"
+msgstr "Seitenname"
+
+msgid "ID_SETUP_SITE_NAME_DESC"
+msgstr "Bitte einen Seitennamen als Titel für diese Seite eingeben"
+
+msgid "ID_SETUP_NEW_DIR_INDIC"
+msgstr "Anzeigen neuer Dateien in der Galerie:"
+
+msgid "ID_SETUP_NEW_DIR_INDIC_DESC"
+msgstr "Wie lange sollen die Dateien als neu angezeigt werden ? Bitte in Stunden eintragen"
+
+msgid "ID_SETUP_FTP_SERVER"
+msgstr "FTP-Server:"
+
+msgid "ID_SETUP_FTP_SERVER_DESC"
+msgstr "Bitte die URL des FTP-Servers eingeben, z.B. ftp.myserver.com"
+
+msgid "ID_SETUP_FTP_PHOTO_DIR"
+msgstr "FTP-Fotoverzeichnis"
+
+msgid "ID_SETUP_FTP_PHOTO_DIR_DESC"
+msgstr "Dies ist das Fotoverzeichnis auf Ihrem FTP-Server, z.B. /phpAlbum/photos_xyz/, bitte unbedingt am Anfang und Ende einen Slash (/) setzen"
+
+msgid "ID_SETUP_QUALITY_NAME"
+msgstr "Erläuterung:"
+
+msgid "ID_SETUP_QUALITY_NAME_DESC"
+msgstr "beschreibt diese Qualitätseinstellungen."
+
+msgid "ID_SETUP_QUALITY_THMB"
+msgstr "Größe und Qualität der Vorschaubilder"
+
+msgid "ID_SETUP_QUALITY_THMB_DESC"
+msgstr "bitte die grösste Abmessung der Vorschaubilder angeben (z.B. 100 und 150). Als zweiter Parameter kann die jpg Kompression (sollte zwischen 40 und 90 liegen) eingestellt werden. Diese Einstellung bezieht sich nur auf jpt, nicht auf png oder gif Dateien. Man kann auch den Punkt Square Thumbnails prüfen, um für alle Vorschaubilder die gleiche Größe zu erhalten"
+
+msgid "ID_SETUP_QUALITY_PHOTO"
+msgstr "Foto-Größe/Qualität"
+
+msgid "ID_SETUP_QUALITY_PHOTO_DESC"
+msgstr "hier Angaben für die größten Maße verkleinerter Fotos machen ( z.B. 100 oder 150). Als zweiter Parameter Kompressionsdichte eingeben (normale Werte zwischen 40 und 90). Gilt nur für jpg-Fotos, nicht für png oder gif-Fotos. Stelle die Null (0) ein, wenn überhaupt keine Verkleinerung erfolgen soll."
+
+msgid "ID_SETUP_DEFAULT_SORT"
+msgstr "Grundeinstellung Sortierung:"
+
+msgid "ID_SETUP_DEFAULT_SORT_DESC"
+msgstr "Wähle Grundeinstellung Sortierung um vorschuabilder und Verzeichnisse zu sortieren. "
+
+msgid "ID_SETUP_SQUARE_THMB"
+msgstr "rechteckige Vorschaubilder:"
+
+msgid "ID_SETUP_ADD_QUALITY"
+msgstr "Füge neue Qualitätseinstellung hinzu"
+
+msgid "ID_SETUP_DELETE_QUALITY"
+msgstr "lösche diese Qualitätseinstellung"
+
+msgid "ID_SETUP_RESIZE_IF_BIGGER"
+msgstr "nur verkleinern, falls größer"
+
+msgid "ID_SETUP_RESIZE_TO_FIT"
+msgstr "Foto einpassen"
+
+msgid "ID_SETUP_RESIZE_TO_FIT_DESC"
+msgstr "Wähle, wie Fotos verkleinert werden sollen, sowohl in der Breite als auch in der Länge zum einpassen. Somit kann man alle verkleinerten Fotos einstellen, dass sie die gleiche Höhe und Breite haben oder in ein bestimmtes Seitenverhältnis passen"
+
+msgid "ID_BOTH_WIDTH_AND_HEIGHT"
+msgstr "beides Breite und Höhe"
+
+msgid "ID_WIDTH"
+msgstr "Breite"
+
+msgid "ID_HEIGHT"
+msgstr "Höhe"
+
+msgid "ID_SETUP_THEME_SETTINGS"
+msgstr "Themen Einstellungen"
+
+msgid "ID_SETUP_THEME_COLOR_SETTINGS"
+msgstr "Themen-Farben"
+
+msgid "ID_SETUP_THEME_THUMBNAILS_STYLE"
+msgstr "Vorschaubilder-Stil:"
+
+msgid "ID_SETUP_THEME"
+msgstr "Thema(Motiv):"
+
+msgid "ID_SETUP_THEME_DESC"
+msgstr "Wähle eines der möglichen Motive. Um selbst Motive zu erstellen, kopiere z.B. das Borders-Verzeichnis in ein anderes, damit dies daraufhin verfügbar ist"
+
+msgid "ID_SETUP_LOGO_PATH"
+msgstr "Logo-Verzeichnispfad:"
+
+msgid "ID_SETUP_LOGO_PATH_DESC"
+msgstr "Eingabe des relativen Pfades zum Logo, welches gewünscht wird (für Datei-Stil-Logo)"
+
+msgid "ID_SETUP_LOGO_STYLE"
+msgstr "Logo-Stil:"
+
+msgid "ID_SETUP_LOGO_STYLE_DESC"
+msgstr "Bitte wählen, wie das Logo erzeugt werden soll. NICHTS für kein Logo, GRAFISCH für ein generiertes Logo, TEXT für ein einfaches Textlogo und DATEI für ein Logo aus dem Logo-Pfad."
+
+msgid "ID_SETUP_LOGO_TEXT"
+msgstr "Logo-Text:"
+
+msgid "ID_SETUP_LOGO_TEXT_DESC"
+msgstr "Hier den Text eintragen für grafisches oder Text-Logo"
+
+msgid "ID_SETUP_THEME_FLOWING_STYLE"
+msgstr "Fließgestaltung:"
+
+msgid "ID_SETUP_THEME_RASTER_STYLE"
+msgstr "Raster-Stil:"
+
+msgid "ID_SETUP_MAX_PHOTO_PER_PAGE"
+msgstr "Höchstanzahl der Vorschaubilder je Seite"
+
+msgid "ID_SETUP_MAX_PHOTO_PER_PAGE_DESC"
+msgstr "Gib die höchste Anzahl der anzuzeigenden Vorschaubilder an. Falls mehr Fotos in der Galerie sind, wird dies durch einen Hinweis auf die nächste oder vorangegangene Seite angezeigt"
+
+msgid "ID_SETUP_RASTER_SIZE"
+msgstr "Spalten/Reihen:"
+
+msgid "ID_SETUP_RASTER_SIZE_DESC"
+msgstr "Anzahl der Spalten und Reiehn angeben für die Vorschaubild-Ansicht"
+
+msgid "ID_SETUP_SHOW_FILENAMES"
+msgstr "Zeige Dateinamen"
+
+msgid "ID_SETUP_SHOW_FILENAMES_DESC"
+msgstr "angeben, ob Anzeige des Dateinamens unter den Vorschaubildern gewünscht wird. Diese werden dann angezeigt, falls keine Kurzbeschreibung für dieses Bild besteht"
+
+msgid "ID_SETUP_DISABLE_BOTTOM_NEXTPREV"
+msgstr "deaktiviere nächste/vorherige Anzeige im unteren Bereich"
+
+msgid "ID_SETUP_DISABLE_BOTTOM_NEXTPREV_DESC"
+msgstr "Die Prüfliste deaktiviert die unten stehenden Links für nächstes/vorheriges Bild"
+
+msgid "ID_SETUP_COLOR_SETTINGS"
+msgstr "Farbeinstellungen:"
+
+msgid "ID_SETUP_ADD_COLOR_MAP"
+msgstr "füge neues Farbschema hinzu"
+
+msgid "ID_SETUP_COLOR_DELETE"
+msgstr "lösche dieses Farbschema"
+
+msgid "ID_SETUP_COLOR_NAME"
+msgstr "Name des Farbschemas :"
+
+msgid "ID_SETUP_COLOR_NAME_DESC"
+msgstr "Dies ist der Name des Farbschemas. Falls dies nicht der letzte Eintrag ist, kann er gelöscht werden"
+
+msgid "ID_SETUP_COLOR_BG"
+msgstr "Hintergrund:"
+
+msgid "ID_SETUP_COLOR_LINK"
+msgstr "Verweis:"
+
+msgid "ID_SETUP_COLOR_DIR_DESC"
+msgstr "Verzeichnis absteigend:"
+
+msgid "ID_SETUP_COLOR_BORDER"
+msgstr "Foto-Rand:"
+
+msgid "ID_SETUP_COLOR_PHOTO_DESC"
+msgstr "Foto absteigend:"
+
+msgid "ID_SETUP_COLOR_LOGO"
+msgstr "Logo:"
+
+msgid "ID_SETUP_ENABLE_LOGGING"
+msgstr "Einwahl frei gegeben"
+
+msgid "ID_SETUP_ENABLE_LOGGING_DESC"
+msgstr "Diese Prüfliste ermöglicht den Zugriff auf ihr Album"
+
+msgid "ID_SETUP_LOGS_FILENAME"
+msgstr "Name der Logdatei:"
+
+msgid "ID_SETUP_LOGS_FILENAME_DESC"
+msgstr "Dateiname, wo die Logins gespeichert werden"
+
+msgid "ID_SETUP_LOGS_EXCLUDE"
+msgstr "Ausnahmen:"
+
+msgid "ID_SETUP_LOGS_EXCLUDE_DESC"
+msgstr "Tragen Sie hier - jeweils mit Semikolon getrennt - ein, welche hosts vom Zugriff ausgeschlossen werden sollen. "
+
+msgid "ID_SETUP_CACHE_THUMBNAILS"
+msgstr "Cache Vorschaubilder"
+
+msgid "ID_SETUP_CACHE_RESIZED_PHOTOS"
+msgstr "Cache verkleinerte Fotos"
+
+msgid "ID_SETUP_CACHE_THUMBNAILS_DESC"
+msgstr "Diese Prüfliste ermöglicht das Cachen von generierten Vorschaubildern. Dies ist von großen Vorteil, weil das Programm dann schneller läuft und die Dateien nicht erneut in den Cache geschrieben werden müssen."
+
+msgid "ID_SETUP_CACHE_RESIZED_PHOTOS_DESC"
+msgstr "Diese Prüfliste ermöglicht das Cachen von verkleinerten Fotos. Das ist sehr hilfreich, um die Geschwindigkeit für den Seitenaufbau zu erhalten, obwohl es natürlich einigen Webspace in Anspruch nimmt. Also Vorsicht beim Aktivieren."
+
+msgid "ID_SETUP_LOGIN"
+msgstr "Login"
+
+msgid "ID_USERNAME"
+msgstr "Benutzername"
+
+msgid "ID_PASSWORD"
+msgstr "Passwort"
+
+msgid "ID_SETUP_ACT_DIR"
+msgstr "aktuelles Verzeichnis:"
+
+msgid "ID_SETUP_ACT_DIR_DESC"
+msgstr "Hier können Sie den bestehenden Ordner des FTP-Servers ändern. Einfacher ist es, die Verzeichnis-Links in der Dateiliste zu nutzen"
+
+msgid "ID_SETUP_UPLOAD_FILE"
+msgstr "Datei hochladen:"
+
+msgid "ID_SETUP_UPLOAD_FILE_DESC"
+msgstr "Hier kann man eine einzelne Datei auf den FTP-Server hochladen"
+
+msgid "ID_UPLOAD"
+msgstr "Upload"
+
+msgid "ID_SETUP_MAX_SIZE"
+msgstr "maximale Grösse:"
+
+msgid "ID_SETUP_UPLOAD_ZIP_FILE"
+msgstr "zip-Datei hochladen:"
+
+msgid "ID_SETUP_UPLOAD_ZIP_FILE_DESC"
+msgstr "Hier kann man eine zip-Datei in das aktuelle Verzeichnis des FTP-Servers hochladen. Diese Datei wird dann entpackt und die Verzeichnis-Struktur wird auf dem Server wieder hergestellt.  Falls man nur das zip hochladen will, bitte \"Datei hochladen\" benutzen"
+
+msgid "ID_UPLOAD_ZIP"
+msgstr "Zip-Datei hochladen"
+
+msgid "ID_SETUP_CREATE_DIR"
+msgstr "Erstelle Verzeichnis"
+
+msgid "ID_SETUP_CREATE_DIR_DESC"
+msgstr "Hier erstellen Sie ein neues Verzeichnis auf dem FTP-Server"
+
+msgid "ID_CREATE"
+msgstr "erstellen"
+
+msgid "ID_FILENAME"
+msgstr "Dateiname"
+
+msgid "ID_SIZE"
+msgstr "Größe"
+
+msgid "ID_IMAGE_SIZE"
+msgstr "Größe des Fotos"
+
+msgid "ID_OWNER"
+msgstr "Eigentümer"
+
+msgid "ID_GROUP"
+msgstr "Gruppe"
+
+msgid "ID_FUNCTIONS"
+msgstr "Funktionen"
+
+msgid "ID_TIME"
+msgstr "Zeit"
+
+msgid "ID_COMMAND"
+msgstr "Kommando"
+
+msgid "ID_FILE_DIR"
+msgstr "Datei/Verzeichnis"
+
+msgid "ID_HOST"
+msgstr "Host"
+
+msgid "ID_PATH"
+msgstr "Pfad"
+
+msgid "ID_ALIAS"
+msgstr "Alias"
+
+msgid "ID_PASSWORDS"
+msgstr "Passwörter"
+
+msgid "ID_SETUP_ENABLE_COMMENTS"
+msgstr "aktiviere Kommentare"
+
+msgid "ID_SETUP_ENABLE_COMMENTS_DESC"
+msgstr "dieses Kontrollkästchen ermöglicht das Kommentieren von Fotos"
+
+msgid "ID_SETUP_COMMENT_QUEUE"
+msgstr "erlaube Puffer-Größe"
+
+msgid "ID_SETUP_COMMENT_QUEUE_DESC"
+msgstr "Hier setzt man die Anzahl der Kommentare in Bezug auf die Puffer-Größe fest. Ältere Kommentare werden automatisch erlaubt, können aber direkt unter den Fotos gelöscht werden. Aktuell wird hier die Anzahl der neuesten Kommentare gezeigt"
+
+msgid "ID_SETUP_COMMENT_APPROVING_DESC"
+msgstr "hier stehen alle genehmigten oder gelöschten Kommentare. Wer hier löscht, löscht auch gleichzeitig den Eintrag unter dem Foto, wo man dies aber auch separat tun kann, allerdings nur nach Eingabe des Setup-Passwortes"
+
+msgid "ID_SETUP_NEW_COMMENTS"
+msgstr "Neue Kommentare"
+
+msgid "ID_SETUP_ENABLE_ECARD"
+msgstr "aktiviere Grußkarten"
+
+msgid "ID_SETUP_ENABLE_ECARD_DESC"
+msgstr "dieses Kontrollkästchen aktiviert das Senden von Grußkarten von Ihrer Seite"
+
+msgid "ID_SETUP_ECARD_SUBJECT"
+msgstr "Betreff  der Email"
+
+msgid "ID_SETUP_ECARD_SUBJECT_DESC"
+msgstr "Dieser Text wird als Betreff benutzt"
+
+msgid "ID_SETUP_ECARD_PICKED_SUBJECT"
+msgstr "Abgeholt !"
+
+msgid "ID_SETUP_ECARD_PICKED_SUBJECT_DESC"
+msgstr "dieser Text wird als Inhalt benutzt von \"abgeholt!\" als Bestätigung, dass die Grußkarte abgeschickt wurde"
+
+msgid "ID_SETUP_ECARD_TEXT"
+msgstr "Text der Grußkarten-Mail"
+
+msgid "ID_SETUP_ECARD_TEXT_DESC"
+msgstr "das ist die Nachricht, die in der Email gesendet wird. Man kann hier mehrere spezielle Strings wählen und die alten ersetzen"
+
+msgid "ID_SETUP_ECARD_PICKED_TEXT"
+msgstr "\"Abgeholt!\" Email-Text"
+
+msgid "ID_APPROVE"
+msgstr "Bestätige"
+
+msgid "ID_DELETE"
+msgstr "Lösche"
+
+msgid "ID_TEXT"
+msgstr "Text"
+
+msgid "ID_PICTURE"
+msgstr "Bild"
+
+msgid "ID_TYPE"
+msgstr "Typ"
+
+msgid "ID_ERROR_NUMBER"
+msgstr "Fehlernummer"
+
+msgid "ID_ERROR_MESSAGE"
+msgstr "Fehlermeldung"
+
+msgid "ID_SCRIPT_NAME"
+msgstr "Scriptname"
+
+msgid "ID_LINE"
+msgstr "Linie"
+
+msgid "ID_LOGIN"
+msgstr "Login"
+
+msgid "ID_LOGOUT"
+msgstr "Logout"
+
+msgid "ID_SAVE"
+msgstr "Sichern"
+
+msgid "ID_REGISTER"
+msgstr "Neu-Registrierung "
+
+msgid "ID_REMEMBER"
+msgstr "Angaben speichern"
+
+msgid "ID_SETUP_USERNAME_DESC"
+msgstr "Bitte gewünschten Namen eingeben. Es erfolgt eine Fehlermeldung bei bereits bestehenden Namen"
+
+msgid "ID_RETYPE_PASSWORD"
+msgstr "Passwort wiederholen"
+
+msgid "ID_SETUP_EMAIL"
+msgstr "Email-Adresse:"
+
+msgid "ID_SETUP_EMAIL_DESC"
+msgstr "Bitte hier die Email-Adresse eintragen, diese wird nicht veröffentlicht"
+
+msgid "ID_SETUP_HOMEPAGE"
+msgstr "Homepage"
+
+msgid "ID_SETUP_HOMEPAGE_DESC"
+msgstr "bitte Link der Homepage eintragen, wird mit den Kommentaren unter den Bildern veröffentlicht"
+
+msgid "ID_SETUP_REGISTER_NEW_USER"
+msgstr "Registrierung"
+
+msgid "ID_THANKS_FOR_REGISTER"
+msgstr "Vielen Dank für die Registrierung auf dieser Seite"
+
+msgid "ID_SETUP_DELETE_ERROROLOG"
+msgstr "Fehler-Logdatei löschen"
+
+msgid "ID_SETUP_ADD_GROUP"
+msgstr "Hinzufügen einer neuen Benutzer-Gruppe"
+
+msgid "ID_SETUP_NEW_GROUP_NAME"
+msgstr "Name der Benutzer-Gruppe"
+
+msgid "ID_SETUP_ADD_GROUP_DESC"
+msgstr "Bitte den Namen der Gruppe eintragen und Schaltfläche bestätigen. Danach wird eine neue Gruppe erstellt. Dann entsprechend den Nutzern und Galerien zuordnen"
+
+msgid "ID_SETUP_SHOW_DIRS"
+msgstr "zeige zugeordnete Galerien"
+
+msgid "ID_SETUP_SHOW_USERS"
+msgstr "zeige Benutzer"
+
+msgid "ID_USER"
+msgstr "Benutzer"
+
+msgid "ID_EDIT"
+msgstr "editiere"
+
+msgid "ID_ID"
+msgstr "Id"
+
+msgid "ID_NOT_POSSIBLE"
+msgstr "nicht möglich"
+
+msgid "ID_SETUP_ADD_NEW_PARAM"
+msgstr "neuen Parameter hinzufügen"
+
+msgid "ID_SETUP_ADD_PARAM_DESC"
+msgstr "benennen Sie den neuen Parameter und wählen Sie den Typ des neuen Parameters aus. "
+
+msgid "ID_SETUP_PARAM_NAME"
+msgstr "Name des Parameters"
+
+msgid "ID_SETUP_PARAM_NAME_DESC"
+msgstr "bitte neuen Namen für den Parameter eingeben, falls Änderung gewünscht, falls man Link-löschen anklickt, wird dieser Parameter gelöscht, ebenso die Angaben unter den Fotos"
+
+msgid "ID_SETUP_DELETE_PARAM"
+msgstr "lösche Parameter"
+
+msgid "ID_SETUP_PARAM_DEFAULT"
+msgstr "Standardwert:"
+
+msgid "ID_SETUP_PARAM_DEFAULT_DESC"
+msgstr "Hier kann man die Standardwerte der Parameter einstellen, die an allen Fotos gezeigt werden, falls sie nicht überschrieben wurden"
+
+msgid "ID_ALLOW_HTML"
+msgstr "HTML Code erlauben"
+
+msgid "ID_SETUP_PARAM_SYS_DEFAULT"
+msgstr "Automatik-Wert:"
+
+msgid "ID_SETUP_PARAM_SYS_DEFAULT_DESC"
+msgstr "Wähle den Wert, der diesen Parameter darstellt"
+
+msgid "ID_SETUP_EDIT_LOV"
+msgstr "editiere die Liste der Werte"
+
+msgid "ID_SETUP_DELETE_LOV"
+msgstr "lösche Wert"
+
+msgid "ID_NOT_DEFINED"
+msgstr "nicht definiert"
+
+msgid "ID_ADD_NEW_VALUE"
+msgstr "neuen Wert hinzufügen"
+
+msgid "ID_SETUP_ACCOUNT_GROUP_DESC"
+msgstr "Bitte wählen sie die Gruppen, denen Sie einen Account zuordnen möchten"
+
+msgid "ID_SETUP_GALLERY"
+msgstr "Galerie:"
+
+msgid "ID_SETUP_GALLERY_DESC"
+msgstr "Bitte Galerie für Einstellungen wählen. Falls Sie nicht die erwarteten finden, versuchen Sie bitte die Verzeichnisse mit unten stehendem Link zu scannen"
+
+msgid "ID_SETUP_ALIAS"
+msgstr "Alias Name :"
+
+msgid "ID_SETUP_ALIAS_DESC"
+msgstr "Bitte den Alias Namen des Verzeichnissen eintragen, der anstelle des richtigen Verzeichnisnamens angezeigt werden soll"
+
+msgid "ID_SETUP_DESC"
+msgstr "Kurzbeschreibung:"
+
+msgid "ID_SETUP_DESC_DESC"
+msgstr "dies ist eine Kurzbeschreibung des Verzeichnisses, eventuell sichtbar unter der Bildvorschau/dem Logo dieses Verzeichnisses"
+
+msgid "ID_SETUP_PIC_DESC_DESC"
+msgstr "Dies ist eine Kurzbeschreibung des Fotos, eventuell sichtbar unter der Bildvorschau des Fotos"
+
+msgid "ID_SETUP_LONG_DESC"
+msgstr "ausführliche Beschreibung"
+
+msgid "ID_SETUP_LONG_DESC_DESC"
+msgstr "Füge eine ausführliche Beschreibung ein. HTML ist möglich, für neue Reihe benutze &lt,br&gt"
+
+msgid "ID_SETUP_PIC_LONG_DESC_DESC"
+msgstr "füge eine ausführliche Beschreibung ein, die unter dem Bild erscheint zusammen mit der Kurzbeschreibung. HTML-Code ist möglich, für neue Linie benutze &lt,br&gt"
+
+msgid "ID_SETUP_SORTING"
+msgstr "Sortierung:"
+
+msgid "ID_SETUP_SORTING_DESC"
+msgstr "bitte die gewünschte Bild-Sortierfolge wählen in diesem Verzeichnis. Grundeinstellung entspricht der Einstellung im Hauptmenü"
+
+msgid "ID_SETUP_VISIBLE"
+msgstr "sichtbar"
+
+msgid "ID_SETUP_VISIBLE_DESC"
+msgstr "bitte wählen, ob das Verzeichnis sichtbar gemacht werden soll oder nicht"
+
+msgid "ID_SETUP_ACCESS_RIGHTS"
+msgstr "Zugriffsrechte"
+
+msgid "ID_SETUP_GALLERY_GROUP_DESC"
+msgstr "Bitte die Gruppen wählen, die unsichtbar sein sollen. "
+
+msgid "ID_SETUP_GALLERY_PARAMS_DESC"
+msgstr "Wähle die Parameter, die mit den Bildern gezeigt werden sollen. Um weitere Parameter zu definieren, bitte in die Sektion Foto-Parameter gehen"
+
+msgid "ID_SETUP_SHOW_CUSTOM_PARAMS"
+msgstr "zeige spezifizierte Parameter"
+
+msgid "ID_SETUP_SHOW_DEFAULT_PARAMS"
+msgstr "zeige  die voreingestellten Parameter"
+
+msgid "ID_SETUP_PARAMS_DEFAULT_CUSTOM_DESC"
+msgstr "voreingestellte Parameter sollen unter jedem Foto der Galerie gezeigt werden ?"
+
+msgid "ID_SETUP_SHOW_PARAMS"
+msgstr "Voreinstellung oder eigene Einstellungen ?"
+
+msgid "ID_NO_DEFINED_PARAMS"
+msgstr "es liegen keine vordefinierten Parameter vor"
+
+msgid "ID_SETUP_NEXT_SCAN"
+msgstr "nächster automatischer Verzeichnisscan : %s"
+
+msgid "ID_SETUP_SCAN_DIRS"
+msgstr "Verzeichnisse jetzt durchsuchen !"
+
+msgid "ID_DEFAULT_DISPLAYED"
+msgstr "Voreinstellung angezeigt"
+
+msgid "ID_SETUP_PARAM_DEFAULT_DISPLAYED_DESC"
+msgstr "Dieses Kontrollkästchen prüfen, ob Parameter als Voreinstellung angezeigt werden sollen, z.B. für jede Galerie sollen die Voreinstellungs-Parameter erscheinen"
+
+msgid "ID_HTML_NOT_ALLOWED"
+msgstr "HTML-Code  nicht erlaubt"
+
+msgid "ID_HTML_ALLOWED"
+msgstr "HTML-Code ist erlaubt"
+
+msgid "ID_DEFAULT_VALUE"
+msgstr "Standardwert ist <b>%s</b>"
+
+msgid "ID_NO_DEFAULT_VALUE"
+msgstr "kein Standardwert definiert"
+
+msgid "ID_DEFAULT"
+msgstr "Standardwert"
+
+msgid "ID_SETUP_THEME_BORDERS"
+msgstr "Bild- und Vorschaubildränder"
+
+msgid "ID_SETUP_THEME_PIC_BORDER_SIZE"
+msgstr "Größe des Bildrandes"
+
+msgid "ID_SETUP_THEME_THMB_BORDER_SIZE"
+msgstr "Größe des Vorschaubildrandes"
+
+msgid "ID_SETUP_THEME_DISPLAY_SHADOWS"
+msgstr "Schatten darstellen"
+
+msgid "ID_SETUP_THEME_DISPLAY_SHADOWS_DESC"
+msgstr "Falls durch das Thema unterstützt, können hier Schatten für den Hintergrund von Fotos und Vorschaubildern dargestellt werden."
+
+msgid "ID_SETUP_THEME_PIC_BORDER_SIZE_DESC"
+msgstr "Angabe Randbreite Foto"
+
+msgid "ID_SETUP_THEME_THMB_BORDER_SIZE_DESC"
+msgstr "Angabe Randbreite Thumbnail"
+
+msgid "ID_SETUP_WATERMARK_FILE"
+msgstr "Datei Wasserzeichen"
+
+msgid "ID_SETUP_WATERMARK_FILE_DESC"
+msgstr "png Datei wählen, die als Wasserzeichen genutzt werden soll, bitte durchsichtige pngs im Hauptverzeichnis ablegen"
+
+msgid "ID_NO_WATERMARK"
+msgstr "kein Wasserzeichen ausgewählt"
+
+msgid "ID_SETUP_WATERMARK_POSITION"
+msgstr "Position Wasserzeichen"
+
+msgid "ID_SETUP_WATERMARK_POSITION_DESC"
+msgstr "wählen Sie die Position des Wasserzeichens"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE"
+msgstr "Galerie-Logo Stil"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_DESC"
+msgstr "Anzeige des Galerie-Verzeichnisses als Verzeichnis-Icon oder als Vorschaubild eines Fotos, die Größe einstellbar."
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_LOGO"
+msgstr "Zeige Verzeichnis-Logo"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_PIC1"
+msgstr "zeige Bild-Vorschauen (gleiche Größe wie Vorschaubilder)"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_PIC2"
+msgstr "zeige Bild-Vorschauen (andere Größe)"
+
+msgid "ID_USE_FOR_LOGO"
+msgstr "Welches Verzeichnis-Logo ?"
+
+msgid "ID_SETUP_ADD_THMB_HEIGHT"
+msgstr "zusätzliche Höhe für Vorschaubilder"
+
+msgid "ID_SETUP_ADD_THMB_WIDTH"
+msgstr "zusätzliche Breite für Vorschaubilder"
+
+msgid "ID_SETUP_ADD_THMB_HEIGHT_WIDTH_DESC"
+msgstr "Falls mehr Platz für Verzeichnis- oder Vorschaubildbeschreibung erforderlich, den Wert bitte erhöhen. Das bringt dann mehr Platz unter den Vorschaubildern. Das gilt aber nur im \"flowing style\", wo mehr Linien Probleme hervorrufen können."
+
+msgid "ID_SETUP_SHARPEN_WITH_PARAM"
+msgstr "aktiviere Schärfen mit Parametern"
+
+msgid "ID_SETUP_AMOUNT"
+msgstr "hochzählen"
+
+msgid "ID_SETUP_RADIUS"
+msgstr "Radius"
+
+msgid "ID_SETUP_TRESHOLD"
+msgstr "Schwellenwert"
+
+msgid "ID_SETUP_SHARPEN_DESC"
+msgstr "Hier kann man Vorschaubilder schärfer stellen, die normalerweise nach dem Verkleinern eher weich dargestellt werden. <b> beachtet, dass dies viel Performance-Verlust bedeuten kann. </b>"
+
+msgid "ID_SETUP_SHARPEN_THMB"
+msgstr "Schärfen der Vorschaubilder"
+
+msgid "ID_SETUP_INFO_THMB"
+msgstr "zeige folgendes unter den thumbnails"
+
+msgid "ID_SETUP_INFO_THMB_DESC"
+msgstr "bitte wählen, welche Informationen unter den thumbnails stehen sollen"
+
+msgid "ID_SETUP_INFO_THMB_VIEWS"
+msgstr "Betrachte Zähler"
+
+msgid "ID_SETUP_INFO_THMB_COMMENTS"
+msgstr "kommentiere Zähler"
+
+msgid "ID_SETUP_INFO_THMB_VOTES"
+msgstr "Abstimmungsergebnis"
+
+msgid "ID_SETUP_DATE_FORMAT"
+msgstr "Datum/Zeit-Format"
+
+msgid "ID_SETUP_DATE_FORMAT_DESC"
+msgstr "Datum und Zeitformat angeben. Bitte die PHP-Standards benutzen ()"
+
+msgid "ID_SYS_PAR_SIZ"
+msgstr "%s KB"
+
+msgid "ID_SYS_PAR_DIM"
+msgstr "%s x %s (W x H)"
+
+msgid "ID_SYS_PAR_FNM"
+msgstr "%s"
+
+msgid "ID_SYS_PAR_FNL"
+msgstr "<a class=\"me3\" href=\"%s\" target=\"_blank\">%s</a> (klicken um Originaldatei herunterzuladen)"
+
+msgid "ID_SYS_PAR_DWL"
+msgstr "<a class=\"me3\" href=\"%s\" target=\"_blank\">(klicken um die Originaldatei herunter zu laden)</a>"
+
+msgid "ID_SYS_PAR_CDT"
+msgstr "%s"
+
+msgid "ID_SYS_PAR_EXIF_F"
+msgstr "F %s"
+
+msgid "ID_SYS_PAR_EXIF_FL"
+msgstr "%smm"
+
+msgid "ID_SYS_PAR_EXIF_ISO"
+msgstr "ISO %s"
+
+msgid "ID_SYS_PAR_EXIF_EXP_TIME"
+msgstr "%s sec"
+
+msgid "ID_PHOTO_DETAILS"
+msgstr "Fotodetails"
+
+msgid "ID_SETUP_PRIVILEGES"
+msgstr "Sonderrechte"
+
+msgid "ID_SETUP_PRIVILEGES_DESC"
+msgstr "Hier kann man die Gruppenrechte einstellen, grün vergibt Rechte, rot deaktiviert diese. Einfach auf die einzelnen Bezeichnungen klicken. <br/><br/>. Die Einstellungen gelten dann auch für alle neu registrierten User."
+
+msgid "ID_ENTER_ANTISPAM_CODE"
+msgstr "Eingabe des Antispam-Codes"
+
+msgid "ID_DISABLE_ERROR_LOG"
+msgstr "Error-Logs ausschalten"
+
+msgid "ID_SETUP_ENABLE_ANTISPAM"
+msgstr "Antispam einschalten"
+
+msgid "ID_SETUP_ENABLE_ANTISPAM_DESC"
+msgstr "aktiviere  Antispamcode, welcher dann automatisch Spam auf deiner Seite verhindert"
+
+msgid "ID_SETUP_PUBLISH_ONLY_APPROVED"
+msgstr "nur bestaetigte Kommentare veröffentlichen"
+
+msgid "ID_SETUP_PUBLISH_ONLY_APPROVED_DESC"
+msgstr "Nach Abhaken dieses Kontrollkästchens werden die Kommentare frei gegeben für die Veröffentlichung."
+
+msgid "ID_SETUP_THEME_NEWEST_COUNT"
+msgstr "letzter Zählerstand"
+
+msgid "ID_SETUP_THEME_NEWEST_COUNT_DESC"
+msgstr "Hier eine Zahl angeben, wieviele der neuesten Fotos auf der Eingangsseite  anzeigt werden sollen."
+
+msgid "ID_NEWEST_PICTURES"
+msgstr "neueste Fotos"
+
+msgid "ID_SETUP_USE_IPTC_DESC"
+msgstr "Benutze IPTC Foto-Beschreibung"
+
+msgid "ID_SETUP_USE_IPTC_DESC_DESC"
+msgstr "Hier kann man die IPTC Informationen eines Fotos auslesen lassen"
+
+msgid "ID_IMAGEORIG"
+msgstr "Bild Download"
+
+msgid "ID_IMAGEVIEW"
+msgstr "Bildbetrachtung"
+
+msgid "ID_ERROR_PAGE_MESSAGE"
+msgstr "Sie haben keine Berechtigung zur Ansicht dieser Seite oder zum Herunterladen dieses Fotos"
+
+msgid "ID_RECIPIENT_NAME"
+msgstr "Empfänger Name"
+
+msgid "ID_RECIPIENT_EMAIL"
+msgstr "Empfänger Email"
+
+msgid "ID_SENDER_NAME"
+msgstr "Absender Name"
+
+msgid "ID_SENDER_EMAIL"
+msgstr "Absender Email"
+
+msgid "ID_YOUR_MESSAGE"
+msgstr "Ihre Nachricht"
+
+msgid "ID_WRITE_ECARD"
+msgstr "E-Card schreiben"
+
+msgid "ID_FROM"
+msgstr "von: &nbsp,"
+
+msgid "ID_TO"
+msgstr "an; &nbsp;"
+
+msgid "ID_SETUP_SHOW_SEARCH_BOX"
+msgstr "zeige Suchfeld"
+
+msgid "ID_SETUP_SHOW_SEARCH_BOX_DESC"
+msgstr "Hier kann man auf den Albumseiten die Suchmaske aktivieren. Eine laufende Suche geht nur für Schlüsselwörter der importierten IPTC  Informationen."
+
+msgid "ID_SETUP_TRACKING_CODE"
+msgstr "Trackingcode"
+
+msgid "ID_SETUP_TRACKING_CODE_DESC"
+msgstr "Hier kann man einen Javascript Trackingcode einfügen wie z.B. Google Analytics, der dann auf jeder Seite erscheint"
+
+msgid "ID_MSG_DIR_NOT_EXISTS"
+msgstr "Das Verzeichnis %s existiert nicht, bitte ändern !"
+
+msgid "ID_MSG_DIR_NOT_WRITABLE"
+msgstr "Das Verzeichnis %s ist nicht beschreibbar, bitte mit CHMOD-Befehl die Rechte ändern ! "
+
+msgid "ID_MSG_FILE_NOT_EXISTS"
+msgstr "Datei %s nicht gefunden"
+
+msgid "ID_FILE_WAS_DELETED"
+msgstr "Datei %s wurde gelöscht"
+
+msgid "ID_MSG_SETUP_FTP"
+msgstr "Um den Upload-Manager zu benutzen, bitte den FTP-Server und das FTP Fotoverzeichnis entsprechend in der Hauptsektion einrichten."
+
+msgid "ID_MSG_FTP_SUPPORT"
+msgstr "FTP-Support nicht aktiviert ! Fragen Sie Ihren Provider diesen zu aktivieren oder zu installieren"
+
+msgid "ID_MSG_FTP_UNABLE_CONNECT"
+msgstr "Kann mit Server nicht verbinden %s"
+
+msgid "ID_MSG_FTP_INVALID_LOGIN"
+msgstr "Nutzernamen oder Passwort falsch"
+
+msgid "ID_MSG_FTP_PASSIVE_MODE"
+msgstr "Passive Mode kann auf dem FTP-Server nicht gesetzt werden."
+
+msgid "ID_MSG_FTP_UNABLE_CHDIR"
+msgstr "kein Wechsel in dieses Verzeichnis möglich"
+
+msgid "ID_MSG_FTP_PHOTO_DIR"
+msgstr "die Fotos im FTP-Verzeichnis verweisen auf ein anderes Fotoverzeichnis als erforderlich"
+
+msgid "ID_MSG_FTP_UNABLE_DELETE"
+msgstr "Löschen der Dateien %s auf dem Server nicht möglich"
+
+msgid "ID_MSG_FTP_UNABLE_UPLOAD"
+msgstr "kein Upload %s möglich"
+
+msgid "ID_MSG_FTP_UNABLE_OPEN_TMP"
+msgstr "Kann Temporärdatei nicht öffen!"
+
+msgid "ID_MSG_FTP_UNABLE_MKDIR"
+msgstr "Kann kein Verzeichnis auf dem FTP-Server erstellen!"
+
+msgid "ID_MSG_FTP_UNABLE_RMDIR"
+msgstr "Kann Verzeichnis %s auf dem FTP-Server nicht verschieben!"
+
+msgid "ID_MSG_FTP_NOT_ZIP"
+msgstr "Keine gepackte Zipdatei oder das Format wird nicht unterstützt!"
+
+msgid "ID_MSG_FTP_ZIP_UNSUPPORTED"
+msgstr "In PHP besteht keine ZIP-Unterstützung"
+
+msgid "ID_MSG_FTP_FILE_UPLOAD_ATTACK"
+msgstr "mögliche Uploaddatei-Attacke!"
+
+msgid "ID_MSG_PASSWORD_ERROR"
+msgstr "Passwort stimmt nicht überein. Das Passwort wird nicht geändert!"
+
+msgid "ID_MSG_EMAIL_REQUIRED"
+msgstr "Email ist ein Pflichtfeld. Bitte Deine Email eintragen, diese wird nicht auf der Seite veröffentlicht."
+
+msgid "ID_MSG_USERNAME_EXISTS"
+msgstr "Benutzername <b>%s</b> schon vergeben"
+
+msgid "ID_MSG_PASSWORD_REQUIRED"
+msgstr "Passwort erforderlich"
+
+msgid "ID_MSG_GROUP_EXISTS"
+msgstr "Gruppe <b>%s</b> besteht bereits. Es können keine Gruppen mit gleichem Namen angelegt werden!"
+
+msgid "ID_MSG_PARAM_EXISTS"
+msgstr "Parameter <b>%s</b> besteht bereits. Bitte einen anderen Namen verwenden"
+
+msgid "ID_MSG_PARAM_MANDATORY"
+msgstr "Parameter ist Pflichtfeld, bitte einen entsprechenden Namen eingeben"
+
+msgid "ID_MSG_USERNAME_MANDATORY"
+msgstr "Username ist ein Pflichtfeld!"
+
+msgid "ID_MSG_VIEW_COUNT"
+msgstr "betrachtet: %s mal"
+
+msgid "ID_MSG_COMMENT_COUNT"
+msgstr "Kommentare %s"
+

@@ -1,0 +1,1068 @@
+msgid "ID_NEXT"
+msgstr "Következő >>"
+
+msgid "ID_PREV"
+msgstr "<< Előző"
+
+msgid "ID_NEXT_PAGE"
+msgstr "Következő oldal"
+
+msgid "ID_PREV_PAGE"
+msgstr "Előző oldal"
+
+msgid "ID_ALBUM_NAME"
+msgstr ""
+
+msgid "ID_PHOTO_DIR"
+msgstr ""
+
+msgid "ID_SETUP"
+msgstr "Beállítások"
+
+msgid "ID_HOME"
+msgstr "Kezdőoldal"
+
+msgid "ID_NAME"
+msgstr "Név "
+
+msgid "ID_EMAIL"
+msgstr "E-mail "
+
+msgid "ID_NAME_EMAIL"
+msgstr "Add meg neved és E-mail címed (opcionális)"
+
+msgid "ID_COMMENT_INSTR"
+msgstr "Gépeld be a megjegyzésed, majd nyomd meg a Megjegyzés hozzáadása gombot"
+
+msgid "ID_ADD_COMMENT"
+msgstr "Megjegyzés hozzáadása"
+
+msgid "ID_ENTER_PASSWD"
+msgstr "Jelszó:"
+
+msgid "ID_DELETE_COMMENT"
+msgstr "Megjegyzés törlése"
+
+msgid "ID_ALBUMS"
+msgstr "Albumok"
+
+msgid "ID_SEARCH"
+msgstr "Keresés"
+
+msgid "ID_ENABLE"
+msgstr "Aktív"
+
+msgid "ID_SETUP_MENU"
+msgstr "Menü:"
+
+msgid "ID_SETUP_MENU_MAIN"
+msgstr "Általános beállítások"
+
+msgid "ID_SETUP_MENU_LOGS"
+msgstr "Látogatás naplózása"
+
+msgid "ID_SETUP_MENU_DIRS"
+msgstr "Galériák"
+
+msgid "ID_SETUP_MENU_CACHE"
+msgstr "Gyorsítótár beállításai"
+
+msgid "ID_SETUP_MENU_ADMIN"
+msgstr "Feltöltés manager"
+
+msgid "ID_SETUP_MENU_COMMENTS"
+msgstr "Megjegyzések  és értékelések"
+
+msgid "ID_SETUP_MENU_ECARD"
+msgstr "E-Card"
+
+msgid "ID_SETUP_MENU_TEXTS"
+msgstr "Fordítások"
+
+msgid "ID_SETUP_MENU_ERRORLOG"
+msgstr "Hiba naplózás"
+
+msgid "ID_SETUP_MENU_SYSCHECK"
+msgstr "Rendszerellenőrzés"
+
+msgid "ID_SETUP_MENU_THUMBNAILS"
+msgstr "Előnézeti képek"
+
+msgid "ID_SETUP_MENU_THEMES"
+msgstr "Témák"
+
+msgid "ID_SETUP_MENU_USERS"
+msgstr "Felhasználók"
+
+msgid "ID_SETUP_MENU_GROUPS"
+msgstr "Csoportok"
+
+msgid "ID_SETUP_SAVE_CONFIG"
+msgstr "Beállítások mentése"
+
+msgid "ID_SETUP_MY_ACCOUNT"
+msgstr "Saját profil"
+
+msgid "ID_SETUP_MENU_PARAMS"
+msgstr "Képek paraméterei"
+
+msgid "ID_SETUP_MENU_PICS"
+msgstr "Képek"
+
+msgid "ID_SETUP_THUMBNAILS"
+msgstr "Átméretezett képek beállításai"
+
+msgid "ID_SETUP_DESC_MAIN"
+msgstr "Ezen az oldalon az alapbeállításokhoz lehet hozzáférni. Ez az oldal telepítés után automatikusan megjelenik és végre kell hajtani a phpAlbum használatbavétele előtt."
+
+msgid "ID_SETUP_DESC_THUMBNAILS"
+msgstr "Ezen az oldalon az előnézeti és az átméretezett képek beállításait lehet megadni. Minden beállítási csoport egy előnézeti kép jellemzőit tartalmazza. A látogatók választhatnak az engedélyezett, előre definiált beállítások közül. Az első látogatáskor az alapbeállításokkal jelennek meg. Hozzá lehet adni, illetve törölni lehet a beállításokat. Az éppen érvényes beállításokat nem lehet töröni."
+
+msgid "ID_SETUP_DESC_THEMES"
+msgstr "Ezen az oldalon az albumok vizuális megjelenését lehet beállítani. Az előnézeti képek megjelenhetnek egymás után folyamatosan, vagy mozaikszerűen is. Ezenkívül lehetőség van a Téma és a színpaletta megváltoztatására is."
+
+msgid "ID_SETUP_DESC_LOGS"
+msgstr "Ezen az oldalon a galléria látogatási naplózását lehet engedélyezni. Meg lehet adni a naplófájl nevét, így azt más nem tudja megnézni és kivételezést is lehet eszközölni."
+
+msgid "ID_SETUP_DESC_CACHE"
+msgstr "Ezen az oldalon a gyorsítótárak engedélyezését lehet beállítani. Ezenkívül a felhasznált tárolóterület méretét ellenőrizni, illetve törölni is lehet."
+
+msgid "ID_SETUP_RESET_CONFIG"
+msgstr "Alapértékek visszaállítása"
+
+msgid "ID_SETUP_DESC_ADMIN"
+msgstr "Ezen az oldalon lehet új képeket feltölteni és adminisztrálni. Az Általános beállítások menüpontban meg kell adni az FTP-szerver és az FTP-képtárt adatait. Ha a phpAlbum a warázsló segítségével lett létrehozva, akkor ez már megfelelően konfigurálva van. Ha a phpAlbum könyvtára meg lett változtatva, itt is meg kell adni az új adatokat."
+
+msgid "ID_SETUP_DESC_COMMENTS"
+msgstr "Ezen az oldalon a képekhez fűzött megjegyzések és értékelések jellemzőinek beállításait lehet megadni. A jóváhagyott megjegyzések megjelenítése az oldalakon, illetve csak az olvasása is itt lehetséges."
+
+msgid "ID_SETUP_DESC_ECARD"
+msgstr "Ezen az oldalon az \"E-Card\"-ok jellemzői állíthatók. Az \"E-Card\" elektronikus képeslap, melyen a látogatók elküldhetik a megtekintett képeket (tulajdonképpen csak a hivatkozásukat) e-mailben."
+
+msgid "ID_SETUP_ALBUM_DIR"
+msgstr "Az album könyvtára:"
+
+msgid "ID_SETUP_ALBUM_DIR_DESC"
+msgstr "Add meg a képek könyvtárának relatív útvonalát a \"main.php\"-tól."
+
+msgid "ID_SETUP_ERRORLOG_DESC"
+msgstr "Ezen az oldalon a hibaüzenetek tlálhatók. Ez igen hasznos lehet kideríteni, annak kiderítésére, hogy mi lehet a hiba, ha valami nem működik. A phpAlbum.net felé lehet a hibákat jelenteni, vagy segítséget kérni."
+
+msgid "ID_SETUP_TEXTS_DESC"
+msgstr "Ezen az oldalon saját fordítást hozhatsz létre. Ellenőrizd, hogy az Általános beállítások között nem szerepel-e a kivánt nyelv. Ott ki tudod választani az alapnyelvet, itt pedig a finomítást tudod megadni, vagy pedig egy teljesen más nyelvre tudsz fordítatni. Ha úgy gondolod, hogy tökéletes fordítást végeztél, elküldheted nekünk, hogy a fordításodat beépítsük a programba. (A fájl a \"data\" könyvtárban található translation.dat néven)."
+
+msgid "ID_SETUP_TEXTS_GUIDE"
+msgstr "Fordítási útmutató: Fordítsd le a kifejezéseket amelyeket meg szeretnél vátoztatni. Ez fog megjelenni az oldalakon az eredeti szöveg helyett.</br>3 mezőt láthatsz minden nyelvi elemnél. Az szöveg ID-ja szürkén, az eredeti szöveg zöld színnel és a beviteli mező a kívánt módosításhoz. Ez sárga, ha még nem lefordított és fehér ha már igen. <b> Teljes fordíráskor, fordítsd le azokat a kifejezéseket is amelyek az eredetivel megegyeznek</b>. Ügyelj a %s használatára, hogy hol volt az eredeti, ezenkívül a html tagokra, pl. &lt;b&gt; ..."
+
+msgid "ID_SETUP_CACHE_DIR"
+msgstr "Gyorsítótár könyvtára:"
+
+msgid "ID_SETUP_CACHE_DIR_DESC"
+msgstr "Add meg a gyorsítótár könyvtárának relatív útvonalát a \"main.php\"-tól. Írhatónak kell lennie!"
+
+msgid "ID_SETUP_MY_ACCOUNT_DESC"
+msgstr "Ezen az oldalon lehet a saját adatokat, nevet, e-mail címet, webhely címét és a jelszót megadni."
+
+msgid "ID_SETUP_DESC_USERS"
+msgstr "Ezen az oldalon a regisztrált felhasználókat lehet törölni, vagy szerkeszteni. Hozzáadás a főoldalról leetséges!"
+
+msgid "ID_SETUP_DESC_GROUPS"
+msgstr "Ezen az oldalon a csoportok beállításait lehet szerkeszteni. A felhasználókat is ezekhez a csoportokhoz lehet hozzárendelni. Ezenkívül a galériák / könyvtárak megjelenítését is lehet szabályozni e csoportok számára. Pl. minden a Family csoportba tartozó felhasználó a Family csoporthoz rendelt képeket megtekintheti."
+
+msgid "ID_SETUP_DESC_DIRS"
+msgstr "Ezen az oldalon a gallériák beállításait lehet módosítani, pl. a galéria leírását, a megjelenő nevet, hozzáférési csoportokat."
+
+msgid "ID_SETUP_DESC_PICS"
+msgstr "Ezen az oldalon a képek leírását és paramétereit adhatod meg."
+
+msgid "ID_SETUP_DESC_PARAMS"
+msgstr "Ezen az oldalon lehet létrehozni, törölni, módosítani a képek alatt megjelenő tulajdonságokat. Ezek az jellemzők jelennek meg minden kép alatt, amelyek az \"Általános\" értékre vannak állítva, illetve a \"Galériák\" menü alatt galériánként felül lehet írni az egyéni kívánságok szerint."
+
+msgid "ID_SETUP_PASSWORD"
+msgstr "Jelszó:"
+
+msgid "ID_SETUP_PASSWORD_DESC"
+msgstr "Add meg a jelszót és ismételd meg a következő mezőben. A jelszó kódolt formában kerül elmentésre, így senki sem tudhatja megnézni."
+
+msgid "ID_SETUP_LANGUAGE"
+msgstr "Nyelv:"
+
+msgid "ID_SETUP_LANGUAGE_DESC"
+msgstr "Válaszd ki a nyelvet a karakter készlettel, melyen az oldalak megjelennek. Ellenőrizd a rendszeren, hogy az\"mbstring module\" engedélyezve van-e, ha nem, ne használj speciális karaktereket a könyvtár- illetve a fájlnevekben UTF-8, esetén sem."
+
+msgid "ID_SETUP_HOME_URL"
+msgstr "Kezdőoldal URL:"
+
+msgid "ID_SETUP_HOME_URL_DESC"
+msgstr "Add meg a kezdőoldal URL-jét."
+
+msgid "ID_SETUP_SITE_NAME"
+msgstr "Webhely neve"
+
+msgid "ID_SETUP_SITE_NAME_DESC"
+msgstr "Add meg a webhely nevét, amely a címsorban is megjelenik."
+
+msgid "ID_SETUP_NEW_DIR_INDIC"
+msgstr "Új képek a galériában :"
+
+msgid "ID_SETUP_NEW_DIR_INDIC_DESC"
+msgstr "Mennyi ideig legyen megjelenítve az emlékeztető ikon, hogy új képek vannak a galériában. Az időtartam órában megadva."
+
+msgid "ID_SETUP_FTP_SERVER"
+msgstr "FTP-szerver:"
+
+msgid "ID_SETUP_FTP_SERVER_DESC"
+msgstr "Add meg az ftp-szerver url-jét , például ftp.sajatserver.hu"
+
+msgid "ID_SETUP_FTP_PHOTO_DIR"
+msgstr "FTP képtár:"
+
+msgid "ID_SETUP_FTP_PHOTO_DIR_DESC"
+msgstr "Ez a képek főkönyvtára az ftp-szerveren, pl. /phpAlbum/photos/ , a kezdő és befejező perjel megadása kötelező!"
+
+msgid "ID_SETUP_QUALITY_NAME"
+msgstr "Leírás:"
+
+msgid "ID_SETUP_QUALITY_NAME_DESC"
+msgstr "Add meg a beállítási csoport nevét, amely a választható menüben is megjelenik"
+
+msgid "ID_SETUP_QUALITY_THMB"
+msgstr "Előnézeti kép / minőség"
+
+msgid "ID_SETUP_QUALITY_THMB_DESC"
+msgstr "Add meg a maximális méretét az előnézeti képeknek (pl. 100 vagy 150). A második paraméter a jpeg tömörítés értékét adja meg (általában 40 és 90 közötti érték). A minőség kizárólag JPG fájlokra vonatkozik, PNG és GIF fájlokra nem. Ezenkívül a <strong>Négyzet alakú</strong> opció is megadható, így pontosan egyforma méretű képeket kapunk."
+
+msgid "ID_SETUP_QUALITY_PHOTO"
+msgstr "Képméret / minőség"
+
+msgid "ID_SETUP_QUALITY_PHOTO_DESC"
+msgstr "Add meg a maximális méretét a teljes méretű képeknek (pl. 400 vagy 550). A második paraméter a jpeg tömörítés értékét adja meg (általában 40 és 90 közötti érték). A minőség kizárólag JPG fájlokra vonatkozik, PNG és GIF fájlokra nem. <strong> Írd be a nullát = (0), ha nem kívánod a teljes méretű képet átméretezni</strong>."
+
+msgid "ID_SETUP_DEFAULT_SORT"
+msgstr "Általános rendezés:"
+
+msgid "ID_SETUP_DEFAULT_SORT_DESC"
+msgstr "Add meg az előnézeti képek és könyvtárak alapértelmezett rendezését. Ez az általános rendezés, ha nics más meghatározva."
+
+msgid "ID_SETUP_SQUARE_THMB"
+msgstr "Négyzet alakú"
+
+msgid "ID_SETUP_ADD_QUALITY"
+msgstr "Új beállítási csoport hozzáadása"
+
+msgid "ID_SETUP_DELETE_QUALITY"
+msgstr "A beállítási csoport törlése"
+
+msgid "ID_SETUP_RESIZE_IF_BIGGER"
+msgstr "Átméretezés, csak ha magyobb"
+
+msgid "ID_SETUP_RESIZE_TO_FIT"
+msgstr "Méretezés:"
+
+msgid "ID_SETUP_RESIZE_TO_FIT_DESC"
+msgstr "Válaszd ki, hogy a képek hogyan legyenek átméretezve, a magasság, a szélesség, vagy mind a két érték maximalizálva legyen, így egy előre definiált négyszögbe illik bele."
+
+msgid "ID_BOTH_WIDTH_AND_HEIGHT"
+msgstr "Szélesség és magasság"
+
+msgid "ID_WIDTH"
+msgstr "Szélesség"
+
+msgid "ID_HEIGHT"
+msgstr "Magasság"
+
+msgid "ID_SETUP_THEME_SETTINGS"
+msgstr "Téma beállításai"
+
+msgid "ID_SETUP_THEME_COLOR_SETTINGS"
+msgstr "Téma színe"
+
+msgid "ID_SETUP_THEME_THUMBNAILS_STYLE"
+msgstr "Előnézeti képek stílusa:"
+
+msgid "ID_SETUP_THEME"
+msgstr "Téma:"
+
+msgid "ID_SETUP_THEME_DESC"
+msgstr "Válassz egy témát a listából. Egy új téma létrehozásához egyszerűen másolj le és nevezz át egy meglévőt és módosítsd a benne levő fájlokat az elképzelésednek megfelelően. Ezzel automatikusan választhatóvá is válik."
+
+msgid "ID_SETUP_LOGO_PATH"
+msgstr "Logó elérési útvonala:"
+
+msgid "ID_SETUP_LOGO_PATH_DESC"
+msgstr "Add meg a logó relatív útvonalát (FILE típusú logó használatához)."
+
+msgid "ID_SETUP_LOGO_STYLE"
+msgstr "Logó típusa:"
+
+msgid "ID_SETUP_LOGO_STYLE_DESC"
+msgstr "Válaszd ki, hogy a logó milyen formában legyen generálva. NONE - nincs logó, GRAPHICAL -generált logó, TEXT - egyszerű szöveges logó és FILE - egy képfájlból beillesztve."
+
+msgid "ID_SETUP_LOGO_TEXT"
+msgstr "Logó szöveg:"
+
+msgid "ID_SETUP_LOGO_TEXT_DESC"
+msgstr "Add meg a szöveget a grafikus vagy szöveg stílusú logóhoz."
+
+msgid "ID_SETUP_THEME_FLOWING_STYLE"
+msgstr "Folyamatos"
+
+msgid "ID_SETUP_THEME_RASTER_STYLE"
+msgstr "Mozaik"
+
+msgid "ID_SETUP_MAX_PHOTO_PER_PAGE"
+msgstr "Max. előnézeti kép oldalanként:"
+
+msgid "ID_SETUP_MAX_PHOTO_PER_PAGE_DESC"
+msgstr "Max. előnézeti kép sorok. Ha több kép van a galériában, mint amennyi elfér egy oldalon, akkor a következő vagy az előző oldalra mutató hivatkozás jelenik meg ."
+
+msgid "ID_SETUP_RASTER_SIZE"
+msgstr "Oszlop / Sor :"
+
+msgid "ID_SETUP_RASTER_SIZE_DESC"
+msgstr "Add meg az oszlopok és a sorok számát az előnézeti képek mozaik stílusú elrendezéséhez"
+
+msgid "ID_SETUP_SHOW_FILENAMES"
+msgstr "Fájlnév megjelenítése"
+
+msgid "ID_SETUP_SHOW_FILENAMES_DESC"
+msgstr "Engedélyezd, ha a fájlnevet meg akarod jeleníteni a előnézeti képek alatt."
+
+msgid "ID_SETUP_DISABLE_BOTTOM_NEXTPREV"
+msgstr "Alsó következő/előző hivatkozás tiltása"
+
+msgid "ID_SETUP_DISABLE_BOTTOM_NEXTPREV_DESC"
+msgstr "A négyzet bejelölésével a lap alján megjelenő következő/előző hivatkozás letiltható."
+
+msgid "ID_SETUP_COLOR_SETTINGS"
+msgstr "Színpaletta:"
+
+msgid "ID_SETUP_ADD_COLOR_MAP"
+msgstr "Színpaletta hozzáadása"
+
+msgid "ID_SETUP_COLOR_DELETE"
+msgstr "Aktuális színpaletta törlése"
+
+msgid "ID_SETUP_COLOR_NAME"
+msgstr "Színpaletta neve:"
+
+msgid "ID_SETUP_COLOR_NAME_DESC"
+msgstr "Ez az aktuális színpaletta neve. Ha nem ez az egyetlen, akár ki is törölhető!"
+
+msgid "ID_SETUP_COLOR_BG"
+msgstr "Háttér:"
+
+msgid "ID_SETUP_COLOR_LINK"
+msgstr "Hivatkozás:"
+
+msgid "ID_SETUP_COLOR_DIR_DESC"
+msgstr "Könyvtárnév:"
+
+msgid "ID_SETUP_COLOR_BORDER"
+msgstr "Képkeret:"
+
+msgid "ID_SETUP_COLOR_PHOTO_DESC"
+msgstr "Képnév:"
+
+msgid "ID_SETUP_COLOR_LOGO"
+msgstr "Logó:"
+
+msgid "ID_SETUP_ENABLE_LOGGING"
+msgstr "Naplózás engedélyezve"
+
+msgid "ID_SETUP_ENABLE_LOGGING_DESC"
+msgstr "A naplózás engedélyezése a négyzet bejelölésével."
+
+msgid "ID_SETUP_LOGS_FILENAME"
+msgstr "Naplófájl neve:"
+
+msgid "ID_SETUP_LOGS_FILENAME_DESC"
+msgstr "Fájlnév, amelyben a naplózás mentésre kerül."
+
+msgid "ID_SETUP_LOGS_EXCLUDE"
+msgstr "Kivételek:"
+
+msgid "ID_SETUP_LOGS_EXCLUDE_DESC"
+msgstr "Az értékek megadása pontosvesszővel(;)elválasztva. Így a a megadott host-ok naplózására nem kerül sor. Például a saját \"hostnév.hu\" látogatást a \"hostnév\" megadásával lehet a naplózásból kihagyni."
+
+msgid "ID_SETUP_CACHE_THUMBNAILS"
+msgstr "Előnézeti képek tárolása"
+
+msgid "ID_SETUP_CACHE_RESIZED_PHOTOS"
+msgstr "Átméretezett képek tárolása"
+
+msgid "ID_SETUP_CACHE_THUMBNAILS_DESC"
+msgstr "Ezzel a jelölőnégyzettel lehet engedélyezni a generált előnézeti képek tárolását. Ez a beállítás erősen ajánlott, mivel ez sokkal gyorsabb működést eredményez, mintha a programnak mindig újra kellene generálnia a képeket minden kérésnél."
+
+msgid "ID_SETUP_CACHE_RESIZED_PHOTOS_DESC"
+msgstr "Ezzel a jelölőnégyzettel lehet engedélyezni a generált képek tárolását. Ez a beállítás is hasznos az albumok megnyitási sebességének növelésére, de a webhely méretéből is jelentős helyet foglalhat el, így meggondoltan alkalmazzad."
+
+msgid "ID_SETUP_LOGIN"
+msgstr "Bejelentkezés"
+
+msgid "ID_USERNAME"
+msgstr "Felhasználónév"
+
+msgid "ID_PASSWORD"
+msgstr "Jelszó"
+
+msgid "ID_SETUP_ACT_DIR"
+msgstr "Jelenlegi könyvtár:"
+
+msgid "ID_SETUP_ACT_DIR_DESC"
+msgstr "Itt tudod megváltoztatni az aktuális könyvtárt az ftp-szerveren. Könnyebb a felhasználóknak ha a könyvtárlinkek fájlok listájaként jelennek meg."
+
+msgid "ID_SETUP_UPLOAD_FILE"
+msgstr "Fájlok feltöltése:"
+
+msgid "ID_SETUP_UPLOAD_FILE_DESC"
+msgstr "Ezen a módon egyetlen fájl feltöltésére van lehetőséged az ftp-szerveren."
+
+msgid "ID_UPLOAD"
+msgstr "Feltöltés"
+
+msgid "ID_SETUP_MAX_SIZE"
+msgstr "Max.méret:"
+
+msgid "ID_SETUP_UPLOAD_ZIP_FILE"
+msgstr "ZIP fájl feltöltése:"
+
+msgid "ID_SETUP_UPLOAD_ZIP_FILE_DESC"
+msgstr "Ezen a módon tudsz zip-fájlt feltölteni az aktuális könyvtárba az ftp-szerveren. Ez a zip-fájl automatikusan ki lesz csomagolva az aktuális fa-struktúrájával. Ha nem akarod a feltöltött zip-fájlt kicsomagolni, használd a fájl feltöltés menüpontot."
+
+msgid "ID_UPLOAD_ZIP"
+msgstr "ZIP feltöltés"
+
+msgid "ID_SETUP_CREATE_DIR"
+msgstr "Könyvtár létrehozása:"
+
+msgid "ID_SETUP_CREATE_DIR_DESC"
+msgstr "Itt tudsz létrehozni új könyvtárat az aktuális könyvtáron belül az ftp-szerveren."
+
+msgid "ID_CREATE"
+msgstr "Létrehozás"
+
+msgid "ID_FILENAME"
+msgstr "Fájlnév"
+
+msgid "ID_SIZE"
+msgstr "Méret"
+
+msgid "ID_IMAGE_SIZE"
+msgstr "Képméret"
+
+msgid "ID_OWNER"
+msgstr "Tulajdonos"
+
+msgid "ID_GROUP"
+msgstr "Csoport"
+
+msgid "ID_FUNCTIONS"
+msgstr "Funciók"
+
+msgid "ID_TIME"
+msgstr "Idő"
+
+msgid "ID_COMMAND"
+msgstr "Parancs"
+
+msgid "ID_FILE_DIR"
+msgstr "Fájl / könyvtár"
+
+msgid "ID_HOST"
+msgstr "Host"
+
+msgid "ID_PATH"
+msgstr "Útvonal"
+
+msgid "ID_ALIAS"
+msgstr "Álnév"
+
+msgid "ID_PASSWORDS"
+msgstr "Jelszó"
+
+msgid "ID_SETUP_ENABLE_COMMENTS"
+msgstr "Megjegyzés engedélyezése"
+
+msgid "ID_SETUP_ENABLE_COMMENTS_DESC"
+msgstr "A jelölőnégyzet segítségével a képek alatti megjegyzések engedélyezhetők"
+
+msgid "ID_SETUP_COMMENT_QUEUE"
+msgstr "Engedélyezési sor mérete"
+
+msgid "ID_SETUP_COMMENT_QUEUE_DESC"
+msgstr "Az engedélyezési sor hosszát lehet itt megadni. Régebbi megjegyzések automatikusan engedélyezve lesznek, de a képek alatt bármikor törölheted a nemkívánt megjegyzéseket. Valójában az alul látható legújabb megjegyzések számát lehet itt megadni."
+
+msgid "ID_SETUP_COMMENT_APPROVING_DESC"
+msgstr "Itt lehet az összes nem engedélyezett, illetve törölt megjegyzéseket megtekinteni. Engedélyezéskor a listáról törölve lesz a megjegyzést, de a kép alatt bármikor megtekinthető, illetve végérvényesen törölhető. Törléskor a kép alól is törölve lesz. Nincs megerősítése a parancsnak, így legyél óvatos, hogy hová kattintasz. A kép alatt is tudod törölni a megjegyzéseket, de előtte be kell jelentkezned. Szóval itt az új, még nem engedélyezett és még nem törölt megjegyzések találhatók:"
+
+msgid "ID_SETUP_NEW_COMMENTS"
+msgstr "Új megjegyzések"
+
+msgid "ID_SETUP_ENABLE_ECARD"
+msgstr "\"E-Card\"-ok engedélyezése"
+
+msgid "ID_SETUP_ENABLE_ECARD_DESC"
+msgstr "A jelölőnégyzet segítségével az \"E-card\"-ok küldését lehet engedélyezni az oldalaidról."
+
+msgid "ID_SETUP_ECARD_SUBJECT"
+msgstr "Az \"E-card\" tárgya"
+
+msgid "ID_SETUP_ECARD_SUBJECT_DESC"
+msgstr "Ez a szöveg lesz az \"E-card\" tárgymezőjében"
+
+msgid "ID_SETUP_ECARD_PICKED_SUBJECT"
+msgstr "A \"Megtekintve!\" e-mail tárgya"
+
+msgid "ID_SETUP_ECARD_PICKED_SUBJECT_DESC"
+msgstr "Ez a szöveg lesz <b>\"Megtekintve!\"</b> email-nek, amely a képeslap feladójának lesz elküldve"
+
+msgid "ID_SETUP_ECARD_TEXT"
+msgstr "Az képeslapszövege"
+
+msgid "ID_SETUP_ECARD_TEXT_DESC"
+msgstr "Ez lesz az elküldendő e-mail szövege. A következő változónevek az odaillő értékekkel lesznek behelyetteítve. (#TO_NAME, #TO_EMAIL, #FROM_NAME, #FROM_EMAIL, #DATE, #TIME, #ECARD_ADRESS, #IMAGE_ADRESS)"
+
+msgid "ID_SETUP_ECARD_PICKED_TEXT"
+msgstr "A \"Megtekintve!\" e-mail szövege"
+
+msgid "ID_APPROVE"
+msgstr "Engedélyezve"
+
+msgid "ID_DELETE"
+msgstr "Törlés"
+
+msgid "ID_TEXT"
+msgstr "Szöveg"
+
+msgid "ID_PICTURE"
+msgstr "Kép"
+
+msgid "ID_TYPE"
+msgstr "Típus"
+
+msgid "ID_ERROR_NUMBER"
+msgstr "ErrNum"
+
+msgid "ID_ERROR_MESSAGE"
+msgstr "Hibaüzenet"
+
+msgid "ID_SCRIPT_NAME"
+msgstr "Script név"
+
+msgid "ID_LINE"
+msgstr "Sor"
+
+msgid "ID_LOGIN"
+msgstr "Bejelentkezés"
+
+msgid "ID_LOGOUT"
+msgstr "Kijeletkezés"
+
+msgid "ID_SAVE"
+msgstr "Mentés"
+
+msgid "ID_REGISTER"
+msgstr "Új felhasználó regisztrálása"
+
+msgid "ID_REMEMBER"
+msgstr "Emlékezz rám"
+
+msgid "ID_SETUP_USERNAME_DESC"
+msgstr "Add meg a felhasználói neved. Ha már foglalt, hibaüzenet jelenik meg."
+
+msgid "ID_RETYPE_PASSWORD"
+msgstr "Jelszó újra:"
+
+msgid "ID_SETUP_EMAIL"
+msgstr "E-Mail címed:"
+
+msgid "ID_SETUP_EMAIL_DESC"
+msgstr "Add meg az E-mail címed. Nem lesz megjelenítve!"
+
+msgid "ID_SETUP_HOMEPAGE"
+msgstr "Honlap"
+
+msgid "ID_SETUP_HOMEPAGE_DESC"
+msgstr "Add meg a honlapod, ez a megjegyzésekben látható lesz."
+
+msgid "ID_SETUP_REGISTER_NEW_USER"
+msgstr "Regisztrálás"
+
+msgid "ID_THANKS_FOR_REGISTER"
+msgstr "Köszönjük, hogy regisztráltad magad oldalunkon!"
+
+msgid "ID_SETUP_DELETE_ERROROLOG"
+msgstr "Hibanapló törlése"
+
+msgid "ID_SETUP_ADD_GROUP"
+msgstr "Új felhasználói csoport hozzáadása"
+
+msgid "ID_SETUP_NEW_GROUP_NAME"
+msgstr "Új felhasználói csoport megnevezése:"
+
+msgid "ID_SETUP_ADD_GROUP_DESC"
+msgstr "Add meg az új csoport nevét, majd klikkelj a gombra. Ezzel egy új csoportot hozol létre. Ezután hozzárendelheted a felhasználókat és a galériákat."
+
+msgid "ID_SETUP_SHOW_DIRS"
+msgstr "Hozzárendelt galériák megjelenítése"
+
+msgid "ID_SETUP_SHOW_USERS"
+msgstr "Hozzárendelt felhasználók megjelenítése"
+
+msgid "ID_USER"
+msgstr "Felhasználó"
+
+msgid "ID_EDIT"
+msgstr "Szerkesztés"
+
+msgid "ID_ID"
+msgstr "Id"
+
+msgid "ID_NOT_POSSIBLE"
+msgstr "Nem lehetséges"
+
+msgid "ID_SETUP_ADD_NEW_PARAM"
+msgstr "Új paraméter létrehozása"
+
+msgid "ID_SETUP_ADD_PARAM_DESC"
+msgstr "Add meg az új paraméter nevét és válszd ki a típusát. <ul><li><b>Egyéni érték</b> - Felhasználó által definiált szöveges érték</li><li><b>Egyéni lista értékek</b> - felhasználó által definiált lenyíló lista minden képhez</li><li><b>Rendszer érték</b> - kiválaszthatod alapértéknek a rendszer értékeket, pl. méret, létrehozás dátuma, fájlnév, fájlnév az eredeti kép letöltési útvonalával...</li></ul>"
+
+msgid "ID_SETUP_PARAM_NAME"
+msgstr "Paraméter neve:"
+
+msgid "ID_SETUP_PARAM_NAME_DESC"
+msgstr "Adj meg egy új paraméternevet, ha meg akarod változtatni. Vigyázat! A paraméter törlése linkre kattintva a paraméter törlődik, a képek alatti megjelenítésével eggyütt."
+
+msgid "ID_SETUP_DELETE_PARAM"
+msgstr "Paraméter törlése"
+
+msgid "ID_SETUP_PARAM_DEFAULT"
+msgstr "Alapérték:"
+
+msgid "ID_SETUP_PARAM_DEFAULT_DESC"
+msgstr "Itt megadhatsz alapértéket ehhez a paraméterhez, amely megjelenik minden képen, amihez nincs más érték megadva."
+
+msgid "ID_ALLOW_HTML"
+msgstr "HTML kód engedélyezve."
+
+msgid "ID_SETUP_PARAM_SYS_DEFAULT"
+msgstr "Automatikus érték:"
+
+msgid "ID_SETUP_PARAM_SYS_DEFAULT_DESC"
+msgstr "Válassz egy értéket a paraméternek."
+
+msgid "ID_SETUP_EDIT_LOV"
+msgstr "Értékek lista szerkesztése"
+
+msgid "ID_SETUP_DELETE_LOV"
+msgstr "Érték törlése"
+
+msgid "ID_NOT_DEFINED"
+msgstr "Nincs megadva"
+
+msgid "ID_ADD_NEW_VALUE"
+msgstr "Új érték hozzáadása"
+
+msgid "ID_SETUP_ACCOUNT_GROUP_DESC"
+msgstr "Válaszd ki mely felhasználói csoportokhoz szeretnéd kapcsolni a profilod."
+
+msgid "ID_SETUP_GALLERY"
+msgstr "Galéria:"
+
+msgid "ID_SETUP_GALLERY_DESC"
+msgstr "Válaszd ki a galériát, amelyet meg szeretnél változtatni. Ha nem találod a lenyíló listában, kattints a Galériák rendezése linkre:"
+
+msgid "ID_SETUP_ALIAS"
+msgstr "Álnév:"
+
+msgid "ID_SETUP_ALIAS_DESC"
+msgstr "Adj meg egy álnevet, ami az oldalon megjelenjen a könyvtárnév helyett."
+
+msgid "ID_SETUP_DESC"
+msgstr "Rövid leírás:"
+
+msgid "ID_SETUP_DESC_DESC"
+msgstr "Ez egy rövid leírása a könyvtárnak, amelyet a könyvtár ikonja/előnézeti képe alatt meg lehet jeleníteni."
+
+msgid "ID_SETUP_PIC_DESC_DESC"
+msgstr "Ez egy rövid leírása a képnek, amelyet az előnézeti kép alatt meg lehet jeleníteni."
+
+msgid "ID_SETUP_LONG_DESC"
+msgstr "Leírás:"
+
+msgid "ID_SETUP_LONG_DESC_DESC"
+msgstr "Hosszabb leírása a könyvtárnak (tartalmának). HTML kódot is meg lehet itt adni."
+
+msgid "ID_SETUP_PIC_LONG_DESC_DESC"
+msgstr "Add meg a leírást, amely a kép alatt jelenik meg a rövid leírással együtt.HTML kódot is meg lehet itt adni."
+
+msgid "ID_SETUP_SORTING"
+msgstr "Rendezés:"
+
+msgid "ID_SETUP_SORTING_DESC"
+msgstr "Válaszd ki a kívánt rendezési módot. \"Általános\" - az Általános beállítások menü alatt beállított érték szerint lesz rendezve."
+
+msgid "ID_SETUP_VISIBLE"
+msgstr "Megjelenítve:"
+
+msgid "ID_SETUP_VISIBLE_DESC"
+msgstr "Válaszd ki, hogy a könyvtár látható legyen, vagy sem."
+
+msgid "ID_SETUP_ACCESS_RIGHTS"
+msgstr "Hozzáférési jogosultságok"
+
+msgid "ID_SETUP_GALLERY_GROUP_DESC"
+msgstr "Add meg a csoportokat, amelyeket le szeretnél tiltani, hogy megtekinthessék a galériát. A szürke négyzetek beállítása öröklődott valamely más beállításból, így azokat a vonatkozó helyen lehet állítani."
+
+msgid "ID_SETUP_GALLERY_PARAMS_DESC"
+msgstr "Add meg a paramétereket, amelyeket meg szeretnél jeleníteni a képek alatt. További paraméterek beállítását a Képek paraméterei menüpont alatt lehet megadni."
+
+msgid "ID_SETUP_SHOW_CUSTOM_PARAMS"
+msgstr "Egyéni paraméterek beállítása"
+
+msgid "ID_SETUP_SHOW_DEFAULT_PARAMS"
+msgstr "Alapértékek használata"
+
+msgid "ID_SETUP_PARAMS_DEFAULT_CUSTOM_DESC"
+msgstr "Válaszd ki, hogy az általános vagy az egyéni paraméterekkel legyenek a képek a galériában megjelenítve."
+
+msgid "ID_SETUP_SHOW_PARAMS"
+msgstr "Egyéni vagy általános:"
+
+msgid "ID_NO_DEFINED_PARAMS"
+msgstr "Nincs definiált paraméter."
+
+msgid "ID_SETUP_NEXT_SCAN"
+msgstr "Következő automatikus teljes könyvtár rendezés/ellenőrzés: %s"
+
+msgid "ID_SETUP_SCAN_DIRS"
+msgstr "Könyvtárak rendezése most!"
+
+msgid "ID_DEFAULT_DISPLAYED"
+msgstr "Alapértékként megjelenítve"
+
+msgid "ID_SETUP_PARAM_DEFAULT_DISPLAYED_DESC"
+msgstr "Jelöld be a jelölőnégyzetet, ha általános alapértékként szeretnéd megjeleníteni, pl. azoknál a galáriáknál, ahol a képek paraméterei Alapértékek használatára vannak beállítva."
+
+msgid "ID_HTML_NOT_ALLOWED"
+msgstr "HTML kód nem használható."
+
+msgid "ID_HTML_ALLOWED"
+msgstr "HTML kód használható."
+
+msgid "ID_DEFAULT_VALUE"
+msgstr "Az alapérték: <b>%s</b>"
+
+msgid "ID_NO_DEFAULT_VALUE"
+msgstr "Alapérték nincs definiálva"
+
+msgid "ID_DEFAULT"
+msgstr "Alapérték"
+
+msgid "ID_SETUP_THEME_BORDERS"
+msgstr "Kép és előnézeti kép keretei"
+
+msgid "ID_SETUP_THEME_PIC_BORDER_SIZE"
+msgstr "A képek keretének a mérete"
+
+msgid "ID_SETUP_THEME_THMB_BORDER_SIZE"
+msgstr "Az előnézeti képek keretének a mérete"
+
+msgid "ID_SETUP_THEME_DISPLAY_SHADOWS"
+msgstr "Árnyék megjelenítése"
+
+msgid "ID_SETUP_THEME_DISPLAY_SHADOWS_DESC"
+msgstr "Ha a téma támogatja, árnyék jelenik meg a képek és előnézeti képek mögött."
+
+msgid "ID_SETUP_THEME_PIC_BORDER_SIZE_DESC"
+msgstr "Add meg a képek keretének a szélességét"
+
+msgid "ID_SETUP_THEME_THMB_BORDER_SIZE_DESC"
+msgstr "Add meg az előnézeti képek keretének a szélességét"
+
+msgid "ID_SETUP_WATERMARK_FILE"
+msgstr "Vízjel fájlja"
+
+msgid "ID_SETUP_WATERMARK_FILE_DESC"
+msgstr "Válassz ki egy png-fájlt a vízjel hozzáadásához. Helyezd el az átlátszó PNG képeket a phpAlbum főkönyvtárába."
+
+msgid "ID_NO_WATERMARK"
+msgstr "Nincs vízjel"
+
+msgid "ID_SETUP_WATERMARK_POSITION"
+msgstr "Vízjel elhelyezkedése"
+
+msgid "ID_SETUP_WATERMARK_POSITION_DESC"
+msgstr "Add meg a vízjel elhelyezkedését"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE"
+msgstr "Galéria logó (ikon) stílusa"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_DESC"
+msgstr "Add meg, hogy a galéria ikonja hogy jelenjen meg. Választható egy könyvtár ikon, vagy egy kép az adott sorozatból, a sorozat szerinti, vagy egy másik méretben."
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_LOGO"
+msgstr "Könyvtár ikon"
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_PIC1"
+msgstr "Előnézeti kép (azonos az általános előnézeti képpel)."
+
+msgid "ID_SETUP_DIR_LOGO_STYLE_PIC2"
+msgstr "Előnézeti kép (más méret, mint az általános előnézeti kép)."
+
+msgid "ID_USE_FOR_LOGO"
+msgstr "Könyvtárlogónak kijelölve."
+
+msgid "ID_SETUP_ADD_THMB_HEIGHT"
+msgstr "Extra magasság az előnézeti képekhez"
+
+msgid "ID_SETUP_ADD_THMB_WIDTH"
+msgstr "Extra szélesség az előnézeti képekhez"
+
+msgid "ID_SETUP_ADD_THMB_HEIGHT_WIDTH_DESC"
+msgstr "Növeld az értékeket az előzézeti képek egymáshoz viszonyított távolságának a növeléséhez. Ezek az értékek csak a folyamatos stílus esetén érvényesek és ha túl közel vannak az előnézeti képek egymáshoz, a leírások egymásba csúszhatnak."
+
+msgid "ID_SETUP_SHARPEN_WITH_PARAM"
+msgstr "Élesítés engedélyezve, paraméterekkel:"
+
+msgid "ID_SETUP_AMOUNT"
+msgstr "Érték"
+
+msgid "ID_SETUP_RADIUS"
+msgstr "Rádiusz"
+
+msgid "ID_SETUP_TRESHOLD"
+msgstr "Küszöbérték"
+
+msgid "ID_SETUP_SHARPEN_DESC"
+msgstr "Engedélyezni lehet az előnézeti kép élesítését, amelyek átméretezés után általában eléggé életlenné válnak. <strong>Vedd figyelembe, hogy ez jelentős mértékben lelassíthatja az átméretezési folyamatot!</strong>"
+
+msgid "ID_SETUP_SHARPEN_THMB"
+msgstr "Előnézeti kép élesítése"
+
+msgid "ID_SETUP_INFO_THMB"
+msgstr "Az előnézeti képek alatt megjeleníthető információk:"
+
+msgid "ID_SETUP_INFO_THMB_DESC"
+msgstr "Válaszd ki, hogy mely információk jelenjenek meg az előnézeti képek alatt."
+
+msgid "ID_SETUP_INFO_THMB_VIEWS"
+msgstr "Látogatások száma"
+
+msgid "ID_SETUP_INFO_THMB_COMMENTS"
+msgstr "Megjegyzések száma"
+
+msgid "ID_SETUP_INFO_THMB_VOTES"
+msgstr "Értékelések összegzése"
+
+msgid "ID_SETUP_DATE_FORMAT"
+msgstr "Dátum/Idő formátum"
+
+msgid "ID_SETUP_DATE_FORMAT_DESC"
+msgstr "Add meg a dátum/idő formátumot, amelyet használni kívánsz. A PHP date()függvény paramétereivel formázható."
+
+msgid "ID_SYS_PAR_SIZ"
+msgstr "%s KB"
+
+msgid "ID_SYS_PAR_DIM"
+msgstr "%s x %s ( SZ x M )"
+
+msgid "ID_SYS_PAR_FNM"
+msgstr "%s"
+
+msgid "ID_SYS_PAR_FNL"
+msgstr "<a class=\"me3\" href=\"%s\" target=\"_blank\">%s</a> (kattints az eredeti kép letöltéséhez)"
+
+msgid "ID_SYS_PAR_DWL"
+msgstr "<a class=\"me3\" href=\"%s\" target=\"_blank\">(kattints az eredeti kép letöltéséhez)</a>"
+
+msgid "ID_SYS_PAR_CDT"
+msgstr "%s"
+
+msgid "ID_SYS_PAR_EXIF_F"
+msgstr "F %s"
+
+msgid "ID_SYS_PAR_EXIF_FL"
+msgstr "%smm"
+
+msgid "ID_SYS_PAR_EXIF_ISO"
+msgstr "ISO %s"
+
+msgid "ID_SYS_PAR_EXIF_EXP_TIME"
+msgstr "%s sec"
+
+msgid "ID_PHOTO_DETAILS"
+msgstr "A kép adatai"
+
+msgid "ID_SETUP_PRIVILEGES"
+msgstr "Privilégiumok"
+
+msgid "ID_SETUP_PRIVILEGES_DESC"
+msgstr "Itt a csoportokon belüli hozzáféréseket lehet beállítani. A zöld szín a hozzáférést, a piros a letiltást jelenti. Az értékre kattintva lehet az állapotot megváltoztatni.</br></br>Az Alapérték oszlopban meg lehet megadni, hogy az újonnan regisztrált felhasználók, melyik csoportba tartozzanak."
+
+msgid "ID_ENTER_ANTISPAM_CODE"
+msgstr "Írd be a kódot:"
+
+msgid "ID_DISABLE_ERROR_LOG"
+msgstr "Hiba naplózás tiltása"
+
+msgid "ID_SETUP_ENABLE_ANTISPAM"
+msgstr "Antispam engedélyezése"
+
+msgid "ID_SETUP_ENABLE_ANTISPAM_DESC"
+msgstr "Antispam kódszám engedélyezése. Ezzel megakadályozható spam küldése az oldaladról."
+
+msgid "ID_SETUP_PUBLISH_ONLY_APPROVED"
+msgstr "Csak a jóváhagyott megjegyzések megjelenítése"
+
+msgid "ID_SETUP_PUBLISH_ONLY_APPROVED_DESC"
+msgstr "A jelölőnégyzet segítségével, csak az alább engedélyezett megjegyzések jelennek meg az oldalaidon."
+
+msgid "ID_SETUP_THEME_NEWEST_COUNT"
+msgstr "Új képek száma:"
+
+msgid "ID_SETUP_THEME_NEWEST_COUNT_DESC"
+msgstr "Add meg, hogy hány kép jelenjen meg a főoldalon a legújabb képek között."
+
+msgid "ID_NEWEST_PICTURES"
+msgstr "Legújabb képek"
+
+msgid "ID_SETUP_USE_IPTC_DESC"
+msgstr "Az IPTC értékek használata"
+
+msgid "ID_SETUP_USE_IPTC_DESC_DESC"
+msgstr "Ha be van jelölve, a képek IPTC értékei lesznek a képaláírásban és a fejlécben beállítva."
+
+msgid "ID_IMAGEORIG"
+msgstr "Kép letöltése"
+
+msgid "ID_IMAGEVIEW"
+msgstr "Kép megjelenítése"
+
+msgid "ID_ERROR_PAGE_MESSAGE"
+msgstr "Nincs hozzáférésed az oldal megtekintéséhez vagy a kép letöltéséhez!"
+
+msgid "ID_RECIPIENT_NAME"
+msgstr "Címzett neve"
+
+msgid "ID_RECIPIENT_EMAIL"
+msgstr "Cínzett E-mail címe"
+
+msgid "ID_SENDER_NAME"
+msgstr "Feladó neve"
+
+msgid "ID_SENDER_EMAIL"
+msgstr "Feladó E-mail címe"
+
+msgid "ID_YOUR_MESSAGE"
+msgstr "Üzeneted"
+
+msgid "ID_WRITE_ECARD"
+msgstr "Küldj egy képeslapot"
+
+msgid "ID_FROM"
+msgstr "Feladó:&nbsp;"
+
+msgid "ID_TO"
+msgstr "Címzett:&nbsp;"
+
+msgid "ID_SETUP_SHOW_SEARCH_BOX"
+msgstr "Keresés mező megjelenítése."
+
+msgid "ID_SETUP_SHOW_SEARCH_BOX_DESC"
+msgstr "Engedélyezni lehet a keresés mező megjelenését a kezdőoldalon. Jelenleg még csak a IPTC-ből importálr kulcsszavakra lehet keresni vele."
+
+msgid "ID_SETUP_TRACKING_CODE"
+msgstr "Nyomkövető kód"
+
+msgid "ID_SETUP_TRACKING_CODE_DESC"
+msgstr "Itt tudod megadni például a Javascript nyomkövető kódot (pl. Google Analytics), amely minden oldalon megjelenik."
+
+msgid "ID_MSG_DIR_NOT_EXISTS"
+msgstr "A %s könyvtár nem létezik, változtasd meg!"
+
+msgid "ID_MSG_DIR_NOT_WRITABLE"
+msgstr "A %s könyvtár nem írható, változtasd meg a jogokat a CHMOD-al!"
+
+msgid "ID_MSG_FILE_NOT_EXISTS"
+msgstr "A %s fájl nem található"
+
+msgid "ID_FILE_WAS_DELETED"
+msgstr "A %s fájl törölve"
+
+msgid "ID_MSG_SETUP_FTP"
+msgstr "Menj az Általános beállítások menübe és állítsd be az ftp-szervert és az ftp-szerver könyvtárat a Feltöltés manager használatához."
+
+msgid "ID_MSG_FTP_SUPPORT"
+msgstr "FTP támogatás nincs engedélyezve!! Nem tudod használni a feltöltés managert. Érdeklődj a szlogáltatódnál!"
+
+msgid "ID_MSG_FTP_UNABLE_CONNECT"
+msgstr "Nem sikerült a %s szerverhez kapcsolódni"
+
+msgid "ID_MSG_FTP_INVALID_LOGIN"
+msgstr "Felhasználónév vagy a jelszó hibás!"
+
+msgid "ID_MSG_FTP_PASSIVE_MODE"
+msgstr "Nem sikerült a passzív üzemmód beállítása az ftp-szerveren"
+
+msgid "ID_MSG_FTP_UNABLE_CHDIR"
+msgstr "Nem sikerült a %s könyvtárba belépni."
+
+msgid "ID_MSG_FTP_PHOTO_DIR"
+msgstr "Ftp-szerver fotó könyvtára nem a fotókat tartalmazó könyvtárra mutat."
+
+msgid "ID_MSG_FTP_UNABLE_DELETE"
+msgstr "Nem sikerült a %s fájlt törölni az ftp-szerveren."
+
+msgid "ID_MSG_FTP_UNABLE_UPLOAD"
+msgstr "Nem sikerült %s fájlt feltölteni!"
+
+msgid "ID_MSG_FTP_UNABLE_OPEN_TMP"
+msgstr "Nem sikerült a temp könyvtárat megnyitni!"
+
+msgid "ID_MSG_FTP_UNABLE_MKDIR"
+msgstr "Nem sikerült a %s könyvtárat létrehozni az ftp-szerveren!"
+
+msgid "ID_MSG_FTP_UNABLE_RMDIR"
+msgstr "Nem sikerült a %s könyvtárat törölni az ftp-szerveren!"
+
+msgid "ID_MSG_FTP_NOT_ZIP"
+msgstr "Nem zip fájl, vagy nem támogatott formátum!"
+
+msgid "ID_MSG_FTP_ZIP_UNSUPPORTED"
+msgstr "Nincs ZIP támogatás a PHP-ben installálva!"
+
+msgid "ID_MSG_FTP_FILE_UPLOAD_ATTACK"
+msgstr "Lehetséges fájl feltöltés támadás!"
+
+msgid "ID_MSG_PASSWORD_ERROR"
+msgstr "Az ismételt jelszó nem egyezett az először megadottal. A jelszó nem lett megváltoztatva!"
+
+msgid "ID_MSG_EMAIL_REQUIRED"
+msgstr "E-mail mező kitöltése kötelező. Add meg az E-mail címed, nem lesz megjelenítve az oldalakon."
+
+msgid "ID_MSG_USERNAME_EXISTS"
+msgstr "A <b>%s</b> felhasználónév már foglalt!"
+
+msgid "ID_MSG_PASSWORD_REQUIRED"
+msgstr "Add meg a jelszót!"
+
+msgid "ID_MSG_GROUP_EXISTS"
+msgstr "A <b>%s</b> csoport már létezik. Nem lehet egy létező néven új csoportot létrehozni!"
+
+msgid "ID_MSG_PARAM_EXISTS"
+msgstr "A <b>%s</b> paraméternév már létezik. Adj meg egy másik nevet a paraméter hozzáadásához."
+
+msgid "ID_MSG_PARAM_MANDATORY"
+msgstr "Parametérnév megadása kötelező, adj meg egy nevet az új paraméternek."
+
+msgid "ID_MSG_USERNAME_MANDATORY"
+msgstr "Felhasználónév kitöltése kötelező!"
+
+msgid "ID_MSG_VIEW_COUNT"
+msgstr "Megtekintve: %s "
+
+msgid "ID_MSG_COMMENT_COUNT"
+msgstr "Megjegyzés: %s"
+

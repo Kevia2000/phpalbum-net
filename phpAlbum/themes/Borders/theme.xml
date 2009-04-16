@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML Configuration file for Borders Theme
+     Created by Patrik Jakab
+ -->
+ <theme>
+ <name>Borders</name>
+ 
+ <parameter type="color">
+ 	<name>bg_color</name>
+ 	<default>EEEEDD</default>
+ 	<description>Background color</description>
+ </parameter>
+ 
+ <parameter type="color" >
+ 	<name>bg_color2</name>
+ 	<default>CCCCBB</default>
+ 	<description>Background color 2</description>
+ </parameter>
+ 
+ <parameter type="color">
+ 	<name>bg_color3</name>
+ 	<default>CCCCBB</default>
+ 	<description>Background color 3</description>
+ </parameter>
+ 
+ <parameter type="color" >
+ 	<name>link_color</name>
+ 	<default>464646</default>
+ 	<description>Link</description>
+ </parameter>
+ 
+ <parameter type="color" >
+ 	<name>link_color2</name>
+ 	<default>464646</default>
+ 	<description>Link2</description>
+ </parameter>
+ 
+ <parameter type="color" >
+ 	<name>thmb_border_color</name>
+ 	<default>FFFFFF</default>
+ 	<description>Thumbnail Border</description>
+ </parameter>
+ 
+ <parameter type="color" >
+ 	<name>thmb_border_color_hover</name>
+ 	<default>FFFF88</default>
+ 	<description>Thumb Border Hover</description>
+ </parameter>
+ 
+ <parameter type="color" >
+ 	<name>border_color</name>
+ 	<default>FFFFFF</default>
+ 	<description>Photo border</description>
+ </parameter>
+ 
+ <parameter type="color" >
+ 	<name>photo_desc_color</name>
+ 	<default>464646</default>
+ 	<description>Photo description</description>
+ </parameter>
+ 
+ <parameter type="color" >
+ 	<name>logo_color</name>
+ 	<default>464646</default>
+ 	<description>Logo</description>
+ </parameter>
+ 
+ <parameter type="checkbox" >
+ 	<name>test1</name>
+ 	<default>true</default>
+ 	<checked>true</checked>
+ 	<unchecked>false</unchecked>
+ 	<description>Checkbox</description>
+ 	<help>Check this checkbox to see what happens</help>
+ </parameter>
+ 
+ <parameter type="text" >
+ 	<name>test2</name>
+	<length>40</length> 	
+ 	<default>Default string :)</default>
+ 	<description>Text</description>
+ </parameter>
+ 
+ <parameter type="combobox" >
+ 	<name>test3</name>
+ 	<default>left</default>
+ 	<option value="left">Align Left</option>
+ 	<option value="right">Align Rigt</option>
+ 	<option value="center">Align center</option>
+ 	<description>Combobox</description>
+ 	<help>Set up the alignement of logo</help>
+ </parameter>
+ 
+ <colormap name="default" usedefault="true"/>
+ 
+ <colormap name="winter">
+ 	<color name="bgcolor">EEDD99</color>
+ 	<color name="link_color">464646</color>
+ 	<color name="dir_desc_color">777777</color>
+ 	<color name="border_color">FFFFFF</color>
+ 	<color name="photo_desc_color">464646</color>
+ 	<color name="logo_color">464646</color>
+ </colormap>
+ </theme>

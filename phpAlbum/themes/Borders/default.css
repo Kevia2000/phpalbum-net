@@ -1,0 +1,156 @@
+body {
+ background-color: <bg_color3>;
+ font-family: arial,sans-serif;
+ font-size: 12px;
+}
+
+
+table {
+  /* make <td> sizes relative to body size! */
+  font-size: 1em;
+}
+img {
+	border-width: 0px;
+}
+form {
+	margin: 0px;
+}
+div.body{
+	width: 100%;
+	background-color: <bg_color>;
+	padding: 5px;
+}
+
+A {
+	color: <link_color>;
+	font-weight: bold;
+	text-decoration: none;
+}
+A:hover {
+	text-decoration: underline;
+}
+/*general*/
+div.content{
+	margin-left:250px;
+}
+div.spacer{
+     clear: both;
+}                      
+div.row{    
+	
+	text-align: center;
+	white-space: nowrap;
+}                 
+/*thumbnails and images*/
+div.thmb{
+	margin: 5px;             
+	float: left;
+	width:200px;
+	height:220px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: <bg_color2>;
+}
+img.thmb{
+	display:block;
+	border-width: <thmb_border_width>;
+	border-color: <thmb_border_color>;
+	margin:0px;
+
+}
+a:hover img.thmb{
+	border-color: <thmb_border_color_hover>;
+}
+div.shadow1{  
+	background:url(main.php?cmd=themeimage&var1=shdw_r.png&var2=[bg_color2]&var=100) right repeat-y;
+}
+div.shadow2{                                                                                       
+		background:url(main.php?cmd=themeimage&var1=shdw_d.png&var2=[bg_color2]&var=100) bottom repeat-x;
+}
+div.shadow3{
+                                           
+		background:url(main.php?cmd=themeimage&var1=shdw_rd.png&var2=[bg_color2]&var=100) right bottom no-repeat;
+}
+div.shadow4{
+	background:url(main.php?cmd=themeimage&var1=shdw_ru.png&var2=[bg_color2]&var=100) right top no-repeat;
+}
+div.shadow5{                                         
+	background:url(main.php?cmd=themeimage&var1=shdw_ld.png&var2=[bg_color2]&var=100) left bottom no-repeat;
+	padding-right: 13px;
+	padding-bottom: 13px;
+}
+img.dir{
+	display:block;
+	border-width: <thmb_border_width>;
+	border-color: <thmb_border_color>;
+
+}
+div.dir{
+	padding:4px;
+	border-bottom: 1px solid <bg_color2>;
+}
+div.box{
+	border: 2px solid <logo_color>;
+	margin-bottom: 5px;
+}
+div.searchbox{
+	text-align: center;
+	margin-bottom: 3px;
+}
+#directories
+{   float: left;
+	width:240px;
+	margin-right:2px;
+}
+#menu
+{
+	padding: 3px;
+	background-color: <bg_color2>;
+}
+div.boxhead{
+	background-color: <bg_color2>;
+	color: <link_color>;
+	padding: 3px;
+	margin-bottom: 3px;
+	border-bottom:1px solid <logo_color>;
+	font-weight: bold;
+}
+div.footer{
+	clear:both;
+	text-align:center;
+}
+div.boxfoot{
+	background-color: <bg_color2>;
+	color: <link_color>;
+	padding: 3px;
+	margin-top: 3px;
+	border-top:1px solid <logo_color>;
+	font-weight: bold;
+}
+
+ 
+input.login{
+	border: 1px solid <link_color>;
+	padding: 3px;
+	background-color: <bg_color2>;
+	color: <link_color>;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin-top:8px;
+}
+input.login_btn{
+	border: 1px solid <link_color>;
+	padding: 2px;
+	background-color: <link_color>;
+	color: <bg_color2>;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+form.inline{
+	display:inline;
+}
+input.label_left{
+	margin-left:3px;
+}
+

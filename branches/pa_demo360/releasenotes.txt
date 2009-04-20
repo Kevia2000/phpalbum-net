@@ -1,0 +1,7 @@
+phpAlbum 0.4.1.15
+
+  - new theme engine with support for custom theme variabels read out from XML-file.
+  this shuld make easier to create own themes with more functionality as current themes in phpAlbum
+  - fixed bug regearding file screenshots
+  - now supports even short_open_tag=Off
+  - implemented enhanced fulltext searching (reverted indexes)

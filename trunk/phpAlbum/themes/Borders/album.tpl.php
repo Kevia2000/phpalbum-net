@@ -77,7 +77,7 @@
 
 <?php  } ?>
 
-<div class="content">
+<div class="content<?php if($directories) echo " margin"?>">
    <?php  if($newest_thumbnails){ ?>
     <div class="box">
 		<div class="boxhead"><?php p("ID_NEWEST_PICTURES");?></div>
@@ -112,7 +112,8 @@
 		<?php  if($dir_long_desc){ ?>
 			<div class="dir_desc"><?php echo $dir_long_desc?></div>
 		<?php  } ?>
-		<table><tr><td><?php  print $thumbnails; ?></td></tr></table>
+		<?php  print $thumbnails; ?>
+		<div class="spacer"></div>
 	</div>
 <?php  if($disable_bottom_nextprev=="false"){?>
 <div>

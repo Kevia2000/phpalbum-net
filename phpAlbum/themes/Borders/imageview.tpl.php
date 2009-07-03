@@ -89,48 +89,22 @@
 		</div>
 			<!--main content-->
 			<div>
-			 <table width="100%" cellspacing="10" cellpadding="0">
-			  <tr>
-			   <td align="center">
-			   <table cellspacing="0" cellpadding="0">
-			   <tr>
-				<td class="photo">
-				 <div style="position:relative; margin: <?php echo $photo_border_size?>px; width:<?php  print $width;?>; height:<?php  print $height;?>;" id="ImageContainer">
+			   <?php  if($display_shadows=="true"){ ?><table><tr><td><div class="ishadow1"><div class="ishadow2"><div class="ishadow3"><div class="ishadow4"><div class="ishadow5"><?php }?>
+				 <div class="imageContainer" style="width:<?php  print $width;?>; height:<?php  print $height;?>;" id="ImageContainer">
 			         <?php if($next_link){?><a class="me" href="<?php  print $next_link; ?>"><?php }?>
 			         	<img alt="<?php  print $short_desc;?>" width="<?php  print $width;?>" height="<?php  print $height;?>" src="<?php  print $image;?>" border="1" style="border-color: #888888;"/><br/>
 			         <?php if($next_link){?></a><?php }?>
 				 </div>
-			   </td>
-			
-			   <?php  if($display_shadows=="true"){ ?>
-			    <td valign="top" background="main.php?cmd=themeimage&var1=shdw_r.png&var2=<?php echo $pa_colors["bg_color"]?>"><img src="main.php?cmd=themeimage&var1=shdw_ru.png&var2=<?php echo $pa_colors["bg_color"]?>"></td>
-			    </tr>
-			    <tr>
-			   	<td align="left" background="main.php?cmd=themeimage&var1=shdw_d.png&var2=<?php echo $pa_colors["bg_color"]?>"><img src="main.php?cmd=themeimage&var1=shdw_ld.png&var2=<?php echo $pa_colors["bg_color"]?>"></td>
-			   	<td><img src="main.php?cmd=themeimage&var1=shdw_rd.png&var2=<?php echo $pa_colors["bg_color"]?>"></td>
-			   <?php }?>
-			   
-			   </tr>
-			   </table>
-			    </td>
-			  </tr>
-			  <tr>
-			  	<td align="center">
+			   <?php  if($display_shadows=="true"){ ?></td></tr></table></div></div></div></div></div><?php }?>
 			  		<div>
-				     <table cellspacing="0" cellpadding="0" width="<?php  print $total_width;?>">
-				       <!--<tr height="5"><td></td></tr>-->
 				       <?php  if($short_desc){?>
-				       <tr><td width="100%" align="center"><b><font class="photodesc" size="5"><?php  print $short_desc;?></font></b></td></tr>
+				       	<b><font class="photodesc" size="5"><?php  print $short_desc;?></font></b>
 				       <?php  } ?>
 				       <?php  if($long_desc){?>
-				       <tr><td width="100%" align="center"><font class="photodesc"><?php  print $long_desc?></font></td></tr>
+				       <font class="photodesc"><?php  print $long_desc?></font>
 				       <?php  } ?>
-				     </table>
-				   </div>
-			    </td>
-			  <tr>
-			 </table>
-			 <table width="100%"><tr><td align="center"><?php  print $parameters; ?></td></tr></table>
+				    </div>
+			 <?php  print $parameters; ?>
 			</div>
 	<?php  if($disable_bottom_nextprev=="false"){?>
 	<div class="boxfoot"> 

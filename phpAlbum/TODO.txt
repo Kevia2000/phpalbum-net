@@ -10,6 +10,11 @@ This is an todo task list with 3 priorities:
    - picture numbers ( prev 2 3 4 5 next )
    -- voting
    - 2 new themes
+
+-- notices for todo (thoughts which must not be forgotten)
+   - directories width variable in borders.
+   - imageview image border color 
+
 BUGS:
    - on FreeSBD the "." on the end of almost all ftp_chdir you get error, instead of that one 
      should delete the last back slash
@@ -26,3 +31,5 @@ BUGS:
 
 
 3. Nice to have in some of the next releases
+
+

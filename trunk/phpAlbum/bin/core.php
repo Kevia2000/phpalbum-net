@@ -314,6 +314,7 @@ function pa_read_settings(){
 function pa_check_cookies(){
 	global $cmd,$var1,$var2,$var3,$var4,$userid,$userpassword,$pa_quality;
 	if($cmd=="setquality"){
+		$var1=(int)$var1;
 		if(!($rec=db_select_all("quality","id=='$var1'"))){
 			//setted quality not found
 			$rec=db_select_all("quality","default=='true'");

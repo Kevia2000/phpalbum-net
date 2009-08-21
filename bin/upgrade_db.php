@@ -92,6 +92,7 @@ if(check_version($pa_db_version[0]["version"],"0.4.1.13")){
 	db_alter_multiple_table_add_column("files_","screenshot","");
 	db_alter_multiple_table_add_column("files_","type","I");//I=Image,V=Video,M=Music,O=Others
 	db_alter_table_add_column("setup","use_iptc_desc","true");
+	db_alter_table_add_column("setup","use_exif_date","false");
 	db_alter_multiple_table_add_column("files_","keywords",Array());
 	db_update("group","grants['imageview']='1';grants['imageorig']='1';");
 	db_alter_table_modify_column("group","grants",Array("imageorig"=>"1","imageview"=>"1"));

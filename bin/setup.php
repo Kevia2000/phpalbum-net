@@ -680,6 +680,11 @@ if($var1=="main"){
 		 }else{
 			$set.="use_iptc_desc='false';";
 		 }
+		 if(isset($_POST['p_use_exif_date'])){
+			$set.="use_exif_date='true';";
+		 }else{
+			$set.="use_exif_date='false';";
+		 }
 		$set.="tracking_code='".$_POST['p_tracking_code']."';";
 		$set.="filesystem_charset='".$_POST['p_filesystem_charset']."';";
 		

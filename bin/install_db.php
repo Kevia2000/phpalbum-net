@@ -34,6 +34,7 @@
 		"antispam_code_enabled"=>"true",
 		"publish_only_approved_comments"=>"false",
 		"use_iptc_desc"=>"true",
+		"use_exif_date"=>"false",
 		"index_keywords"=>"true",
 		"index_short_desc"=>"true",
 		"index_long_desc"=>"false",

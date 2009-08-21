@@ -558,7 +558,7 @@ function db_create_set_function($table_name,$set){
 			}
 		}
 		$set = implode("'",$set_a);
-//		echo $set."<br>";
+		//echo $set."<br>";
 		$set.=';array_walk($data,\'db_remove_uvodzovky_slash\');';
 		//var_dump($set);
 		$set_function = create_function('$data',$set.'; return $data;');

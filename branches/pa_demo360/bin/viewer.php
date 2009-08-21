@@ -940,6 +940,12 @@ function get_newest_photos($dir,$start,$p_count){
 
 function scan_photos_directories($dir,$level=0){
 global $pa_setup;
+
+if($pa_setup["use_exif_date"] == "true")
+{
+	set_photos_date($level,true);
+}
+
 $album_dir=$pa_setup["album_dir"];
 $sett=get_directory_settings($dir,1);
 $rec=db_select_all("files_".$sett[0]["seq_files"],null,"file_time-");
@@ -979,7 +985,7 @@ if($level==0){
 	if($dir==""){
 		//only once and if the whole directory is scanned
 		$rec=db_select_all("directory");
-		
+
 		foreach($rec as $record){
 			if(!file_exists(substr($pa_setup["album_dir"],0,-1).$record["path"])){
 				db_drop_table("files_".$record["seq_files"]);
@@ -1008,6 +1014,50 @@ if($level==0){
 // build fulltext index
 pa_fulltext_rebuild();
 
+}
+
+function set_photos_date($p_dir, $p_recursive = false)
+{
+    global $pa_setup;
+
+    $album_dir = "";
+
+    if(is_numeric($p_dir))
+    {
+        $dirs=db_select_all("directory",null,"path");
+        foreach($dirs as $key => $dir)
+        {
+	        $selected_dir = $dir["path"];
+        }
+        $album_dir = $pa_setup["album_dir"].$selected_dir;
+    }
+    else
+    {
+        $album_dir = $p_dir;
+    }
+
+    $dir_files = scandir($album_dir);
+
+    foreach($dir_files as $item)
+    {
+        if(is_file($album_dir.$item) && exif_imagetype($album_dir.$item) == IMAGETYPE_JPEG)
+        {
+            $exif_data = exif_read_data($album_dir.$item);
+            $date_time = $exif_data['DateTimeOriginal'];
+            list($date, $time) = split(" ",$date_time);
+            list($year,$month,$day) = split(":",$date);
+            list($hour,$min,$sec) = split(":",$time);
+
+            touch( $album_dir.$item, mktime($hour,$min,$sec,$month,$day,$year));
+        }
+        else
+        {
+            if($p_recursive && $item != "." && $item != "..")
+            {
+                set_photos_date($album_dir.$item."/");
+            }
+        }
+    }
 }
 
 

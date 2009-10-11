@@ -392,6 +392,8 @@ function pa_get_backend_lang(){
 		"ID_SETUP_INDEX_LONG_DESC_DESC"=>"Check this checkbox if you want that the fulltext indexes long descriptions of the photos",
 		"ID_SETUP_INDEX_FILENAMES"=>"Index filenames",
 		"ID_SETUP_INDEX_FILENAMES_DESC"=>"Check this checkbox if you want that the fulltext indexes filenames of the photos",
+		"ID_SETUP_PHOTONOTES_ENABLED_DESC"=>"Enable Photonotes",
+		"ID_SETUP_PHOTONOTES_ENABLED_DESC_DESC"=>"Check this if you want to enable photonotes on your album. ( this are the little boxes where you can describe some sections of your photos like",
 	);
 	return $pa_texts;
 }

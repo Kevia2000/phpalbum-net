@@ -143,6 +143,12 @@
 <div class="description"><?php p("ID_SETUP_USE_IPTC_DESC_DESC")?></div>
 <div>
 
+<!-- photonotes -->
+<div class="form-item">
+<input type="checkbox" name="p_photonotes_enabled" <?php  if($pa_setup["photonotes_enabled"]=="true"){echo "checked";}?>><label><?php p("ID_SETUP_PHOTONOTES_ENABLED_DESC")?></label></input></br>
+<div class="description"><?php p("ID_SETUP_PHOTONOTES_ENABLED_DESC_DESC")?></div>
+<div>
+
 <!-- return_home_url -->
 <div class="form-item">
 <label><?php p("ID_SETUP_TRACKING_CODE")?></label><br/>

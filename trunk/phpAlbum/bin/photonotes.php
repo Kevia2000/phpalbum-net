@@ -4,7 +4,10 @@ if(!defined("PHPALBUM_APP")){
 }
 
 function pa_get_photonotes_script($photo_note_array){
-	global $var1;
+	global $var1,$pa_setup;
+	if($pa_setup["photonotes_enabled"]=="false"){
+		return false;
+	}
 	$var1_b64=base64_encode($var1);
 	$script="";
 	//var_dump($photo_note_array);

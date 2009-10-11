@@ -144,7 +144,7 @@ if(check_version($pa_db_version[0]["version"],"0.4.1.15")){
 	db_alter_table_add_column("setup","index_did_you_mean","true");
     db_alter_table_drop_column("directory","keywords");
     db_alter_table_add_column("setup","filesystem_charset","ISO-8859-1");
-    db_alter_table_add_column("setup","photonotes","true");
+    db_alter_table_add_column("setup","photonotes_enabled","true");
     db_alter_multiple_table_add_column("files_","photonotes",Array());
     db_alter_multiple_table_add_column("files_","order","");
 	db_update("phpalbum_version","version='0.4.1.15';");

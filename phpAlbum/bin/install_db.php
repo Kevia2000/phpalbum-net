@@ -41,7 +41,7 @@
 		"index_directory_names"=>"true",
 		"index_stopwords"=>"I a about an are as at be by com de en for from how in is it la of on or that the this to was what when where who will with und the www", 
 		"index_did_you_mean"=>"true",
-		"photonotes"=>"true"
+		"photonotes_enabled"=>"true"
 		));
 	if(strlen($init_album_dir)>0){
 		db_insert("setup",Array("album_dir"=>$init_album_dir,

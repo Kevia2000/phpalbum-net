@@ -42,7 +42,7 @@ container-inactive container-active
 	background-color:#FFF;
 	filter:alpha(opacity=0);
 	-moz-opacity:0;
-	opacity:0.0;
+	opacity:0.2;
 	cursor: pointer;
 }
 

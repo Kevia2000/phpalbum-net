@@ -680,7 +680,12 @@ if($var1=="main"){
 		 }else{
 			$set.="use_iptc_desc='false';";
 		 }
-		$set.="tracking_code='".$_POST['p_tracking_code']."';";
+		 if(isset($_POST['p_photonotes_enabled'])){
+			$set.="photonotes_enabled='true';";
+		 }else{
+			$set.="photonotes_enabled='false';";
+		 }
+		 $set.="tracking_code='".$_POST['p_tracking_code']."';";
 		$set.="filesystem_charset='".$_POST['p_filesystem_charset']."';";
 		
 		

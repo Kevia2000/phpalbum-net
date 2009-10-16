@@ -1,5 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html 
+              PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+              "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
  <!--phpalbum <?php echo $phpalbum_version?> -->
  <head>
    <title><?php echo $site_name;?></title>
@@ -88,23 +90,28 @@
 			<?php print $short_desc;?>
 		</div>
 			<!--main content-->
-			<div>
-			   <?php  if($display_shadows=="true"){ ?><table><tr><td><div class="ishadow1"><div class="ishadow2"><div class="ishadow3"><div class="ishadow4"><div class="ishadow5"><?php }?>
-				 <div class="imageContainer" style="width:<?php  print $width;?>; height:<?php  print $height;?>;" id="ImageContainer">
+			<div style="text-align:center;">
+				<span style="display:inline-block;">
+			   <?php  if($display_shadows=="true"){ ?><div class="ishadow1"><div class="ishadow2"><div class="ishadow3"><div class="ishadow4"><div class="ishadow5"><?php }?>
+				 <div style="padding:10px;background-color:white;">
+				 <div class="imageContainer" id="ImageContainer">
 			         <?php if($next_link){?><a class="me" href="<?php  print $next_link; ?>"><?php }?>
-			         	<img alt="<?php  print $short_desc;?>" width="<?php  print $width;?>" height="<?php  print $height;?>" src="<?php  print $image;?>" border="1" style="border-color: #888888;"/><br/>
+			         	<img class="view" alt="<?php  print $short_desc;?>" width="<?php  print $width;?>" height="<?php  print $height;?>" src="<?php  print $image;?>"/><br/>
 			         <?php if($next_link){?></a><?php }?>
 				 </div>
-			   <?php  if($display_shadows=="true"){ ?></td></tr></table></div></div></div></div></div><?php }?>
-			  		<div>
-				       <?php  if($short_desc){?>
-				       	<b><font class="photodesc" size="5"><?php  print $short_desc;?></font></b>
-				       <?php  } ?>
-				       <?php  if($long_desc){?>
-				       <font class="photodesc"><?php  print $long_desc?></font>
-				       <?php  } ?>
-				    </div>
-			 <?php  print $parameters; ?>
+				 </div>
+			   <?php  if($display_shadows=="true"){ ?></div></div></div></div></div><?php }?>
+			    </span>
+			  	<div>
+				      <?php  if($short_desc){?>
+				      	<b><font class="photodesc" size="5"><?php  print $short_desc;?></font></b>
+				      <?php  } ?>
+				      <?php  if($long_desc){?>
+				      <font class="photodesc"><?php  print $long_desc?></font>
+				      <?php  } ?>
+				      <?php  print $parameters; ?>
+				</div>
+			 	<div class="spacer"/>
 			</div>
 	<?php  if($disable_bottom_nextprev=="false"){?>
 	<div class="boxfoot"> 

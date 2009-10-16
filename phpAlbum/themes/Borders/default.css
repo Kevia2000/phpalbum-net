@@ -35,7 +35,11 @@ div.margin{
 }
 div.spacer{
      clear: both;
-}                      
+}
+div.left{
+	display: table;
+	margin: auto;
+}
 div.row{    
 	
 	text-align: center;
@@ -58,6 +62,22 @@ img.thmb{
 	border-color: <thmb_border_color>;
 	margin:0px;
 
+}
+span.thmb{
+	width:210px;
+	height:240px;
+	display:inline-block;
+	text-align:center;
+	vertical-align:top;
+	margin-top:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+	background-color: <bg_color2>;
+}
+span.thmbimage{
+	display:inline-block;
+	text-align:center;
+	margin:10px;
 }
 a:hover img.thmb{
 	border-color: <thmb_border_color_hover>;
@@ -82,8 +102,7 @@ div.ishadow5{
 	padding-bottom: 13px;
 }
 div.imageContainer{
-	position:relative; 
-	margin: <picture_border_width>;
+	position: relative;
 	background-color: <border_color>;
 }
 img.dir{
@@ -91,6 +110,10 @@ img.dir{
 	border-width: <thmb_border_width>;
 	border-color: <thmb_border_color>;
 
+}
+img.view{
+	vertical-align:bottom;
+	border:1px solid gray;
 }
 div.dir{
 	padding:4px;
@@ -134,7 +157,10 @@ div.boxfoot{
 	border-top:1px solid <logo_color>;
 	font-weight: bold;
 }
-
+div.pictureinfo{
+	float: left;
+	margin-left: 30px;
+}
  
 input.login{
 	border: 1px solid <link_color>;

@@ -1,5 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<!DOCTYPE html 
+              PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+              "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
  <!--phpalbum <?php echo $phpalbum_version?> -->
  <head>
    <title><?php echo $site_name;?></title>
@@ -113,7 +115,6 @@
 			<div class="dir_desc"><?php echo $dir_long_desc?></div>
 		<?php  } ?>
 		<?php  print $thumbnails; ?>
-		<div class="spacer"></div>
 	</div>
 <?php  if($disable_bottom_nextprev=="false"){?>
 <div>

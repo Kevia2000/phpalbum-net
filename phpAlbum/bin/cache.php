@@ -60,12 +60,8 @@ function pa_get_cache_file_name(){
 	global $pa_setup;
 	global $cmd,$var1,$var2,$var3;
 	$cache_dir=$pa_setup["cache_dir"];
-	$filename=$cache_dir . "cache_";
-	$filename.=$cmd;
-	$filename.="_".str_replace(" ","_",str_replace("/","_",$var1));
-	$filename.="_".str_replace(" ","_",str_replace("/","_",$var2));
-	$filename.="_".str_replace(" ","_",str_replace("/","_",$var3));
-	$filename.="_".$quality;
+	$filename=$cache_dir;
+	$filename.=md5($cmd.":::".$var1.":::".$var2.":::".$var3.":::".$quality);
 	$filename.=".cache";
 	return $filename;
 }

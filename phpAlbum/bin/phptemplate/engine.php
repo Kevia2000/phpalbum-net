@@ -132,12 +132,16 @@ function hexrgb ($hexstr)
 function rgbhex($rgb){
 	return str_pad ( dechex($rgb[0]),'0', STR_PAD_LEFT) . str_pad ( dechex($rgb[1]),'1', STR_PAD_LEFT). str_pad ( dechex($rgb[2]),'0', STR_PAD_LEFT);
 }
-
+function theme_get_style_css_link(){
+	global $themes_dir,$pa_theme,$pa_color_map,$pa_setup,$pa_quality;
+	$string=$themes_dir."::".var_export($pa_theme,true)."::".var_export($pa_color_map,true)."::".var_export($pa_quality,true);
+	$hash=md5($string);
+	return "main.php?cmd=theme&var1=style_css&var2=".$hash.".css";
+}
 function theme_get_style_css(){
 	global $themes_dir,$pa_theme,$pa_color_map,$pa_setup,$pa_quality;
-	//TODO: Some kind of caching would be good here, loading of CSS on every page is not good for performance
 	header('Content-type: text/css');
-	header('Cache-control: no-cache');
+	header("Last-Modified: ".date("D, d M Y H:i:s T",$m_time) );
 	
 	if(file_exists($pa_theme["theme_path"]."default.css")){
 		$file=file($pa_theme["theme_path"]."default.css" );
@@ -490,7 +494,7 @@ function theme_generate_album_page($dir_path,$quality_links,$dirs,$thmbs,$new_th
 		$search_text=$pa_original_keywords;
 	}
 	$return_home_url=$pa_setup["return_home_url"];
-	$stylesheet_link="main.php?cmd=theme&var1=style_css";
+	$stylesheet_link=theme_get_style_css_link();
 	$directories=theme_generate_directories($dirs);
 	$thumbnails=theme_generate_thumbnails($thmbs);
 	$newest_thumbnails=theme_generate_thumbnails($new_thmbs);
@@ -652,7 +656,7 @@ function theme_generate_imageview_page($dir_path,$quality_links,$short_desc,$lon
 		$tracking_code=$pa_setup["tracking_code"];
 	}
 	$return_home_url=$pa_setup["return_home_url"];
-	$stylesheet_link="main.php?cmd=theme&var1=style_css";
+	$stylesheet_link=theme_get_style_css_link();
 	$disable_bottom_nextprev=$pa_theme["disable_bottom_nextprev"];
 	$logo=theme_get_logo();
 	$total_width=$width+$pa_theme["picture_border_size"]*2;
@@ -713,7 +717,7 @@ function theme_generate_setup_page($menu,$content){
 	global $pa_setup,$themes_dir,$phpalbum_version,$pa_lang;
 	pa_send_header("Content-type: text/html; charset=".$pa_lang["character_set"]);
 	$footer_message="<font size=\"2\">Powered by </font><a class=\"me\" href=\"http://www.phpalbum.net\"><font size=\"2\">PHP Photo Album</font></a>";
-	$stylesheet_link="main.php?cmd=theme&var1=style_css";
+	$stylesheet_link=theme_get_style_css_link();
 	$logo=theme_get_logo();
 
 	if(file_exists($pa_theme["theme_path"]."setup.tpl.php")){

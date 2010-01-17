@@ -84,7 +84,6 @@ function pa_cache_document(){
 	
 	$m_time= filemtime($filename);
 	pa_send_header("Last-Modified: ".date("D, d M Y H:i:s T",$m_time) );
-	pa_send_header("Cache-Control: public, max-age=" . 3600 * 48);
 	
 	if(pa_sent_header()){
 		/*cache header*/

@@ -9,8 +9,8 @@ $pa_sent_header=Array();
 function pa_is_cachable(){
 	global $pa_setup,$cmd,$var1;
 	switch ($cmd){
-		case "logo": return true; break;
-		case "themeimage": return true; break;
+		case "logo": return false; break;
+		case "themeimage": return false; break;
 		case "image":
 				if($pa_setup["cache_resized_photos"]=="true"){
 		  			return true;

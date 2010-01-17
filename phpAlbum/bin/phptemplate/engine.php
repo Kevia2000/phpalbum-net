@@ -141,8 +141,8 @@ function theme_get_style_css_link(){
 function theme_get_style_css(){
 	global $themes_dir,$pa_theme,$pa_color_map,$pa_setup,$pa_quality;
 	header('Content-type: text/css');
-	header("Last-Modified: ".date("D, d M Y H:i:s T",$m_time) );
-	
+	header("Last-Modified: ".date("D, d M Y H:i:s T",time()) );
+	header("Expires: ".date("D, d M Y H:i:s T",time()+86400) );
 	if(file_exists($pa_theme["theme_path"]."default.css")){
 		$file=file($pa_theme["theme_path"]."default.css" );
 	}else{
@@ -200,8 +200,10 @@ function theme_get_web_bgcolor(){
 function theme_generate_logo(){
 global $pa_theme,$pa_setup,$pa_color_map,$pa_colors;
 
-  pa_send_header('Content-type: image/png');
- // Resample
+  	pa_send_header('Content-type: image/png');
+	pa_send_header("Last-Modified: ".date("D, d M Y H:i:s T",time()) );
+	pa_send_header("Expires: ".date("D, d M Y H:i:s T",time()+86400) );
+  // Resample
 //  if(strtoupper(substr($var1,-3,3))=="JPG")
 	//  $image = imagecreatefromjpeg($album_dir.$var1);
 //  if(strtoupper(substr($var1,-3,3))=="PNG")
@@ -265,6 +267,7 @@ function theme_generate_theme_image($path,$bgcolor,$scale){
 		// generate 5 stars complex picture
 		// scale is the size of one star, normal is 16
 		pa_send_header("Content-type: image/png");
+		pa_send_header("Last-Modified: ".date("D, d M Y H:i:s T",0) );
 		$bg=hexrgb($bgcolor);
 		$image=imagecreatetruecolor($scale*5,$scale*11);
 		$color = ImageColorAllocate( $image,$bg[0] ,$bg[1] ,$bg[2]);
@@ -294,6 +297,8 @@ function theme_generate_theme_image($path,$bgcolor,$scale){
 	// if no bgcolor or not PNG just load the image
 	$mime=get_mime($path);
 	pa_send_header("Content-type: $mime");
+	pa_send_header("Last-Modified: ".date("D, d M Y H:i:s T",time()) );
+	pa_send_header("Expires: ".date("D, d M Y H:i:s T",time()+86400) );
 	if($mime=='image/png'){
 		$bg=hexrgb($bgcolor);
 		list($width, $height) = getimagesize($pa_theme["theme_path"].$path);

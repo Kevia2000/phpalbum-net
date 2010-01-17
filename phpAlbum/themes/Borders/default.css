@@ -82,22 +82,22 @@ span.thmbimage{
 a:hover img.thmb{
 	border-color: <thmb_border_color_hover>;
 }
-div.shadow1{ background:url(main.php?cmd=themeimage&var1=shdw_r.png&var2=[bg_color2]&var=100) right repeat-y;}
-div.shadow2{ background:url(main.php?cmd=themeimage&var1=shdw_d.png&var2=[bg_color2]&var=100) bottom repeat-x;}
-div.shadow3{ background:url(main.php?cmd=themeimage&var1=shdw_rd.png&var2=[bg_color2]&var=100) right bottom no-repeat;}
-div.shadow4{ background:url(main.php?cmd=themeimage&var1=shdw_ru.png&var2=[bg_color2]&var=100) right top no-repeat;}
+div.shadow1{ background:url(main.php?cmd=themeimage&var1=shdw_r.png&var2=[bg_color2]&var3=100&var4=Borders) right repeat-y;}
+div.shadow2{ background:url(main.php?cmd=themeimage&var1=shdw_d.png&var2=[bg_color2]&var3=100&var4=Borders) bottom repeat-x;}
+div.shadow3{ background:url(main.php?cmd=themeimage&var1=shdw_rd.png&var2=[bg_color2]&var3=100&var4=Borders) right bottom no-repeat;}
+div.shadow4{ background:url(main.php?cmd=themeimage&var1=shdw_ru.png&var2=[bg_color2]&var3=100&var4=Borders) right top no-repeat;}
 div.shadow5{                                         
-	background:url(main.php?cmd=themeimage&var1=shdw_ld.png&var2=[bg_color2]&var=100) left bottom no-repeat;
+	background:url(main.php?cmd=themeimage&var1=shdw_ld.png&var2=[bg_color2]&var3=100&var4=Borders) left bottom no-repeat;
 	padding-right: 13px;
 	padding-bottom: 13px;
 }
 
-div.ishadow1{ background:url(main.php?cmd=themeimage&var1=shdw_r.png&var2=[bg_color]&var=100) right repeat-y;}
-div.ishadow2{ background:url(main.php?cmd=themeimage&var1=shdw_d.png&var2=[bg_color]&var=100) bottom repeat-x;}
-div.ishadow3{ background:url(main.php?cmd=themeimage&var1=shdw_rd.png&var2=[bg_color]&var=100) right bottom no-repeat;}
-div.ishadow4{ background:url(main.php?cmd=themeimage&var1=shdw_ru.png&var2=[bg_color]&var=100) right top no-repeat;}
+div.ishadow1{ background:url(main.php?cmd=themeimage&var1=shdw_r.png&var2=[bg_color]&var3=100&var4=Borders) right repeat-y;}
+div.ishadow2{ background:url(main.php?cmd=themeimage&var1=shdw_d.png&var2=[bg_color]&var3=100&var4=Borders) bottom repeat-x;}
+div.ishadow3{ background:url(main.php?cmd=themeimage&var1=shdw_rd.png&var2=[bg_color]&var3=100&var4=Borders) right bottom no-repeat;}
+div.ishadow4{ background:url(main.php?cmd=themeimage&var1=shdw_ru.png&var2=[bg_color]&var3=100&var4=Borders) right top no-repeat;}
 div.ishadow5{                                         
-	background:url(main.php?cmd=themeimage&var1=shdw_ld.png&var2=[bg_color]&var=100) left bottom no-repeat;
+	background:url(main.php?cmd=themeimage&var1=shdw_ld.png&var2=[bg_color]&var3=100&var4=Borders) left bottom no-repeat;
 	padding-right: 13px;
 	padding-bottom: 13px;
 }

@@ -507,10 +507,10 @@ function  generate_album($var1,$start_with){
 				/*test if there is some new images*/
 					$diff = (time() - $rec["newest_file_time_with_subdirs"])/60/60;
 					if ($diff < $pa_setup["new_dir_indic"] ){
-						$dir_pic="main.php?cmd=themeimage&var1=dir_new.png&var2=".theme_get_web_bgcolor();
+						$dir_pic="main.php?cmd=themeimage&var1=dir_new.png&var2=".theme_get_web_bgcolor()."&var3=100&var4=".theme_get_theme_name();
 						$directories[$directories_cnt]['stat']='NEW';
 					}else{
-						$dir_pic="main.php?cmd=themeimage&var1=dir.png&var2=".theme_get_web_bgcolor();
+						$dir_pic="main.php?cmd=themeimage&var1=dir.png&var2=".theme_get_web_bgcolor()."&var3=100&var4=".theme_get_theme_name();
 						$directories[$directories_cnt]['stat']='NORM';
 					}
 				if($pa_theme["dir_logo_style"]=="pic_thmb_size" || $pa_theme["dir_logo_style"]=="pic_other_size"){

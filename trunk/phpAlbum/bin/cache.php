@@ -43,7 +43,7 @@ function pa_load_from_cache(){
 	if($cmd == "thmb" || $cmd=="themeimage" || $cmd == "logo" || $cmd == "dir_logo" || $cmd == "image" ){
 		//$headers=getallheaders();-- not supported by others then apache
 		if (isset( $_SERVER["HTTP_IF_MODIFIED_SINCE"] ) ){
-			if ( date("D, d M Y H:i:s T",filemtime($fn)) == $_SERVER["HTTP_IF_MODIFIED_SINCE"] ) {
+			if ( gmdate("D, d M Y H:i:s",filemtime($fn))." GMT" == $_SERVER["HTTP_IF_MODIFIED_SINCE"] ) {
 				header('HTTP/1.0 304 Not Modified');
 				exit; 
 			}
@@ -83,7 +83,7 @@ function pa_cache_document(){
 	fclose($file);
 	
 	$m_time= filemtime($filename);
-	pa_send_header("Last-Modified: ".date("D, d M Y H:i:s T",$m_time) );
+	pa_send_header("Last-Modified: ".gmdate("D, d M Y H:i:s",$m_time)." GMT" );
 	
 	if(pa_sent_header()){
 		/*cache header*/

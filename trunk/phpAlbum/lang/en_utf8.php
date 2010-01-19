@@ -110,7 +110,7 @@ function pa_get_backend_lang(){
 		"ID_SETUP_PASSWORD_DESC"=>"Please choose a password and retype it in the second field. Actual password can not be shown as this is stored only as encrypted string. That is why no body can know your password.",
 		"ID_SETUP_LANGUAGE"=>"Language:",
 		"ID_SETUP_LANGUAGE_DESC"=>"Please choose language with character set for displaying the page. Please look at system check if you have enabled mbstring module, if not be careful when choosing UTF-8 with naming the files and directories, do not use special characters.",
-		"ID_SETUP_SYSCHECK_DESC"=>"On this page you can check your installation. Critical errors are shown with red color. Yellow color means only warning that some features are not accessible. Green color shows thet it is OK.",
+		"ID_SETUP_SYSCHECK_DESC"=>"On this page you can see if all required features and modules by php are installed/enabled. If you see some errors here, phpAlbum will not work.",
 		
 		"ID_SETUP_HOME_URL"=>"Return Home URL:",
 		"ID_SETUP_HOME_URL_DESC"=>"Please choose URL where the HOME link should point.",
@@ -394,6 +394,15 @@ function pa_get_backend_lang(){
 		"ID_SETUP_INDEX_FILENAMES_DESC"=>"Check this checkbox if you want that the fulltext indexes filenames of the photos",
 		"ID_SETUP_PHOTONOTES_ENABLED_DESC"=>"Enable Photonotes",
 		"ID_SETUP_PHOTONOTES_ENABLED_DESC_DESC"=>"Check this if you want to enable photonotes on your album. ( this are the little boxes where you can describe some sections of your photos like",
+		"ID_MSG_GD_NOT_INSTALLED"=>"GD2 Library is not installed!",
+		"ID_MSG_GD_INSTALLED"=>"GD2 Library installed",
+		"ID_MSG_PNG_SUPPORT_INSTALLED"=>"PNG Support enabled",
+		"ID_MSG_PNG_SUPPORT_NOT_INSTALLED"=>"PNG Support disabled!!",
+		"ID_MSG_JPEG_SUPPORT_INSTALLED"=>"JPEG Support enabled",
+		"ID_MSG_JPEG_SUPPORT_NOT_INSTALLED"=>"JPEG Support disabled!!",
+		"ID_MSG_MBSTRING_ENABLED"=>"MBSTRING module installed",
+		"ID_MSG_FTP_ENABLED"=>"FTP module installed"
+	
 	);
 	return $pa_texts;
 }

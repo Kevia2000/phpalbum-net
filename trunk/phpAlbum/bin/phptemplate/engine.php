@@ -10,11 +10,6 @@
 /*Licence info: GNU/GPL                 */
 /****************************************/
 
-/*
-	theme_get_style_css();
-*/
-
-
 
 $theme_colors=Array();
 $themes_dir="themes/";

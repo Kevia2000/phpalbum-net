@@ -1,6 +1,14 @@
 <?php 
-function sys_message($id,$err_id,$par1){
-	 
+function print_message($id,$code){
+	if($code=="OK"){
+		print "<tr bgcolor=\"#FFFFFF\" onmouseout=\"this.style.backgroundColor=''\" onmouseover=\"this.style.backgroundColor='#ccddFF'\"><td><span class=\"green\"><strong>[OK]</strong></span>&nbsp;&nbsp;".t($id)."</td></tr>"; 
+	}
+	if($code=="ERROR"){
+		print "<tr bgcolor=\"#FFFFFF\" onmouseout=\"this.style.backgroundColor=''\" onmouseover=\"this.style.backgroundColor='#ccddFF'\"><td><span class=\"red\"><strong>[ERROR]</strong></span>&nbsp;&nbsp;".t($id)."</td></tr>"; 
+	}
+	if($code=="WARNING"){
+		print "<tr bgcolor=\"#FFFFFF\" onmouseout=\"this.style.backgroundColor=''\" onmouseover=\"this.style.backgroundColor='#ccddFF'\"><td><span class=\"orange\"><strong>[WARNING]</strong></span>&nbsp;&nbsp;".t($id)."</td></tr>"; 
+	}
 }
 ?>
 <table>
@@ -12,12 +20,37 @@ function sys_message($id,$err_id,$par1){
   <div class="description"><?php  p("ID_SETUP_SYSCHECK_DESC")?></div>
   <fieldset><legend><?php  p("ID_SETUP_MENU_SYSCHECK")?></legend><div class="form-item">
     <table width="100%"  cellpadding="5" cellspacing="0" style="border: 1px solid #aaa;">
-		<tr bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor=''" onmouseover="this.style.backgroundColor='#ccddFF'">
-			<td><?php  var_dump(gd_info());?></td>
-		</tr>
-		<tr bgcolor="#EEEEEE" onmouseout="this.style.backgroundColor=''" onmouseover="this.style.backgroundColor='#ccddFF'">
-			<td></td>
-		</tr>
+			<?php
+				$gdinfo = gd_info();
+				$version = $gdinfo["GD Version"];
+				if(preg_match("/.*[^\.0-9]2\..*/",$version)==1){
+					  print_message("ID_MSG_GD_INSTALLED","OK");
+				}else{
+					  print_message("ID_MSG_GD_NOT_INSTALLED","ERROR");
+				}
+				if($gdinfo["JPEG Support"]===true || $gdinfo["JPG Support"]===true){
+					  print_message("ID_MSG_JPEG_SUPPORT_INSTALLED","OK");
+				}else{
+					  print_message("ID_MSG_JPEG_SUPPORT_NOT_INSTALLED","ERROR");
+				}
+				if($gdinfo["PNG Support"]===true){
+					  print_message("ID_MSG_PNG_SUPPORT_INSTALLED","OK");
+				}else{
+					  print_message("ID_MSG_PNG_SUPPORT_NOT_INSTALLED","ERROR");
+				}
+				if($mbstring===true){
+					  print_message("ID_MSG_MBSTRING_ENABLED","OK");
+				}else{
+					  print_message("ID_MSG_MBSTRING_MISSING","WARNING");
+				}
+				if($ftp_support===true){
+					  print_message("ID_MSG_FTP_ENABLED","OK");
+				}else{
+					  print_message("ID_MSG_FTP_SUPPORT","WARNING");
+				}
+				
+									
+			?>
 	</table>
   </td></tr>
 </table>

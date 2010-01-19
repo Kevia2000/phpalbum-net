@@ -4,26 +4,10 @@ if(!defined("PHPALBUM_APP")){
 	die("Direct access not permitted!");
 }
 
-if(function_exists("ftp_login")){
-	$ftp_support=true;
-}else{
-	$ftp_support=false;
-}
-
 /****************************************/
 /*      SETUP COMMAND                   */
 /****************************************/
-function check_gd(){
- if(function_exists("gd_info")){
- 	$info=gd_info();
-	if(strstr($info['GD Version'],"2.")){
-  		return true;
-	}else{
-	    return false;
-	}
- }
- return false;
-}
+
 
 function print_error($error,$par=null){
    //echo "<table border=\"2\" bgcolor=\"#DD0000\"><tr><td><font color=\"#FFFFFF\"><b>$error</b></font></td></tr></table>";
@@ -172,8 +156,12 @@ global $var4;
 global $data_dir,$site_engine,$themes_dir,$pa_theme,$pa_color_map,$pa_colors;
 global $phpalbum_version;
 global $pa_texts,$pa_translated_texts;
-global $pa_setup,$pa_lang,$pa_user,$pa_grants,$mbstring,$act_dir_sorting;
-
+global $pa_setup,$pa_lang,$pa_user,$pa_grants,$mbstring,$act_dir_sorting,$ftp_support;
+if(function_exists("ftp_login")){
+	$ftp_support=true;
+}else{
+	$ftp_support=false;
+}
 $menu=generate_setup_menu();
 ///////end generating menu//////////
 if($var1=="params"){

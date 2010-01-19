@@ -59,7 +59,18 @@ a.green:hover {
   color: green;
   text-decoration: underline;
 }
-
+.green {
+	color: green;
+}
+.red{
+	color: #dd0000;
+}
+.yellow{
+	color: yellow;
+}
+.orange{
+	color: orange;
+}
 table {
   /* make <td> sizes relative to body size! */
   font-size: 1em;

@@ -9,7 +9,7 @@ if(function_exists("mb_get_info")){
 }else{
 	$mbstring=false;
 }
-$mbstring=false;
+
 function p($id,$par=null){
 	global $actual_language;
 	/* function prints text for ide $id and actual language, if not found then EN*/

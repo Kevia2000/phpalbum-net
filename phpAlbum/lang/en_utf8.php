@@ -401,7 +401,8 @@ function pa_get_backend_lang(){
 		"ID_MSG_JPEG_SUPPORT_INSTALLED"=>"JPEG Support enabled",
 		"ID_MSG_JPEG_SUPPORT_NOT_INSTALLED"=>"JPEG Support disabled!!",
 		"ID_MSG_MBSTRING_ENABLED"=>"MBSTRING module installed",
-		"ID_MSG_FTP_ENABLED"=>"FTP module installed"
+		"ID_MSG_FTP_ENABLED"=>"FTP module installed",
+		"ID_MSG_NO_MEMORY_LIMIT"=>"memory_limit variable is not set or can not be parsed.",
 	
 	);
 	return $pa_texts;

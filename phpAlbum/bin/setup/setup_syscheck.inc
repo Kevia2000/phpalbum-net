@@ -19,11 +19,11 @@ function print_message($id,$code){
   <form name="main_setup" action="main.php" method="post">
   <div class="description"><?php  p("ID_SETUP_SYSCHECK_DESC")?></div>
   <fieldset><legend><?php  p("ID_SETUP_MENU_SYSCHECK")?></legend><div class="form-item">
-    <table width="100%"  cellpadding="5" cellspacing="0" style="border: 1px solid #aaa;">
+    <table width="100%"  cellpadding="5" cellspacing="0">
 			<?php
 				$gdinfo = gd_info();
 				$version = $gdinfo["GD Version"];
-				if(preg_match("/.*[^\.0-9]2\..*/",$version)==1){
+				if(preg_match("/[^\.0-9]*2\..*/",$version)==1){
 					  print_message("ID_MSG_GD_INSTALLED","OK");
 				}else{
 					  print_message("ID_MSG_GD_NOT_INSTALLED","ERROR");
@@ -48,7 +48,21 @@ function print_message($id,$code){
 				}else{
 					  print_message("ID_MSG_FTP_SUPPORT","WARNING");
 				}
-				
+				//check memory limit
+				$memory_limit_str=ini_get('memory_limit');
+				if(preg_match("/[0-9]+M/",$memory_limit_str)){
+					$memory_limit= (int)$memory_limit_str;
+				}else if (preg_match("/[0-9]+K/",$memory_limit_str)){
+					$memory_limit=(int)((int)$memory_limit_str)/1024);
+				}else{
+					print_message("ID_MSG_NO_MEMORY_LIMIT","WARNING");
+					$memory_limit=0;
+				}
+				if($memory_limit>24){
+					
+					print_message("")
+				}
+				//check execution time limit				
 									
 			?>
 	</table>

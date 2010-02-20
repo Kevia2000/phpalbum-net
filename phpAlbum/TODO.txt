@@ -10,6 +10,7 @@ This is an todo task list with 3 priorities:
    - picture numbers ( prev 2 3 4 5 next )
    -- voting
    - 2 new themes
+   - set up time zone (because of displayed dates )
 
 -- notices for todo (thoughts which must not be forgotten)
    - directories width variable in borders.

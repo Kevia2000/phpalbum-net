@@ -1,4 +1,6 @@
 <?php 
+	session_start();
+	
 	//include configuration file
 	require "config.php";
 	
@@ -20,8 +22,6 @@
 	pa_get_parameters();
 	
 	pa_read_settings();
-	
-	pa_check_cookies();
 	
 	pa_check_username();
 	

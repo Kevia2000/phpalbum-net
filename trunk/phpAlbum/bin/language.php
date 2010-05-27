@@ -44,27 +44,29 @@ function pa_get_text($id){
 function pa_load_language($cmd){
 	// depending on cmd can be decided if the whole language will be loaded
 	// or only that for frontend, or none of these
-	global $pa_lang,$pa_texts,$pa_module_texts,$data_dir,$pa_setup,$pa_translated_texts;
+	global $pa_parameters,$pa_lang,$pa_texts,$pa_module_texts,$data_dir,$pa_setup,$pa_translated_texts;
+	
 	if(isset($pa_lang["include_file"])){
 		return; // it can be done only once	
 	}
-		if($cmd="phpinfo" || $cmd=="album" || $cmd=="search" || $cmd=="imageview" || $cmd=="setup" || $cmd=="setquality" || $cmd=="ecardview"){
-			if(!isset($_POST['p_language'])){
-				$rec=db_select_all("languages","name=='".$pa_setup["language"]."'");
-			}else{
-				$rec=db_select_all("languages","name=='".$_POST['p_language']."'");
-			}
-			$pa_lang=$rec[0];
-			require_once("lang/".$pa_lang["include_file"]);
-			$pa_texts=pa_get_frontend_lang();
-			if($cmd=="setup"){
-				$pa_texts=array_merge($pa_texts,pa_get_backend_lang());			
-			}
-			if(file_exists($data_dir.$pa_lang["translate_file"])){
-				require($data_dir.$pa_lang["translate_file"]);
-			}
-			
+
+	//TODO:  Language texts should be load only if it is needed ( not on thumbnails and so on
+	if( isset($pa_parameters["show"])){ 
+		if(!isset($_POST['p_language'])){
+			$rec=db_select_all("languages","name=='".$pa_setup["language"]."'");
+		}else{
+			$rec=db_select_all("languages","name=='".$_POST['p_language']."'");
 		}
+		$pa_lang=$rec[0];
+		require_once("lang/".$pa_lang["include_file"]);
+		$pa_texts=pa_get_frontend_lang();
+		if($cmd=="setup"){
+			$pa_texts=array_merge($pa_texts,pa_get_backend_lang());			
+		}
+		if(file_exists($data_dir.$pa_lang["translate_file"])){
+			require($data_dir.$pa_lang["translate_file"]);
+		}
+	}
 		//else no language will be loaded
 }
 function conv_in($string){

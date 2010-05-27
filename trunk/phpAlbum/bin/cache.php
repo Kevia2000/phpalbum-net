@@ -7,8 +7,8 @@ if(!defined("PHPALBUM_APP")){
 $pa_sent_header=Array();
 
 function pa_is_cachable(){
-	global $pa_setup,$cmd,$var1;
-	switch ($cmd){
+	global $pa_setup,$pa_parameters;
+	switch ($pa_parameters["display"]){
 		case "logo": return false; break;
 		case "themeimage": return false; break;
 		case "image":

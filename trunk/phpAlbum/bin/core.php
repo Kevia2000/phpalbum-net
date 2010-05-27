@@ -10,21 +10,21 @@ $pa_theme=Array();
 $pa_lang=Array();
 $pa_color_map=Array();
 $pa_colors=Array();
-$pa_keywords=Array();
+$pa_parameters=Array();
 $act_dir_sorting="default";
 /*   header buffering   */
 $pa_errors=Array();
 
 
-require("bin/phptemplate/engine.php");
-require("bin/phpdatabase.php");
-require("bin/xml2array.php");
-require("bin/cache.php");
-require("bin/viewer.php");
-require("bin/interact.php");
-require("bin/fulltext.php");
-require("bin/photonotes.php");
-require("bin/utils.php");
+require("phptemplate/engine.php");
+require("phpdatabase.php");
+require("xml2array.php");
+require("cache.php");
+require("viewer.php");
+require("interact.php");
+require("fulltext.php");
+require("photonotes.php");
+require("utils.php");
 
 function pa_initialize(){
 	// changing umask due to security reasons.
@@ -61,12 +61,10 @@ function pa_start_database(){
 
 function pa_get_parameters(){
 	global $_GET,$_POST,$_COOKIE;
-	global $cmd,$var1,$var2,$var3,$var4;
-	global $pa_original_keywords,$pa_keywords_unsorted,$pa_keywords;
+
+	global $pa_parameters;
 	
-	$allowed_cmds=Array("album","search","phpinfo","thmb","imageorig","image","imageview",
-						"ecardview","imageviewsearch","setup","delcache","logo","theme","themeimage",
-						"antispampic","system_check","setquality","photonotes");
+	$allowed_parameters=Array("search","show","display","get","id","page","size");
 	
 	if (!get_magic_quotes_gpc()) {
 		//doing magic quotes manually, some servers does not have this setting
@@ -82,138 +80,80 @@ function pa_get_parameters(){
 	
 	}
 	
-	if(isset($_GET['cmd'])){
-		$cmd=$_GET['cmd'];
-	}
-	if(isset($_GET['keyword'])){
-		$pa_original_keywords=$_GET['keyword'];
-	}
-	if(isset($_GET['var1'])){
-		$var1=stripslashes($_GET['var1']);
-	}
-	if(isset($_GET['var2'])){
-		$var2=stripslashes($_GET['var2']);
-	}
-	if(isset($_GET['var3'])){
-		$var3=stripslashes($_GET['var3']);
-	}
-	if(isset($_GET['var4'])){
-		$var4=stripslashes($_GET['var4']);
-	}
-	
-	
-	if(isset($_POST['cmd'])){
-		$cmd=$_POST['cmd'];
-	}
-	if(isset($_POST['keyword'])){
-		$pa_original_keywords=$_POST['keyword'];
-	}
-	if(isset($_POST['var1'])){
-		$var1=$_POST['var1'];
-	}
-	if(isset($_POST['var2'])){
-		$var2=$_POST['var2'];
-	}
-	if(isset($_POST['var3'])){
-		$var3=$_POST['var3'];
-	}
-	if(isset($_POST['var4'])){
-		$var4=$_POST['var4'];
-	}
-
-	$pa_keywords=explode(" ",strtolower($_GET['keyword']));
-	foreach($pa_keywords as $key=>$value){
-		if(strlen(trim($value))==0){
-				unset($pa_keywords[$key]);
+	foreach($_GET as $key=>$value){
+		//only allowed parameters will be used.
+		if(array_search($key,$allowed_parameters)){
+			$pa_parameters[$key]=stripslashes($value);
 		}
-	}
-	$pa_keywords_unsorted=$pa_keywords;
-	sort($pa_keywords);
-	
-	if(!array_search($cmd,$allowed_cmds)){
-		$cmd="album";
 	}
 }
 
 function pa_execute_command(){
-	global $cmd,$pa_grants,$pa_setup,$var1,$var2,$var3,$var4;
+	global $pa_parameters,$pa_grants,$pa_setup;
 	
-	if($cmd=="phpinfo"){
-		if(isset($pa_grants["main"])){
-			phpinfo();
-		}else{
-			theme_generate_error_page();
-		}
-	}else if($cmd=="album"){
-			pa_write_log();
-	        $cache_this_doc=generate_album($var1,$var3);	
-	}else if($cmd=="search"){
-		pa_write_log();
-	        $cache_this_doc=generate_search($var1,$var3);	
-	}else if($cmd=="thmb"){
-	        generate_thumb($var1,$var3);	
-	}else if($cmd=="image"){
-			if(is_movie($var1) || is_audio($var1)){
+	
+	if(isset($pa_parameters["show"])){
+		
+		switch($pa_parameters["show"]) {
+			case "album":
 				pa_write_log();
-			}
-	        $cache_this_doc=generate_image($var1,$quality);/* original photos, videos and audios should not be cached.*/
-	}else if($cmd=="imageorig"){
-		if(isset($pa_grants["imageorig"])){
-			pa_write_log();
-	        $cache_this_doc=generate_image($var1,$quality,true);/* original photos, videos and audios should not be cached.*/
-		}else{
-			theme_generate_error_page();
-		}
-	}else if($cmd=="imageview"){
-		if(isset($pa_grants["imageview"])){
-			pa_write_log();
-			if(file_exists($pa_setup["album_dir"].$var1)){
-				generate_image_view($var1,$quality,$var3);	
-			}else{
+	        	$cache_this_doc=generate_album();
+	        	break;	
+	        	pa_write_log();
+			case "search":
+	    		$cache_this_doc=generate_search($var1,$var3);
+			case "image":
+				pa_write_log();
+				$cache_this_doc=generate_image_view();	
+				break;
+			case "setup":
+				require("bin/setup.php");
+		        generate_setup_page();
+				break;
+			case "errorpage":
+			default:
 				theme_generate_error_page();
-			}
-		}else{
-			theme_generate_error_page();
+				break;
 		}
-	}else if($cmd=="ecardview"){
-		if(isset($pa_grants["imageview"])){
-			pa_write_log();
-			generate_ecard_view($var1);
-		}else{
-			theme_generate_error_page();
+	}
+	if(isset($pa_parameters["get"])){
+		switch($pa_parameters["get"]){
+			case "logo":
+				theme_generate_logo();
+				break;
+			case "image":
+				if(is_movie($var1) || is_audio($var1)){
+					pa_write_log();
+				}
+	        	$cache_this_doc=generate_image();
+				break;
+			case "antispampic":
+				header("Content-type: image/jpeg");
+				pa_readfile($pa_setup["cache_dir"]."cp".$pa_parameters["id"].".jpg");
+				@unlink($pa_setup["cache_dir"]."cp".$pa_parameters["id"].".jpg");
+				break;
+			case "theme":
+				generate_theme();
+				break;
+			case "themeimage":
+				if(!isset($pa_parameters["scale"])){$pa_parameters["scale"]=100;}//no scaling if not defined
+				$cache_this_doc=theme_generate_theme_image($var1,$var2,$var3);
+				break;
+			default:
+				theme_generate_error_page();
+				break;
 		}
-	}else if($cmd=="imageviewsearch"){
-		if(isset($pa_grants["imageview"])){
-			pa_write_log();
-	        generate_image_view($var1,$quality,$var3,true);	
-		}else{
-			theme_generate_error_page();
+	}
+	if(isset($pa_parameters["put"])){
+		switch($pa_parameters["put"]){
+			case "photonotes":
+				pa_apply_photonotes();
+				break;
+			default:
+				theme_generate_error_page();
+				break;
 		}
-	}else if($cmd=="setup"){
-			require("bin/setup.php");
-	        generate_setup_page();
-	}else if($cmd=="system_check"){
-	        generate_system_check();
-	}else if($cmd=="delcache"){
-	        delete_cache($pa_setup["cache_dir"]);
-	        echo "Cache Deleted!";
-	}else if($cmd=="theme"){
-		generate_theme($var1);
-	}else if($cmd=="logo"){
-		theme_generate_logo();
-	}else if($cmd=="antispampic"){
-		header("Content-type: image/jpeg");
-		pa_readfile($pa_setup["cache_dir"]."cp".$var1.".jpg");
-		@unlink($pa_setup["cache_dir"]."cp".$var1.".jpg");
-	}else if($cmd=="themeimage"){
-		if(!isset($var3)){$var3=100;}//no scaling if not defined
-		$cache_this_doc=theme_generate_theme_image($var1,$var2,$var3);
-	}else if($cmd=="photonotes"){
-		pa_apply_photonotes();
-	}else if($cmd=="error"){
-		theme_generate_error_page();
-	}else{
-		theme_generate_error_page();	
+			
 	}
 }
 
@@ -295,94 +235,36 @@ function pa_error_handler($errno, $errmsg, $filename, $linenum, $vars)
 
 function pa_read_settings(){
 	global $pa_setup,$pa_theme,$pa_color_map,$pa_lang,$pa_colors;
-	global $cmd,$pa_setup_texts,$mbstring;
+	global $pa_setup_texts,$mbstring;
+	
+	//load setup record
 	$rec=db_select_all("setup");
 	$pa_setup=$rec[0];
+	
+	//load theme
 	$rec=db_select_all("theme","name=='".$pa_setup["site_theme"]."'");
 	if(count($rec)==0){
 		//used new theme, never used before
 		echo "error #001<br>";
 	}
 	$pa_theme=$rec[0];
+	
+	//load colors
 	$rec=db_select_all("color_map","id==".$pa_theme["color_map"]);
 	$pa_color_map=$rec[0];
 	$pa_colors=$pa_color_map["colors"];
-	require_once("language.php");
-	pa_load_language($cmd);
-}
-
-function pa_check_cookies(){
-	global $cmd,$var1,$var2,$var3,$var4,$userid,$userpassword,$pa_quality;
-	if($cmd=="setquality"){
-		$var1=(int)$var1;
-		if(!($rec=db_select_all("quality","id=='$var1'"))){
-			//setted quality not found
-			$rec=db_select_all("quality","default=='true'");
-		}
-			$pa_quality=$rec[0];
-		setcookie("phpAlbum_quality",$pa_quality["id"],time()+60*60*24*365);
-		$cmd=$var2;$var1=$var3;$var2="";$var3="";
-		if(isset($var3)){ $var2=$var3;}
-		if(isset($var4)){ $var3=$var4;}
-	}else{
-		if(isset($_COOKIE["phpAlbum_quality"])){
-			if(!($rec=db_select_all("quality","id=='".$_COOKIE["phpAlbum_quality"]."'"))){
-				//setted quality not found
-				$rec=db_select_all("quality","default=='true'");
-			}
-		}else{
-			$rec=db_select_all("quality","default=='true'");
-		}
-		$pa_quality=$rec[0];
-	}
-	//remove leading slashes
-	while(substr($var1,0,1)=="/"){
-		$var1=substr($var1,1);
-	}
-
-	//remove slashes on the end of var1
-	while(substr($var1,-1)=="/"){
-		$var1=substr($var1,0,-1);
-	}
 	
-	if(strstr($var1,"..") || strstr($var1,"//")){
-	  $var1="";
-	  $var2="";
-	  $var3="";
-	  $cmd="error"; //will generate error page
-	}
-	if(isset($_GET["logout"])){
-				setcookie("userid","",time()-60*60*24*365);
-				setcookie("userpassword","",time()-60*60*24*365);
-		
-	}else{
-		if(isset($_COOKIE['userid'])){
-			$userid=$_COOKIE['userid'];
-		}
-		if(isset($_COOKIE['userpassword'])){
-			$userpassword=$_COOKIE['userpassword'];
-		}
-	}
+	require_once("language.php");
+	pa_load_language();
 }
+
 
 function pa_update_view_stats(){
-	global $var1,$cmd;
-	if($cmd=="image"){
-		if(isset($_COOKIE['last_viewed_image'])){
-			$last_viewed=$_COOKIE['last_viewed_image'];
-		}else{
-			$last_viewed="";
-		}
-		
-		if($last_viewed!=$var1){
-			 update_stats("imageview",$var1,"view");
-			 setcookie("last_viewed_image",$var1);
-		}
-	}
+	//TODO: pa_update_stats
 }
 
 function pa_check_username(){
-	global $userid,$username,$userpassword,$pa_user,$comment_name,$comment_email;
+	global $pa_user;
 
 	if(isset($_POST["p_username"])){
 		$username=$_POST["p_username"];
@@ -390,82 +272,30 @@ function pa_check_username(){
 		$rec=db_select_all("user","name=='".$username."' && password=='".$userpassword."'");
 		if(isset($rec[0])){
 			$pa_user=$rec[0];
-			if(!isset($_POST["p_storepassword"])){
-				setcookie("userid",$pa_user["id"]);
-				setcookie("userpassword",$userpassword);
+			$_SESSION["username"]=$username; // store looged in user.
+			if(isset($_POST["p_storepassword"])){
+				setcookie("userid",$pa_user["id"],time()+60*60*24*365*10);
+				setcookie("userpassword",$userpassword,time()+60*60*24*365*10);
+			}
+		}else{
+			return -1; //login failed
+		}
+	}else{
+		if(isset($_SESSION["username"])){
+			$rec=db_select_all("user","id=='".$userid."' && password=='".$userpassword."'");
+			if(isset($rec[0])){
+				$pa_user=$rec[0];
 			}else{
-				setcookie("userid",$pa_user["id"],time()+60*60*24*365);
-				setcookie("userpassword",$userpassword,time()+60*60*24*365);
+				$pa_user=Array("name"=>"guest","groups"=>Array("guest"=>"1"));
 			}
 		}else{
 			$pa_user=Array("name"=>"guest","groups"=>Array("guest"=>"1"));
-		}
-	}else{
-		$rec=db_select_all("user","id=='".$userid."' && password=='".$userpassword."'");
-		if(isset($rec[0])){
-			$pa_user=$rec[0];
-			$comment_name=$pa_user["name"];
-			$comment_email=$pa_user["email"];
-		}else{
-			$pa_user=Array("name"=>"guest","groups"=>Array("guest"=>"1"));
-			$comment_name=$_COOKIE["comment_name"];
-			$comment_email=$_COOKIE["comment_email"];
 		}
 	}
 }
 
 function pa_check_access(){
-	global $cmd,$var1,$var2,$var3,$var4,$pa_dir_settings,$pa_grants,$pa_user;
-	$where="";
-	foreach($pa_user["groups"] as $key => $value){
-		if($where ==""){
-			$where = $where . "name=='".$key."'";
-		}else{
-			$where = $where . " || name=='".$key."'";
-		}
-	}
-	$rec=db_select_all("group",$where);
-	$pa_grants=Array();
-	if(is_array($rec)){
-	 foreach($rec as $record){
-		if(is_array($record["grants"])){
-			$pa_grants =array_merge($pa_grants,$record["grants"]);
-		}
-	 }
-	}
-	if(isset($pa_user["groups"]["superuser"])){
-		return; // no security check, everything is visible for superusers
-	}
-	/*security check, either if it is disabled for actual user or it is not visible.*/
-	/*if accessed trough direct link it will be redirected to show the root directory*/
-	if($cmd=="album"){
-		$pa_dir_settings = get_directory_settings($var1,0);
-		if(!check_access_to_dir($var1) || $pa_dir_settings[0]["visibility"]=="false"){
-	  		$var1=""; // show the root directory.
-	  		$var2="";
-	  		$var3="";
-	  		$cmd="album";
-	  		if(!check_access_to_dir($var1)){
-	  			$cmd="error";
-	  		}
-	  		
-		}
-	}else if($cmd=="imageview" || $cmd=="thmb" || $cmd=="image"){
-		$pa_dir_settings = get_directory_settings(dirname($var1),0);
-		if(!check_access_to_dir(dirname($var1)) || $pa_dir_settings[0]["visibility"]=="false"){
-	  		$var1=""; // show the root directory.
-	  		$var2="";
-	  		$var3="";
-	  		$cmd="album";
-	  		if(!check_access_to_dir($var1)){
-	  			$cmd="error";
-	  		}
-		}
-	}
-	
-	if($cmd=="photonotes" && !isset($pa_grants["photonotes"])){
-		$cmd="error";
-	}
+	//TODO: check access
 }
 
 function pa_clean_up_and_scan_dir(){

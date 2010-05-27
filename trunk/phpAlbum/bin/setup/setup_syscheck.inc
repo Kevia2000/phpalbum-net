@@ -53,14 +53,13 @@ function print_message($id,$code){
 				if(preg_match("/[0-9]+M/",$memory_limit_str)){
 					$memory_limit= (int)$memory_limit_str;
 				}else if (preg_match("/[0-9]+K/",$memory_limit_str)){
-					$memory_limit=(int)((int)$memory_limit_str)/1024);
+					$memory_limit=(int)(((int)$memory_limit_str)/1024);
 				}else{
 					print_message("ID_MSG_NO_MEMORY_LIMIT","WARNING");
 					$memory_limit=0;
 				}
 				if($memory_limit>24){
-					
-					print_message("")
+					print_message("MEMORY");
 				}
 				//check execution time limit				
 									

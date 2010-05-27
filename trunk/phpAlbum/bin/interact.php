@@ -126,31 +126,4 @@ function send_ecard($r_name,$r_email,$s_name,$s_email,$text,$var1){
 		}
 		
 }
-function update_stats($for_what,$var,$var2,$var3=null){
-	global $pa_setup;
-	if($for_what=="imageview"){
-		$dir=get_dir_from_photo_var($var);
-		$file=basename($var);
-		$rec=db_select_all("directory","path=='". prepdb($dir) ."'");
-		$set="";
-		if($var2=="view"){
-			$set.="view_count=view_count+1;";
-		}
-		if($var2=="comment"){
-			if($var3=="add"){
-				$set.="comment_count=comment_count+1;";
-			}else{
-				$set.="comment_count=comment_count-1;";
-			}
-		}
-		if($var2=="vote"){
-			$set.="vote_count=vote_count+1;vote_avg=((vote_avg*vote_count)+$var3)/(vote_count+1);";
-		}
-	
-		db_update("files_".$rec[0]["seq_files"],$set,"file_name=='".prepdb($file)."'");
-		db_commit();
-		return;
-	}
-	
-}
 ?>

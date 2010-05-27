@@ -239,38 +239,7 @@ function check_access_to_dirs_groups($groups,$inh_groups){
 	}
 	return true;
 }
-function check_access_to_dir($dir){
-	global $pa_user;
-	if(isset($pa_user["groups"]["superuser"])){
-		return true;
-	}
-	$sett_1=get_directory_settings($dir,0);
-	$sett=$sett_1[0];
-	if((!is_array($sett["groups"]) || count($sett["groups"])==0) && (!is_array($sett["inh_groups"]) || count($sett["inh_groups"])==0)){ return true;}
-	
-	if(is_array($pa_user["groups"])){
-	  if(is_array($sett["groups"])){
-		foreach($sett["groups"] as $key => $value){
-			if(isset($pa_user["groups"][$key])){
-				return true;
-			}
-		}
-	  }
-	  if(is_array($sett["inh_groups"])){
-		foreach($sett["inh_groups"] as $key => $value){
-			if(isset($pa_user["groups"][$key])){
-				return true;
-			}
-		}
-	  }
-		return false;
-	}else{
-		if(count($sett["groups"])>0){
-			return false;
-		}
-	}
-	return true;
-}
+
 function get_sorted_file_list($seq_files,$all=false){
 	global $act_dir_sorting;
 	if(!$all){

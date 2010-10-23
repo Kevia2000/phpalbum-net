@@ -3,7 +3,7 @@ if(!defined("PHPALBUM_APP")){
 	die("Direct access not permitted!");
 }
 
-//global variables
+//global variables.
 $pa_setup=Array();
 $pa_quality=Array();
 $pa_theme=Array();

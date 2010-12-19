@@ -8,6 +8,7 @@ class paAlbum extends paWebObject{
     }
 
     function render(){
+        $layout = Config::getLayout();
         
     }
 }

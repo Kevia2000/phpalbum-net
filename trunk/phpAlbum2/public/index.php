@@ -10,5 +10,6 @@ set_include_path($application_include_path . ";" . get_include_path());
 require_once ("controller/paFrontController.php");
 
 $fc = new paFrontController();
+
 $fc -> dispatch();
 

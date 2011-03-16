@@ -37,6 +37,8 @@ class paFile {
            ||Utils::endsWith(strtolower($file_name),".png")
           ){
             $this->type="I";
+        }else{
+            $this->type="F";
         }
 
     }

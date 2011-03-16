@@ -4,7 +4,6 @@ require_once("controller/paController.php");
 class paFrontController extends paController{
     function __construct(){
         parent::$frontController = $this;
-        echo "<br>constructor<br>";
     }
     function dispatch(){
 

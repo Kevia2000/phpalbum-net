@@ -6,9 +6,10 @@ class paAlbum extends paWebObject{
     function __construct(){
         
     }
-
+    
     function render(){
         $layout = Config::getLayout();
-        
+
     }
+
 }

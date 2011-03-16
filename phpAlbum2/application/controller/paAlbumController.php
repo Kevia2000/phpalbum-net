@@ -7,6 +7,6 @@ class paAlbumController extends paController{
     protected $data;
 
     public function show(){
-        
+
     }
 }

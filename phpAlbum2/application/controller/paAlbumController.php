@@ -9,8 +9,9 @@ class paAlbumController extends paController{
     protected $data;
 
     public function show(){
-        $dir = paDataStorage::get_paDirectory("patrik");
+        $dir = paDataStorage::get_paDirectory("");
         echo $dir->scan();
+        
         paDataStorage::commit();
     }
 }

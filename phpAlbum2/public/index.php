@@ -2,7 +2,7 @@
 
 /*configuration block*/
 $pa_data_path = "../../padata"; /*without trailing slash!!! */
-$pa_photo_path = "../../paphoto"; /*without trailing slash!!! */ 
+$pa_photo_path = "../../paphotos"; /*without trailing slash!!! */ 
 /*end of configuration*/
 
 

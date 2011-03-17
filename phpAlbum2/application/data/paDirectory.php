@@ -28,13 +28,17 @@ class paDirectory extends paDataObject{
 
     function scan(){
         $scanned_files = Array(); /*used to detect if any files were deleted*/
+        $added_cnt = 0;
+        $deleted_cnt = 0;
         if (is_dir($this->path)) {
             if ($handle = opendir($this->path)) {
                 while (($file_name = readdir($handle)) !== false) {
                     $file_path = $this->path . "/" . $file_name;
                     if( filetype($file_path)=="dir" && $file_name!="." && $file_name !="..") {
                         /*it is directory*/
-                        $this->directories[$file_name] = $file_path;
+                        if(!isset($this->directories[$file_name])){
+                            $this->directories[$file_name] = $file_path;
+                        }
                     }else{
                         $file_time=filectime($file_path);
                         if(isset($this->files[$file_name]) && $this->files[$file_name]->file_time == $file_time){
@@ -42,6 +46,7 @@ class paDirectory extends paDataObject{
                         }else{
                             /*import niew file*/
                             $this->files[$file_name] = new paFile($file_path,filectime($file_path));
+                            $added_cnt++;
                         }
                     }
                     $scanned_files[$file_name]="1";
@@ -60,10 +65,12 @@ class paDirectory extends paDataObject{
         foreach($this->files as $key => $value){
             if(!isset($scanned_files[$key])){
                 unset($this->files[$key]);
+                $deleted_cnt++;
             }
         }
         unset($scanned_files);
         var_dump($this->files);
+        return array($added_cnt,$deleted_cnt);
     }
 
 }

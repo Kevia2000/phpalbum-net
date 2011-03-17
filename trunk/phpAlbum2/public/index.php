@@ -29,3 +29,5 @@ paDirectory::$photosPath = $pa_photo_path;
 $fc = new paFrontController();
 
 $fc -> dispatch();
+
+paDataStorage::commit();

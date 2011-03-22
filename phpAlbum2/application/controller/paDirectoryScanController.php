@@ -15,7 +15,7 @@ class paDirectoryScanController extends paController{
 
         list($added,$deleted) = $directory->scan();
 
-        return 
+        return $added . "/" . $deleted;
 
     }
 }

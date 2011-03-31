@@ -9,7 +9,7 @@ class paDirectoryScanController extends paController{
 
     function scan(){
 
-        $dir = $_GET["dir"]; /*security check*/
+        $dir = $this->getRequestParameter("directory"); /*security check*/
 
         $directory = paDataStorage::get_paDirectory($dir);
 

@@ -7,6 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 require_once("data/paDirectory.php");
+require_once("data/paSetupMain.php");
 
 class paDataStorage {
 
@@ -46,5 +47,19 @@ class paDataStorage {
            return $obj;
        }
    }
+   static function get_paSetupMain(){
+
+       $obj = new paSetupMain();
+
+       if(file_exists($obj->getFullPath())){
+           $obj = $obj->loadObject();
+           paDataStorage::addToBeCommitted($obj);
+           return $obj;
+       }else{
+           paDataStorage::addToBeCommitted($obj);
+           return $obj;
+       }
+   }
+
     
 }

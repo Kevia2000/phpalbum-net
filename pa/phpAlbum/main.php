@@ -2479,7 +2479,7 @@ if($cmd=="setquality"){
 		$var1=substr($var1,0,-1);
 	}
 
-if(strstr($var1,"..") || strstr($var1,"//") || strpos($var1,"\0")!==false){
+if(strpos($var1,"..")!==false || strpos($var1,"//")!==false || strpos($var1,"\0")!==false){
   $var1="";
 }
 if(isset($_GET["logout"])){
